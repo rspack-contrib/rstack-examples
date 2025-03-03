@@ -11,7 +11,7 @@
     "vue": "^3.4.19"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.2.13",
+    "@rsbuild/core": "1.2.14",
     "@rsbuild/plugin-eslint": "^1.1.1",
     "@rsbuild/plugin-vue": "^1.0.6",
     "@typescript-eslint/eslint-plugin": "^8.25.0",

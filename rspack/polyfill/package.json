@@ -10,7 +10,7 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "core-js": "3.40.0"
+    "core-js": "3.41.0"
   },
   "devDependencies": {
     "@rspack/cli": "1.2.6",
