@@ -1,5 +1,8 @@
 const { rspack } = require('@rspack/core');
 const { VueLoaderPlugin } = require('vue-loader');
+const path = require('path');
+
+const toPosixPath = (filepath) => (path.sep === '/' ? filepath : filepath.replace(/\\/g, '/'));
 
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
@@ -10,7 +13,11 @@ const config = {
   devServer: {
     historyApiFallback: true,
   },
-  devtool: false,
+  output: {
+    // ensure the source map is correct for .vue files
+    devtoolModuleFilenameTemplate: (info) => toPosixPath(info.absoluteResourcePath),
+  },
+  devtool: process.env.NODE_ENV === 'development' ? 'cheap-module-source-map' : false,
   plugins: [
     new VueLoaderPlugin(),
     new rspack.HtmlRspackPlugin({
@@ -30,7 +37,6 @@ const config = {
         test: /\.ts$/,
         loader: 'builtin:swc-loader',
         options: {
-          sourceMap: true,
           jsc: {
             parser: {
               syntax: 'typescript',
