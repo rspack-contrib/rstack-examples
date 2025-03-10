@@ -8,6 +8,6 @@
   "devDependencies": {
     "@rspack/cli": "1.2.7",
     "@rspack/core": "1.2.7",
-    "copy-webpack-plugin": "^5.1.2"
+    "copy-webpack-plugin": "^13.0.0"
   }
 }
