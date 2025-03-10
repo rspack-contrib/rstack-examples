@@ -13,9 +13,9 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.2.14",
+    "@rsbuild/core": "1.2.16",
     "@rsbuild/plugin-react": "^1.1.1",
-    "@swc/core": "^1.11.5",
+    "@swc/core": "^1.11.8",
     "@swc/jest": "^0.2.37",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
