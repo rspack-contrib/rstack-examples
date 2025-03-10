@@ -20,7 +20,7 @@
     "@svgr/webpack": "8.1.0",
     "autoprefixer": "10.4.21",
     "babel-loader": "10.0.0",
-    "css-loader": "6.11.0",
+    "css-loader": "7.1.2",
     "file-loader": "6.2.0",
     "json-loader": "0.5.7",
     "less-loader": "11.1.4",
