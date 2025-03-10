@@ -1474,13 +1474,13 @@ importers:
         version: 8.1.0(typescript@5.8.2)
       autoprefixer:
         specifier: 10.4.21
-        version: 10.4.21(postcss@8.4.49)
+        version: 10.4.21(postcss@8.5.3)
       babel-loader:
         specifier: 10.0.0
         version: 10.0.0(@babel/core@7.26.7)(webpack@5.98.0(esbuild@0.24.2))
       css-loader:
-        specifier: 6.11.0
-        version: 6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
+        specifier: 7.1.2
+        version: 7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
       file-loader:
         specifier: 6.2.0
         version: 6.2.0(webpack@5.98.0(esbuild@0.24.2))
@@ -1495,7 +1495,7 @@ importers:
         version: 2.1.0(webpack@5.98.0(esbuild@0.24.2))
       postcss-loader:
         specifier: 7.3.4
-        version: 7.3.4(postcss@8.4.49)(typescript@5.8.2)(webpack@5.98.0(esbuild@0.24.2))
+        version: 7.3.4(postcss@8.5.3)(typescript@5.8.2)(webpack@5.98.0(esbuild@0.24.2))
       raw-loader:
         specifier: 4.0.2
         version: 4.0.2(webpack@5.98.0(esbuild@0.24.2))
@@ -2656,8 +2656,8 @@ importers:
         specifier: 1.2.7
         version: 1.2.7(@swc/helpers@0.5.15)
       css-loader:
-        specifier: ^6.11.0
-        version: 6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
+        specifier: ^7.1.2
+        version: 7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
       less:
         specifier: 4.2.2
         version: 4.2.2
@@ -2669,7 +2669,7 @@ importers:
         version: 2.7.14
       vue-loader:
         specifier: ^15.11.0
-        version: 15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)))(ejs@3.1.9)(handlebars@4.7.8)(lodash@4.17.21)(pug@3.0.2)(webpack@5.98.0(esbuild@0.24.2))
+        version: 15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)))(ejs@3.1.9)(handlebars@4.7.8)(lodash@4.17.21)(pug@3.0.2)(webpack@5.98.0(esbuild@0.24.2))
       vue-style-loader:
         specifier: ^4.1.3
         version: 4.1.3
@@ -2683,8 +2683,8 @@ importers:
         specifier: 1.2.7
         version: 1.2.7(@swc/helpers@0.5.15)
       css-loader:
-        specifier: ^6.11.0
-        version: 6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
+        specifier: ^7.1.2
+        version: 7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
       less:
         specifier: 4.2.2
         version: 4.2.2
@@ -2696,7 +2696,7 @@ importers:
         version: 2.7.14
       vue-loader:
         specifier: ^15.10.1
-        version: 15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)))(ejs@3.1.9)(handlebars@4.7.8)(lodash@4.17.21)(pug@3.0.2)(webpack@5.98.0(esbuild@0.24.2))
+        version: 15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)))(ejs@3.1.9)(handlebars@4.7.8)(lodash@4.17.21)(pug@3.0.2)(webpack@5.98.0(esbuild@0.24.2))
       vue-style-loader:
         specifier: ^4.1.3
         version: 4.1.3
@@ -2801,8 +2801,8 @@ importers:
         specifier: 1.2.7
         version: 1.2.7(@swc/helpers@0.5.15)
       css-loader:
-        specifier: ^6.11.0
-        version: 6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
+        specifier: ^7.1.2
+        version: 7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
       less:
         specifier: 4.2.2
         version: 4.2.2
@@ -7600,18 +7600,6 @@ packages:
   css-color-keywords@1.0.0:
     resolution: {integrity: sha512-FyyrDHZKEjXDpNJYvVsV960FiqQyXc/LlYmsxl2BcdMb2WPx0OGRVgTg55rPSyLSNMqP52R9r8geSp7apN3Ofg==}
     engines: {node: '>=4'}
-
-  css-loader@6.11.0:
-    resolution: {integrity: sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==}
-    engines: {node: '>= 12.13.0'}
-    peerDependencies:
-      '@rspack/core': 0.x || 1.x
-      webpack: ^5.0.0
-    peerDependenciesMeta:
-      '@rspack/core':
-        optional: true
-      webpack:
-        optional: true
 
   css-loader@7.1.2:
     resolution: {integrity: sha512-6WvYYn7l/XEGN8Xu2vWFt9nVzrCn39vKyTEFf/ExEyoksJjjSZV/0/35XPlMbpnr6VGhZIUg5yJrL8tGfes/FA==}
@@ -18902,16 +18890,6 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  autoprefixer@10.4.21(postcss@8.4.49):
-    dependencies:
-      browserslist: 4.24.4
-      caniuse-lite: 1.0.30001703
-      fraction.js: 4.3.7
-      normalize-range: 0.1.2
-      picocolors: 1.1.1
-      postcss: 8.4.49
-      postcss-value-parser: 4.2.0
-
   autoprefixer@10.4.21(postcss@8.5.3):
     dependencies:
       browserslist: 4.24.4
@@ -19788,20 +19766,6 @@ snapshots:
   crypto-random-string@2.0.0: {}
 
   css-color-keywords@1.0.0: {}
-
-  css-loader@6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)):
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.49)
-      postcss: 8.4.49
-      postcss-modules-extract-imports: 3.1.0(postcss@8.4.49)
-      postcss-modules-local-by-default: 4.0.5(postcss@8.4.49)
-      postcss-modules-scope: 3.2.0(postcss@8.4.49)
-      postcss-modules-values: 4.0.0(postcss@8.4.49)
-      postcss-value-parser: 4.2.0
-      semver: 7.6.3
-    optionalDependencies:
-      '@rspack/core': 1.2.7(@swc/helpers@0.5.15)
-      webpack: 5.98.0(esbuild@0.24.2)
 
   css-loader@7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.96.1(esbuild@0.24.2)):
     dependencies:
@@ -24117,16 +24081,6 @@ snapshots:
       postcss: 8.5.3
       ts-node: 10.9.2(@swc/core@1.11.8(@swc/helpers@0.5.15))(@types/node@22.13.10)(typescript@5.8.2)
 
-  postcss-loader@7.3.4(postcss@8.4.49)(typescript@5.8.2)(webpack@5.98.0(esbuild@0.24.2)):
-    dependencies:
-      cosmiconfig: 8.3.6(typescript@5.8.2)
-      jiti: 1.21.6
-      postcss: 8.4.49
-      semver: 7.6.3
-      webpack: 5.98.0(esbuild@0.24.2)
-    transitivePeerDependencies:
-      - typescript
-
   postcss-loader@7.3.4(postcss@8.5.3)(typescript@5.8.2)(webpack@5.98.0(@swc/core@1.11.8(@swc/helpers@0.5.15))(esbuild@0.24.2)):
     dependencies:
       cosmiconfig: 8.3.6(typescript@5.8.2)
@@ -26617,72 +26571,6 @@ snapshots:
       - supports-color
 
   vue-hot-reload-api@2.3.4: {}
-
-  vue-loader@15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)))(ejs@3.1.9)(handlebars@4.7.8)(lodash@4.17.21)(pug@3.0.2)(webpack@5.98.0(esbuild@0.24.2)):
-    dependencies:
-      '@vue/component-compiler-utils': 3.3.0(ejs@3.1.9)(handlebars@4.7.8)(lodash@4.17.21)(pug@3.0.2)
-      css-loader: 6.11.0(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
-      hash-sum: 1.0.2
-      loader-utils: 1.4.2
-      vue-hot-reload-api: 2.3.4
-      vue-style-loader: 4.1.3
-      webpack: 5.98.0(esbuild@0.24.2)
-    optionalDependencies:
-      '@vue/compiler-sfc': 3.5.13
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
 
   vue-loader@15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@7.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.96.1(esbuild@0.24.2)))(webpack@5.96.1(esbuild@0.24.2)):
     dependencies:
