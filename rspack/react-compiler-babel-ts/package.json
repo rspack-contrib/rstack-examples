@@ -21,7 +21,7 @@
     "@rspack/core": "1.2.7",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "babel-loader": "^9.2.1",
+    "babel-loader": "^10.0.0",
     "babel-plugin-react-compiler": "0.0.0-experimental-cd3852a-20241229",
     "typescript": "^5.8.2"
   }
