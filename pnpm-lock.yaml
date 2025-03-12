@@ -2863,6 +2863,19 @@ importers:
         specifier: 0.0.9
         version: 0.0.9
 
+  rspack/worker-inline:
+    dependencies:
+      worker-rspack-loader:
+        specifier: ^3.1.2
+        version: 3.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.2.7
+        version: 1.2.7(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2))
+      '@rspack/core':
+        specifier: 1.2.7
+        version: 1.2.7(@swc/helpers@0.5.15)
+
   rspack/worklet:
     devDependencies:
       '@rspack/cli':
@@ -13115,6 +13128,18 @@ packages:
   workbox-window@7.3.0:
     resolution: {integrity: sha512-qW8PDy16OV1UBaUNGlTVcepzrlzyzNW/ZJvFQQs2j2TzGsg6IKjcpZC1RSquqQnTOafl5pCj5bGfAHlCjOOjdA==}
 
+  worker-rspack-loader@3.1.2:
+    resolution: {integrity: sha512-lz2CoI/xGUFtjGrfTfzU6193fRdqSPsYrwPppeVCyknnFjq384RQ8BTHYp/KVMsgrodIubZX/G/i7sxvwC9tSA==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@rspack/core': 0.x || 1.x
+      webpack: ^5.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
+
   wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
     engines: {node: '>=10'}
@@ -16713,7 +16738,7 @@ snapshots:
       '@module-federation/runtime-tools': 0.8.4
       '@rspack/binding': 1.2.7
       '@rspack/lite-tapable': 1.0.1
-      caniuse-lite: 1.0.30001700
+      caniuse-lite: 1.0.30001703
     optionalDependencies:
       '@swc/helpers': 0.5.15
 
@@ -27038,6 +27063,14 @@ snapshots:
     dependencies:
       '@types/trusted-types': 2.0.7
       workbox-core: 7.3.0
+
+  worker-rspack-loader@3.1.2(@rspack/core@1.2.7(@swc/helpers@0.5.15))(webpack@5.98.0(esbuild@0.24.2)):
+    dependencies:
+      loader-utils: 2.0.4
+      schema-utils: 3.3.0
+    optionalDependencies:
+      '@rspack/core': 1.2.7(@swc/helpers@0.5.15)
+      webpack: 5.98.0(esbuild@0.24.2)
 
   wrap-ansi@7.0.0:
     dependencies:
