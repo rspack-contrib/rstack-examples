@@ -11,7 +11,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.2.16",
+    "@rsbuild/core": "1.2.19",
     "@rsbuild/plugin-mdx": "^1.0.2",
     "@rsbuild/plugin-react": "^1.1.1",
     "@types/react": "^19.0.10",
