@@ -14,7 +14,7 @@
     "semver7": "npm:semver@7.7.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.2.16",
+    "@rsbuild/core": "1.2.19",
     "@rsbuild/plugin-react": "^1.1.1",
     "@rsdoctor/rspack-plugin": "^0.4.13",
     "@types/react": "^19.0.10",

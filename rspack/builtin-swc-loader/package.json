@@ -16,9 +16,9 @@
     "vue": "3.5.8"
   },
   "devDependencies": {
-    "@lingui/swc-plugin": "^5.4.0",
-    "@rspack/cli": "1.2.7",
-    "@rspack/core": "1.2.7",
+    "@lingui/swc-plugin": "^5.5.0",
+    "@rspack/cli": "1.2.8",
+    "@rspack/core": "1.2.8",
     "@swc/helpers": "^0.5.15",
     "@swc/plugin-emotion": "^8.7.2",
     "@swc/plugin-loadable-components": "^5.3.1",
@@ -29,6 +29,6 @@
     "@swc/plugin-styled-jsx": "^6.6.2",
     "@swc/plugin-transform-imports": "^6.5.2",
     "swc-plugin-css-modules": "^2.2.1",
-    "swc-plugin-vue-jsx": "^0.3.2"
+    "swc-plugin-vue-jsx": "^0.4.0"
   }
 }

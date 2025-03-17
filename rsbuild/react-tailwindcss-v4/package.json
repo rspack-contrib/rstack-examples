@@ -10,10 +10,10 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "4.0.12"
+    "tailwindcss": "4.0.14"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.2.16",
+    "@rsbuild/core": "1.2.19",
     "@rsbuild/plugin-react": "^1.1.1",
     "@tailwindcss/postcss": "4.0.0-alpha.20",
     "@types/react": "^19.0.10",
