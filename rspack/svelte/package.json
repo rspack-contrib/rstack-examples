@@ -16,7 +16,7 @@
     "cross-env": "^7.0.3",
     "html-rspack-plugin": "^6.0.2",
     "postcss-load-config": "4.0.2",
-    "svelte": "^3.59.2",
+    "svelte": "^4.0.0",
     "svelte-check": "^3.8.6",
     "svelte-loader": "^3.2.4",
     "svelte-preprocess": "^5.1.4",
