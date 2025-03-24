@@ -16,7 +16,7 @@
   "devDependencies": {
     "@rsbuild/core": "1.2.19",
     "@rsbuild/plugin-react": "^1.1.1",
-    "@rsdoctor/rspack-plugin": "^0.4.13",
+    "@rsdoctor/rspack-plugin": "^1.0.0",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "@types/semver6": "npm:@types/semver@7.5.8",
