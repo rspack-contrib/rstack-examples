@@ -15,7 +15,7 @@
     "@rsbuild/core": "1.2.19",
     "@rsbuild/plugin-babel": "^1.0.4",
     "@rsbuild/plugin-react": "^1.1.1",
-    "@types/react": "^19.0.10",
+    "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "babel-plugin-react-compiler": "0.0.0-experimental-cd3852a-20241229",
     "typescript": "^5.8.2"
