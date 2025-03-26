@@ -1,0 +1,21 @@
+{
+  "name": "rsbuild-react-monaco-editor-nls",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx rsbuild dev",
+    "build": "npx rsbuild build"
+  },
+  "dependencies": {
+    "monaco-editor": "0.51.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rsbuild-plugin-monaco-editor-nls": "^0.1.1"
+  },
+  "devDependencies": {
+    "@rsbuild/plugin-react": "^1.0.2",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.2"
+  }
+}
