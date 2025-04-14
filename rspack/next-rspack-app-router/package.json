@@ -13,7 +13,7 @@
   "devDependencies": {
     "next-rspack": "15.3.0-canary.45",
     "@types/node": "^22.10.1",
-    "@types/react": "^18.3.12",
+    "@types/react": "^19.1.1",
     "typescript": "^5.7.2"
   }
 }
