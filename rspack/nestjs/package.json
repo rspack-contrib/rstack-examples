@@ -11,7 +11,7 @@
     "start": "node dist/main.js"
   },
   "dependencies": {
-    "@nestjs/common": "^9.4.3",
+    "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^9.4.3",
     "@nestjs/platform-express": "^9.4.3",
     "reflect-metadata": "^0.2.2",
