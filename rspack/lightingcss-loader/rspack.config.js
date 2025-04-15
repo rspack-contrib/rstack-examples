@@ -5,7 +5,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /answer\.css$/,
+        test: /\.css$/,
         use: [
           {
             loader: 'builtin:lightningcss-loader',
@@ -17,28 +17,12 @@ const config = {
         ],
         type: 'css',
       },
-      {
-        test: /.css$/,
-        use: [
-          rspack.CssExtractRspackPlugin.loader,
-          'css-loader',
-          {
-            loader: 'builtin:lightningcss-loader',
-            /** @type {import('@rspack/core').LightningcssLoaderOptions} */
-            options: {
-              targets: 'ie 10',
-            },
-          },
-        ],
-        type: 'javascript/auto',
-      },
     ],
   },
   plugins: [
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
-    new rspack.CssExtractRspackPlugin(),
   ],
   experiments: {
     css: true,
