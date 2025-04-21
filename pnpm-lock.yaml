@@ -1482,8 +1482,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(webpack@5.99.6(esbuild@0.24.2))
       postcss-loader:
-        specifier: 7.3.4
-        version: 7.3.4(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(esbuild@0.24.2))
+        specifier: 8.1.1
+        version: 8.1.1(@rspack/core@1.3.5(@swc/helpers@0.5.17))(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(esbuild@0.24.2))
       raw-loader:
         specifier: 4.0.2
         version: 4.0.2(webpack@5.99.6(esbuild@0.24.2))
@@ -2044,8 +2044,8 @@ importers:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.5.3)
       postcss-loader:
-        specifier: 7.3.4
-        version: 7.3.4(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(esbuild@0.24.2))
+        specifier: 8.1.1
+        version: 8.1.1(@rspack/core@1.3.5(@swc/helpers@0.5.17))(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(esbuild@0.24.2))
       postcss-plugin-px2rem:
         specifier: 0.8.1
         version: 0.8.1
@@ -2535,8 +2535,8 @@ importers:
         specifier: 8.5.3
         version: 8.5.3
       postcss-loader:
-        specifier: 7.3.4
-        version: 7.3.4(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2))
+        specifier: 8.1.1
+        version: 8.1.1(@rspack/core@1.3.5(@swc/helpers@0.5.17))(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2))
       tailwindcss:
         specifier: 3.4.17
         version: 3.4.17(ts-node@10.9.2(@swc/core@1.11.21(@swc/helpers@0.5.17))(@types/node@22.14.1)(typescript@5.8.3))
@@ -2556,8 +2556,8 @@ importers:
         specifier: 8.5.3
         version: 8.5.3
       postcss-loader:
-        specifier: 7.3.4
-        version: 7.3.4(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2))
+        specifier: 8.1.1
+        version: 8.1.1(@rspack/core@1.3.5(@swc/helpers@0.5.17))(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2))
       tailwindcss:
         specifier: 3.4.17
         version: 3.4.17(ts-node@10.9.2(@swc/core@1.11.21(@swc/helpers@0.5.17))(@types/node@22.14.1)(typescript@5.8.3))
@@ -8085,6 +8085,15 @@ packages:
       typescript:
         optional: true
 
+  cosmiconfig@9.0.0:
+    resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=4.9.5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   create-ecdh@4.0.4:
     resolution: {integrity: sha512-mf+TCx8wWc9VpuxfP2ht0iSISLZnt0JgWlrOKZiNqyUZWnjIaCIVNQArMHnCZKfEYRg6IM7A+NeJoN8gf/Ws0A==}
 
@@ -8574,6 +8583,10 @@ packages:
   env-ci@7.3.0:
     resolution: {integrity: sha512-L8vK54CSjKB4pwlwx0YaqeBdUSGufaLHl/pEgD+EqnMrYCVUA8HzMjURALSyvOlC57e953yN7KyXS63qDoc3Rg==}
     engines: {node: '>=12.20'}
+
+  env-paths@2.2.1:
+    resolution: {integrity: sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==}
+    engines: {node: '>=6'}
 
   envinfo@7.13.0:
     resolution: {integrity: sha512-cvcaMr7KqXVh4nyzGTVqTum+gAiL265x5jUWQIDLq//zOGbW+gSW/C+OWLleY/rs9Qole6AZLMXPbtIFQbqu+Q==}
@@ -11480,12 +11493,18 @@ packages:
       ts-node:
         optional: true
 
-  postcss-loader@7.3.4:
-    resolution: {integrity: sha512-iW5WTTBSC5BfsBJ9daFMPVrLT36MrNiC6fqOZTTaHjBNX6Pfd5p+hSBqe/fEeNd7pc13QiAyGt7VdGMw4eRC4A==}
-    engines: {node: '>= 14.15.0'}
+  postcss-loader@8.1.1:
+    resolution: {integrity: sha512-0IeqyAsG6tYiDRCYKQJLAmgQr47DX6N7sFSWvQxt6AcupX8DIdmykuk/o/tx0Lze3ErGHJEp5OSRxrelC6+NdQ==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
+      '@rspack/core': 0.x || 1.x
       postcss: ^7.0.0 || ^8.0.1
       webpack: ^5.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
 
   postcss-modules-extract-imports@3.1.0:
     resolution: {integrity: sha512-k3kNe0aNFQDAZGbin48pL2VNidTF0w4/eASDsxlyspobzU3wZQLOGj7L9gfRe0Jo9/4uud09DsjFNH7winGv8Q==}
@@ -20743,6 +20762,15 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
+  cosmiconfig@9.0.0(typescript@5.8.3):
+    dependencies:
+      env-paths: 2.2.1
+      import-fresh: 3.3.0
+      js-yaml: 4.1.0
+      parse-json: 5.2.0
+    optionalDependencies:
+      typescript: 5.8.3
+
   create-ecdh@4.0.4:
     dependencies:
       bn.js: 4.12.0
@@ -21276,6 +21304,8 @@ snapshots:
       execa: 5.1.1
       fromentries: 1.3.2
       java-properties: 1.0.2
+
+  env-paths@2.2.1: {}
 
   envinfo@7.13.0: {}
 
@@ -25267,22 +25297,26 @@ snapshots:
       postcss: 8.5.3
       ts-node: 10.9.2(@swc/core@1.11.21(@swc/helpers@0.5.17))(@types/node@22.14.1)(typescript@5.8.3)
 
-  postcss-loader@7.3.4(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2)):
+  postcss-loader@8.1.1(@rspack/core@1.3.5(@swc/helpers@0.5.17))(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2)):
     dependencies:
-      cosmiconfig: 8.3.6(typescript@5.8.3)
+      cosmiconfig: 9.0.0(typescript@5.8.3)
       jiti: 1.21.6
       postcss: 8.5.3
-      semver: 7.6.3
+      semver: 7.7.1
+    optionalDependencies:
+      '@rspack/core': 1.3.5(@swc/helpers@0.5.17)
       webpack: 5.99.6(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.24.2)
     transitivePeerDependencies:
       - typescript
 
-  postcss-loader@7.3.4(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(esbuild@0.24.2)):
+  postcss-loader@8.1.1(@rspack/core@1.3.5(@swc/helpers@0.5.17))(postcss@8.5.3)(typescript@5.8.3)(webpack@5.99.6(esbuild@0.24.2)):
     dependencies:
-      cosmiconfig: 8.3.6(typescript@5.8.3)
+      cosmiconfig: 9.0.0(typescript@5.8.3)
       jiti: 1.21.6
       postcss: 8.5.3
-      semver: 7.6.3
+      semver: 7.7.1
+    optionalDependencies:
+      '@rspack/core': 1.3.5(@swc/helpers@0.5.17)
       webpack: 5.99.6(esbuild@0.24.2)
     transitivePeerDependencies:
       - typescript
