@@ -6,14 +6,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.3.0",
+    "next": "15.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "next-rspack": "15.3.0",
+    "next-rspack": "15.3.1",
     "@types/node": "^22.14.1",
-    "@types/react": "^19.1.1",
+    "@types/react": "^19.1.2",
     "typescript": "^5.8.3"
   }
 }
