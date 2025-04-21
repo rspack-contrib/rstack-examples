@@ -11,7 +11,7 @@
     "build:rspack": "pnpm --filter \"example-*\" build",
     "test:rspack": "pnpm --filter \"example-*\" test",
     "build:rspress": "pnpm --filter \"rspress-*\" build",
-    "prepare": "husky 2>/dev/null || true",
+    "prepare": "husky 2>/dev/null || exit 0",
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\""
   },
   "lint-staged": {
