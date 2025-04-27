@@ -1,0 +1,5 @@
+{
+  "watch": ["./src/main/**/*"],
+  "ext": "ts",
+  "exec": "npm run build:main && electron ./release/dist/main/index.js"
+}
