@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "next-rspack": "15.3.1",
-    "@types/node": "^22.14.1",
+    "@types/node": "^22.15.2",
     "@types/react": "^19.1.2",
     "typescript": "^5.8.3"
   }
