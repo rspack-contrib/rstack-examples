@@ -11,15 +11,15 @@
     "compile": "tsc -b"
   },
   "dependencies": {
-    "@rspack/cli": "1.3.5",
-    "@rspack/core": "1.3.5",
+    "@rspack/cli": "1.3.7",
+    "@rspack/core": "1.3.7",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
     "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "webpack": "^5.99.6",
+    "webpack": "^5.99.7",
     "webpack-cli": "^5.1.4"
   }
 }
