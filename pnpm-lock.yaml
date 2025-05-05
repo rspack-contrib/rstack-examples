@@ -967,8 +967,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       semver6:
-        specifier: npm:semver@6.3.1
-        version: semver@6.3.1
+        specifier: npm:semver@7.7.1
+        version: semver@7.7.1
       semver7:
         specifier: npm:semver@7.7.1
         version: semver@7.7.1
@@ -1007,8 +1007,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       semver6:
-        specifier: npm:semver@6.3.1
-        version: semver@6.3.1
+        specifier: npm:semver@7.7.1
+        version: semver@7.7.1
       semver7:
         specifier: npm:semver@7.7.1
         version: semver@7.7.1
@@ -6210,6 +6210,7 @@ packages:
   '@swc/core@1.11.22':
     resolution: {integrity: sha512-mjPYbqq8XjwqSE0hEPT9CzaJDyxql97LgK4iyvYlwVSQhdN1uK0DBG4eP9PxYzCS2MUGAXB34WFLegdUj5HGpg==}
     engines: {node: '>=10'}
+    deprecated: It has a bug. See https://github.com/swc-project/swc/issues/10413
     peerDependencies:
       '@swc/helpers': '>=0.5.17'
     peerDependenciesMeta:

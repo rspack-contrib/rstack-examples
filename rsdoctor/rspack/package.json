@@ -11,7 +11,7 @@
     "@swc/helpers": "^0.5.17",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "semver6": "npm:semver@6.3.1",
+    "semver6": "npm:semver@7.7.1",
     "semver7": "npm:semver@7.7.1"
   },
   "devDependencies": {
