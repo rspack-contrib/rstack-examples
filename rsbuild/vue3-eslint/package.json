@@ -16,7 +16,7 @@
     "@rsbuild/plugin-vue": "^1.0.7",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "@typescript-eslint/parser": "^8.32.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.27.0",
     "eslint-plugin-vue": "^9.33.0",
     "typescript": "^5.8.3"
   }
