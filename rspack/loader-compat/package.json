@@ -29,7 +29,7 @@
     "raw-loader": "4.0.2",
     "sass": "1.88.0",
     "sass-loader": "16.0.5",
-    "source-map-loader": "4.0.2",
+    "source-map-loader": "5.0.0",
     "style-loader": "3.3.4",
     "stylus": "0.64.0",
     "stylus-loader": "7.1.3",
