@@ -8,7 +8,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "vant": "^4.9.19",
+    "vant": "^4.9.20",
     "vue": "^3.4.12"
   },
   "devDependencies": {

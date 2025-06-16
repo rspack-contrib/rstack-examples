@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@swc/helpers": "^0.5.17",
-    "preact": "10.26.8"
+    "preact": "10.26.9"
   },
   "devDependencies": {
     "@prefresh/core": "1.5.3",
