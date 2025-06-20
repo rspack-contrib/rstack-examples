@@ -2164,6 +2164,9 @@ importers:
       '@rspack/core':
         specifier: 1.3.15
         version: 1.3.15(@swc/helpers@0.5.17)
+      '@swc/react-compiler':
+        specifier: 1.12.4
+        version: 1.12.4
       babel-loader:
         specifier: ^10.0.0
         version: 10.0.0(@babel/core@7.27.4)(webpack@5.99.9(esbuild@0.24.2))
@@ -2198,6 +2201,9 @@ importers:
       '@rspack/core':
         specifier: 1.3.15
         version: 1.3.15(@swc/helpers@0.5.17)
+      '@swc/react-compiler':
+        specifier: 1.12.4
+        version: 1.12.4
       '@types/react':
         specifier: ^19.1.8
         version: 19.1.8
@@ -6490,6 +6496,70 @@ packages:
 
   '@swc/plugin-transform-imports@6.5.2':
     resolution: {integrity: sha512-NmkCac1oZSwyTy8MzIZMCbyzF8afx1+Qt+frTC3N238jyfpLGntgh7cggvcbEKtZoC2BDo7tzMfxLHSQDF1KSw==}
+
+  '@swc/react-compiler-darwin-arm64@1.12.4':
+    resolution: {integrity: sha512-bSxDnobfFIw5ICPtUxokOwz6PF7SYQdY3awkz1CHkJaeyEkJLnJCHYOmB0SpHp73ZmCouzWq34u9yx+O11UGBg==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@swc/react-compiler-darwin-x64@1.12.4':
+    resolution: {integrity: sha512-8lsL40FPSYSoF5yqoF+1sAZkpY3paFoz5g4EuDTYseYm9fMx3LyXcTDfRb6+O2tsximPM/447rG/l1h0g7ljCA==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@swc/react-compiler-linux-arm-gnueabihf@1.12.4':
+    resolution: {integrity: sha512-j2E48st7UNzrB4xEt5hqfzb7F8rxAtklTF7O6KWcYDhD48iHcZCLHuj4AQ8LV10T8yRuWrNsSD6nWuzETynWNg==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+
+  '@swc/react-compiler-linux-arm64-gnu@1.12.4':
+    resolution: {integrity: sha512-+irP1garMjYVCpP1wP1MRO2Mpr6SxyTP/b2KXTRc6teIti6BqPU5PENrdRd/yFcjxtNDmzDFPi1NdAMt6nv1kg==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@swc/react-compiler-linux-arm64-musl@1.12.4':
+    resolution: {integrity: sha512-uD7qLqafic2Q4zw1a3bbxZBBCZ3m0xst2LJLXrzr0fcEDs7RdFmHhacHPNQwVNY3fsyep8HCLq9P1xOJx7Y49w==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@swc/react-compiler-linux-x64-gnu@1.12.4':
+    resolution: {integrity: sha512-8SyWClpJivi1LUZFawYEWqMATlW/Rd6M3dTVh3Cir4kwiAIjC5WhaoYGz9+N7itK+/Fhb44B2Soqd4wVgylb1Q==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@swc/react-compiler-linux-x64-musl@1.12.4':
+    resolution: {integrity: sha512-ixz+vQPOkhWRnHEfelrAqoiJggwEjzsJi8KNxr8vcx+pG63TEN+QMM3vhC7UFkuiuKSDzzh0A1yPBki0b9gTlA==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@swc/react-compiler-win32-arm64-msvc@1.12.4':
+    resolution: {integrity: sha512-h28OhDfjC4CeRYLv27+vgiloZj4ACFRf3vm1v2hfcRfdD8vmYgxis2KXMd27JIoSTbXIzVlxf97FT26U2Q6bHw==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@swc/react-compiler-win32-ia32-msvc@1.12.4':
+    resolution: {integrity: sha512-U0BzBLMWn95EnQWA/nqjZ5ZvqRPrjnAmuULmWXkZFX+oUNAfjjPyDyumDVqik7XVw/f/1LdGICZjw3S/A6vHUg==}
+    engines: {node: '>=10'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@swc/react-compiler-win32-x64-msvc@1.12.4':
+    resolution: {integrity: sha512-R/tYdzXYK4rMTpChkSfAnuMBBaUuuO4Morhf73u+ytOpicUahwP6STwlew5APjQ7pwAao//val/l8N/OO6v2Rw==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [win32]
+
+  '@swc/react-compiler@1.12.4':
+    resolution: {integrity: sha512-BsYk4ulWO2c3aRU9qYaj6VjczJ/PrteplK6UaqGD9AtmtDszf+oQfAvFROQhko9y+CcSNfXYNyWDh92UY03Iww==}
+    engines: {node: '>=20'}
 
   '@swc/types@0.1.23':
     resolution: {integrity: sha512-u1iIVZV9Q0jxY+yM2vw/hZGDNudsN85bBpTqzAQ9rzkxW9D+e3aEM4Han+ow518gSewkXgjmEK0BD79ZcNVgPw==}
@@ -19122,6 +19192,52 @@ snapshots:
   '@swc/plugin-transform-imports@6.5.2':
     dependencies:
       '@swc/counter': 0.1.3
+
+  '@swc/react-compiler-darwin-arm64@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-darwin-x64@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-linux-arm-gnueabihf@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-linux-arm64-gnu@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-linux-arm64-musl@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-linux-x64-gnu@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-linux-x64-musl@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-win32-arm64-msvc@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-win32-ia32-msvc@1.12.4':
+    optional: true
+
+  '@swc/react-compiler-win32-x64-msvc@1.12.4':
+    optional: true
+
+  '@swc/react-compiler@1.12.4':
+    dependencies:
+      '@swc/counter': 0.1.3
+      '@swc/types': 0.1.23
+    optionalDependencies:
+      '@swc/react-compiler-darwin-arm64': 1.12.4
+      '@swc/react-compiler-darwin-x64': 1.12.4
+      '@swc/react-compiler-linux-arm-gnueabihf': 1.12.4
+      '@swc/react-compiler-linux-arm64-gnu': 1.12.4
+      '@swc/react-compiler-linux-arm64-musl': 1.12.4
+      '@swc/react-compiler-linux-x64-gnu': 1.12.4
+      '@swc/react-compiler-linux-x64-musl': 1.12.4
+      '@swc/react-compiler-win32-arm64-msvc': 1.12.4
+      '@swc/react-compiler-win32-ia32-msvc': 1.12.4
+      '@swc/react-compiler-win32-x64-msvc': 1.12.4
 
   '@swc/types@0.1.23':
     dependencies:

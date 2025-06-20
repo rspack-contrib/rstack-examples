@@ -1,4 +1,7 @@
 const { rspack } = require('@rspack/core');
+const fs = require('node:fs');
+const { isReactCompilerRequiredSync } = require('@swc/react-compiler');
+
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
   entry: {
@@ -29,6 +32,11 @@ const config = {
             },
           },
         ],
+      },
+      {
+        test: (resouce) =>
+          /\.jsx$/.test(resouce) && isReactCompilerRequiredSync(fs.readFileSync(resouce)),
+        loader: 'babel-loader',
       },
       {
         test: /\.jsx$/,
