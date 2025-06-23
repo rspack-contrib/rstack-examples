@@ -2483,17 +2483,17 @@ importers:
         specifier: 6.0.1
         version: 6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0)
       svelte:
-        specifier: ^3.59.2
-        version: 3.59.2
+        specifier: ^4.0.0
+        version: 4.2.20
       svelte-check:
         specifier: ^3.8.6
-        version: 3.8.6(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2)
+        version: 3.8.6(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@4.2.20)
       svelte-loader:
         specifier: ^3.2.4
-        version: 3.2.4(svelte@3.59.2)
+        version: 3.2.4(svelte@4.2.20)
       svelte-preprocess:
         specifier: ^5.1.4
-        version: 5.1.4(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2)(typescript@5.8.3)
+        version: 5.1.4(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@4.2.20)(typescript@5.8.3)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -13199,10 +13199,6 @@ packages:
         optional: true
       typescript:
         optional: true
-
-  svelte@3.59.2:
-    resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}
-    engines: {node: '>= 8'}
 
   svelte@4.2.20:
     resolution: {integrity: sha512-eeEgGc2DtiUil5ANdtd8vPwt9AgaMdnuUFnPft9F5oMvU/FHu5IHFic+p1dR/UOB7XU2mX2yHW+NcTch4DCh5Q==}
@@ -27486,14 +27482,14 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@3.8.6(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2):
+  svelte-check@3.8.6(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@4.2.20):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 3.6.0
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 3.59.2
-      svelte-preprocess: 5.1.4(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2)(typescript@5.8.3)
+      svelte: 4.2.20
+      svelte-preprocess: 5.1.4(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@4.2.20)(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -27508,20 +27504,9 @@ snapshots:
 
   svelte-dev-helper@1.1.9: {}
 
-  svelte-hmr@0.14.12(svelte@3.59.2):
-    dependencies:
-      svelte: 3.59.2
-
   svelte-hmr@0.14.12(svelte@4.2.20):
     dependencies:
       svelte: 4.2.20
-
-  svelte-loader@3.2.4(svelte@3.59.2):
-    dependencies:
-      loader-utils: 2.0.4
-      svelte: 3.59.2
-      svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@3.59.2)
 
   svelte-loader@3.2.4(svelte@4.2.20):
     dependencies:
@@ -27530,14 +27515,14 @@ snapshots:
       svelte-dev-helper: 1.1.9
       svelte-hmr: 0.14.12(svelte@4.2.20)
 
-  svelte-preprocess@5.1.4(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2)(typescript@5.8.3):
+  svelte-preprocess@5.1.4(@babel/core@7.27.4)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@4.2.20)(typescript@5.8.3):
     dependencies:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
       magic-string: 0.30.17
       sorcery: 0.11.0
       strip-indent: 3.0.0
-      svelte: 3.59.2
+      svelte: 4.2.20
     optionalDependencies:
       '@babel/core': 7.27.4
       less: 4.3.0
@@ -27559,8 +27544,6 @@ snapshots:
       sass: 1.89.2
       stylus: 0.64.0
       typescript: 5.8.3
-
-  svelte@3.59.2: {}
 
   svelte@4.2.20:
     dependencies:
