@@ -8,7 +8,7 @@
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.4.0-beta.5",
+    "@rsbuild/core": "1.4.0-rc.0",
     "@rsbuild/plugin-umd": "^1.0.4",
     "typescript": "^5.8.3"
   }
