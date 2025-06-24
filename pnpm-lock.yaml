@@ -1015,10 +1015,10 @@ importers:
     devDependencies:
       '@rsdoctor/rspack-plugin':
         specifier: ^1.1.4
-        version: 1.1.4(@rsbuild/core@1.3.22)(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1039,7 +1039,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1052,7 +1052,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1061,7 +1061,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1095,7 +1095,7 @@ importers:
         version: 5.5.2(@lingui/core@4.11.4)(@swc/core@1.12.5(@swc/helpers@0.5.17))
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1137,7 +1137,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1146,7 +1146,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1158,7 +1158,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1183,7 +1183,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1211,7 +1211,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1225,11 +1225,20 @@ importers:
         specifier: ^2.1.4
         version: 2.1.4
 
+  rspack/css-chunking-plugin:
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.4.0-rc.0
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
+      '@rspack/core':
+        specifier: 1.4.0-rc.0
+        version: 1.4.0-rc.0(@swc/helpers@0.5.17)
+
   rspack/css-parser-generator-options:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1245,7 +1254,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1257,7 +1266,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1285,7 +1294,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1297,7 +1306,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1316,7 +1325,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1332,7 +1341,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1341,7 +1350,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1353,7 +1362,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1362,7 +1371,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1374,7 +1383,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1392,7 +1401,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1401,7 +1410,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1410,7 +1419,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1419,13 +1428,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
       license-webpack-plugin:
         specifier: ^4.0.2
-        version: 4.0.2
+        version: 4.0.2(webpack@5.99.9(esbuild@0.24.2))
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -1437,7 +1446,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1462,7 +1471,7 @@ importers:
         version: 3.1.0(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1546,7 +1555,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1574,7 +1583,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1646,7 +1655,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1677,7 +1686,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1711,7 +1720,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1739,7 +1748,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1770,7 +1779,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1804,7 +1813,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1822,7 +1831,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       monaco-editor:
         specifier: ^0.52.2
         version: 0.52.2
@@ -1835,7 +1844,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       monaco-editor:
         specifier: ^0.52.2
         version: 0.52.2
@@ -1866,7 +1875,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1881,7 +1890,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1890,7 +1899,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack-cli@5.1.4)(webpack@5.99.9)
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack-cli@5.1.4)(webpack@5.99.9)
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1937,7 +1946,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -1999,7 +2008,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2008,7 +2017,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2023,7 +2032,7 @@ importers:
         version: 1.14.2(encoding@0.1.13)(isolated-vm@4.7.2)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2036,7 +2045,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2045,7 +2054,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2063,7 +2072,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@swc/helpers':
         specifier: ^0.5.17
         version: 0.5.17
@@ -2098,7 +2107,7 @@ importers:
         version: 1.2.0
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2113,7 +2122,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2122,7 +2131,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@swc/helpers':
         specifier: ^0.5.17
         version: 0.5.17
@@ -2160,7 +2169,7 @@ importers:
         version: 7.27.1(@babel/core@7.27.4)
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2194,7 +2203,7 @@ importers:
         version: 7.27.1(@babel/core@7.27.4)
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2225,7 +2234,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2256,7 +2265,7 @@ importers:
         version: 7.27.1(@babel/core@7.27.4)
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2274,7 +2283,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@swc/helpers':
         specifier: ^0.5.17
         version: 0.5.17
@@ -2305,7 +2314,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@swc/helpers':
         specifier: ^0.5.17
         version: 0.5.17
@@ -2333,7 +2342,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@swc/helpers':
         specifier: ^0.5.17
         version: 0.5.17
@@ -2358,7 +2367,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2370,7 +2379,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2385,7 +2394,7 @@ importers:
         version: 7.27.4
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       babel-loader:
         specifier: 10.0.0
         version: 10.0.0(@babel/core@7.27.4)(webpack@5.99.9(esbuild@0.24.2))
@@ -2417,7 +2426,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2426,7 +2435,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2451,7 +2460,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2463,7 +2472,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2518,7 +2527,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2533,7 +2542,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2554,7 +2563,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2575,7 +2584,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2587,7 +2596,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2596,7 +2605,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2615,7 +2624,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2633,7 +2642,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2680,7 +2689,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2698,7 +2707,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2725,7 +2734,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2762,7 +2771,7 @@ importers:
         version: 7.27.1(@babel/core@7.27.4)
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2793,7 +2802,7 @@ importers:
         version: 7.27.4
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2818,7 +2827,7 @@ importers:
         version: 7.27.1(@babel/core@7.27.4)
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2843,7 +2852,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2867,7 +2876,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
     devDependencies:
       '@rspack/core':
         specifier: 1.4.0-rc.0
@@ -2877,7 +2886,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2889,7 +2898,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2901,7 +2910,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2913,7 +2922,7 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
     devDependencies:
       '@rspack/core':
         specifier: 1.4.0-rc.0
@@ -2930,7 +2939,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -2939,7 +2948,7 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 1.4.0-rc.0
-        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+        version: 1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.25.5))
       '@rspack/core':
         specifier: 1.4.0-rc.0
         version: 1.4.0-rc.0(@swc/helpers@0.5.17)
@@ -18021,16 +18030,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rsbuild/plugin-check-syntax@1.3.0(@rsbuild/core@1.3.22)':
-    dependencies:
-      acorn: 8.14.1
-      browserslist-to-es-version: 1.0.0
-      htmlparser2: 10.0.0
-      picocolors: 1.1.1
-      source-map: 0.7.4
-    optionalDependencies:
-      '@rsbuild/core': 1.3.22
-
   '@rsbuild/plugin-check-syntax@1.3.0(@rsbuild/core@1.4.0-rc.0)':
     dependencies:
       acorn: 8.14.1
@@ -18229,13 +18228,13 @@ snapshots:
 
   '@rsdoctor/client@1.1.4': {}
 
-  '@rsdoctor/core@1.1.4(@rsbuild/core@1.3.22)(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
+  '@rsdoctor/core@1.1.4(@rsbuild/core@1.4.0-rc.0)(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.3.0(@rsbuild/core@1.3.22)
-      '@rsdoctor/graph': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/sdk': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/types': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/utils': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsbuild/plugin-check-syntax': 1.3.0(@rsbuild/core@1.4.0-rc.0)
+      '@rsdoctor/graph': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/sdk': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/types': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/utils': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
       axios: 1.10.0
       browserslist-load-config: 1.0.0
       enhanced-resolve: 5.12.0
@@ -18255,13 +18254,13 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/core@1.1.4(@rsbuild/core@1.4.0-rc.0)(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
+  '@rsdoctor/core@1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
     dependencies:
       '@rsbuild/plugin-check-syntax': 1.3.0(@rsbuild/core@1.4.0-rc.0)
-      '@rsdoctor/graph': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/sdk': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/types': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/utils': 1.1.4(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/graph': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/sdk': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/types': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/utils': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
       axios: 1.10.0
       browserslist-load-config: 1.0.0
       enhanced-resolve: 5.12.0
@@ -18309,24 +18308,6 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.1.4(@rsbuild/core@1.3.22)(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
-    dependencies:
-      '@rsdoctor/core': 1.1.4(@rsbuild/core@1.3.22)(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/graph': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/sdk': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/types': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      '@rsdoctor/utils': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
-      lodash: 4.17.21
-    optionalDependencies:
-      '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
-    transitivePeerDependencies:
-      - '@rsbuild/core'
-      - bufferutil
-      - debug
-      - supports-color
-      - utf-8-validate
-      - webpack
-
   '@rsdoctor/rspack-plugin@1.1.4(@rsbuild/core@1.4.0-rc.0)(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
     dependencies:
       '@rsdoctor/core': 1.1.4(@rsbuild/core@1.4.0-rc.0)(@rspack/core@1.3.15(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
@@ -18337,6 +18318,24 @@ snapshots:
       lodash: 4.17.21
     optionalDependencies:
       '@rspack/core': 1.3.15(@swc/helpers@0.5.17)
+    transitivePeerDependencies:
+      - '@rsbuild/core'
+      - bufferutil
+      - debug
+      - supports-color
+      - utf-8-validate
+      - webpack
+
+  '@rsdoctor/rspack-plugin@1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
+    dependencies:
+      '@rsdoctor/core': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/graph': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/sdk': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/types': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      '@rsdoctor/utils': 1.1.4(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))
+      lodash: 4.17.21
+    optionalDependencies:
+      '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
     transitivePeerDependencies:
       - '@rsbuild/core'
       - bufferutil
@@ -18626,11 +18625,11 @@ snapshots:
       '@rspack/binding-win32-ia32-msvc': 1.4.0-rc.0
       '@rspack/binding-win32-x64-msvc': 1.4.0-rc.0
 
-  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))':
+  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack-cli@5.1.4)(webpack@5.99.9)':
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
-      '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))
+      '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack-cli@5.1.4)(webpack@5.99.9)
       colorette: 2.0.20
       exit-hook: 4.0.0
       interpret: 3.1.1
@@ -18646,11 +18645,11 @@ snapshots:
       - webpack
       - webpack-cli
 
-  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack-cli@5.1.4)(webpack@5.99.9)':
+  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))':
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
-      '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack-cli@5.1.4)(webpack@5.99.9)
+      '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       colorette: 2.0.20
       exit-hook: 4.0.0
       interpret: 3.1.1
@@ -18666,31 +18665,31 @@ snapshots:
       - webpack
       - webpack-cli
 
-  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))':
-    dependencies:
-      '@discoveryjs/json-ext': 0.5.7
-      '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
-      '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
-      colorette: 2.0.20
-      exit-hook: 4.0.0
-      interpret: 3.1.1
-      rechoir: 0.8.0
-      webpack-bundle-analyzer: 4.10.2
-      yargs: 17.7.2
-    transitivePeerDependencies:
-      - '@types/express'
-      - bufferutil
-      - debug
-      - supports-color
-      - utf-8-validate
-      - webpack
-      - webpack-cli
-
-  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(esbuild@0.24.2))':
+  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))':
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
       '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.24.2))
+      colorette: 2.0.20
+      exit-hook: 4.0.0
+      interpret: 3.1.1
+      rechoir: 0.8.0
+      webpack-bundle-analyzer: 4.10.2
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - '@types/express'
+      - bufferutil
+      - debug
+      - supports-color
+      - utf-8-validate
+      - webpack
+      - webpack-cli
+
+  '@rspack/cli@1.4.0-rc.0(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.25.5))':
+    dependencies:
+      '@discoveryjs/json-ext': 0.5.7
+      '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
+      '@rspack/dev-server': 1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.25.5))
       colorette: 2.0.20
       exit-hook: 4.0.0
       interpret: 3.1.1
@@ -18741,13 +18740,30 @@ snapshots:
     optionalDependencies:
       '@swc/helpers': 0.5.17
 
-  '@rspack/dev-server@1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))':
+  '@rspack/dev-server@1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack-cli@5.1.4)(webpack@5.99.9)':
     dependencies:
       '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
       chokidar: 3.6.0
       http-proxy-middleware: 2.0.9(@types/express@4.17.21)
       p-retry: 6.2.0
-      webpack-dev-server: 5.2.2(webpack@5.99.9(esbuild@0.24.2))
+      webpack-dev-server: 5.2.2(webpack-cli@5.1.4)(webpack@5.99.9)
+      ws: 8.18.0
+    transitivePeerDependencies:
+      - '@types/express'
+      - bufferutil
+      - debug
+      - supports-color
+      - utf-8-validate
+      - webpack
+      - webpack-cli
+
+  '@rspack/dev-server@1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))':
+    dependencies:
+      '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
+      chokidar: 3.6.0
+      http-proxy-middleware: 2.0.9(@types/express@4.17.21)
+      p-retry: 6.2.0
+      webpack-dev-server: 5.2.2(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
       ws: 8.18.0
     transitivePeerDependencies:
       - '@types/express'
@@ -18775,30 +18791,13 @@ snapshots:
       - webpack
       - webpack-cli
 
-  '@rspack/dev-server@1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack-cli@5.1.4)(webpack@5.99.9)':
+  '@rspack/dev-server@1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(@types/express@4.17.21)(webpack@5.99.9(esbuild@0.25.5))':
     dependencies:
       '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
       chokidar: 3.6.0
       http-proxy-middleware: 2.0.9(@types/express@4.17.21)
       p-retry: 6.2.0
-      webpack-dev-server: 5.2.2(webpack-cli@5.1.4)(webpack@5.99.9)
-      ws: 8.18.0
-    transitivePeerDependencies:
-      - '@types/express'
-      - bufferutil
-      - debug
-      - supports-color
-      - utf-8-validate
-      - webpack
-      - webpack-cli
-
-  '@rspack/dev-server@1.1.3(@rspack/core@1.4.0-rc.0(@swc/helpers@0.5.17))(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))':
-    dependencies:
-      '@rspack/core': 1.4.0-rc.0(@swc/helpers@0.5.17)
-      chokidar: 3.6.0
-      http-proxy-middleware: 2.0.9(@types/express@4.17.21)
-      p-retry: 6.2.0
-      webpack-dev-server: 5.2.2(webpack@5.99.9(@swc/core@1.12.5(@swc/helpers@0.5.17))(esbuild@0.24.2))
+      webpack-dev-server: 5.2.2(webpack@5.99.9(esbuild@0.25.5))
       ws: 8.18.0
     transitivePeerDependencies:
       - '@types/express'
@@ -24352,9 +24351,11 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  license-webpack-plugin@4.0.2:
+  license-webpack-plugin@4.0.2(webpack@5.99.9(esbuild@0.24.2)):
     dependencies:
       webpack-sources: 3.2.3
+    optionalDependencies:
+      webpack: 5.99.9(esbuild@0.24.2)
 
   light-my-request@6.6.0:
     dependencies:
@@ -27958,6 +27959,18 @@ snapshots:
     optionalDependencies:
       esbuild: 0.24.2
 
+  terser-webpack-plugin@5.3.14(esbuild@0.25.5)(webpack@5.99.9(esbuild@0.25.5)):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.25
+      jest-worker: 27.5.1
+      schema-utils: 4.3.0
+      serialize-javascript: 6.0.2
+      terser: 5.37.0
+      webpack: 5.99.9(esbuild@0.25.5)
+    optionalDependencies:
+      esbuild: 0.25.5
+    optional: true
+
   terser@5.37.0:
     dependencies:
       '@jridgewell/source-map': 0.3.5
@@ -28898,6 +28911,17 @@ snapshots:
     optionalDependencies:
       webpack: 5.99.9(esbuild@0.24.2)
 
+  webpack-dev-middleware@7.4.2(webpack@5.99.9(esbuild@0.25.5)):
+    dependencies:
+      colorette: 2.0.20
+      memfs: 4.17.0
+      mime-types: 2.1.35
+      on-finished: 2.4.1
+      range-parser: 1.2.1
+      schema-utils: 4.3.2
+    optionalDependencies:
+      webpack: 5.99.9(esbuild@0.25.5)
+
   webpack-dev-middleware@7.4.2(webpack@5.99.9):
     dependencies:
       colorette: 2.0.20
@@ -29058,6 +29082,44 @@ snapshots:
       ws: 8.18.0
     optionalDependencies:
       webpack: 5.99.9(esbuild@0.24.2)
+    transitivePeerDependencies:
+      - bufferutil
+      - debug
+      - supports-color
+      - utf-8-validate
+
+  webpack-dev-server@5.2.2(webpack@5.99.9(esbuild@0.25.5)):
+    dependencies:
+      '@types/bonjour': 3.5.13
+      '@types/connect-history-api-fallback': 1.5.4
+      '@types/express': 4.17.21
+      '@types/express-serve-static-core': 4.17.43
+      '@types/serve-index': 1.9.4
+      '@types/serve-static': 1.15.5
+      '@types/sockjs': 0.3.36
+      '@types/ws': 8.5.10
+      ansi-html-community: 0.0.8
+      bonjour-service: 1.2.1
+      chokidar: 3.6.0
+      colorette: 2.0.20
+      compression: 1.7.4
+      connect-history-api-fallback: 2.0.0
+      express: 4.21.2
+      graceful-fs: 4.2.11
+      http-proxy-middleware: 2.0.9(@types/express@4.17.21)
+      ipaddr.js: 2.1.0
+      launch-editor: 2.6.1
+      open: 10.1.0
+      p-retry: 6.2.0
+      schema-utils: 4.3.2
+      selfsigned: 2.4.1
+      serve-index: 1.9.1
+      sockjs: 0.3.24
+      spdy: 4.0.2
+      webpack-dev-middleware: 7.4.2(webpack@5.99.9(esbuild@0.25.5))
+      ws: 8.18.0
+    optionalDependencies:
+      webpack: 5.99.9(esbuild@0.25.5)
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -29277,6 +29339,38 @@ snapshots:
       - '@swc/core'
       - esbuild
       - uglify-js
+
+  webpack@5.99.9(esbuild@0.25.5):
+    dependencies:
+      '@types/eslint-scope': 3.7.7
+      '@types/estree': 1.0.7
+      '@types/json-schema': 7.0.15
+      '@webassemblyjs/ast': 1.14.1
+      '@webassemblyjs/wasm-edit': 1.14.1
+      '@webassemblyjs/wasm-parser': 1.14.1
+      acorn: 8.14.1
+      browserslist: 4.24.4
+      chrome-trace-event: 1.0.4
+      enhanced-resolve: 5.18.1
+      es-module-lexer: 1.6.0
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.0
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 4.3.2
+      tapable: 2.2.1
+      terser-webpack-plugin: 5.3.14(esbuild@0.25.5)(webpack@5.99.9(esbuild@0.25.5))
+      watchpack: 2.4.2
+      webpack-sources: 3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+    optional: true
 
   websocket-driver@0.7.4:
     dependencies:
