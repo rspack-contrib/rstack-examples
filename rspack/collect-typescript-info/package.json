@@ -1,5 +1,5 @@
 {
-  "name": "example-builtin-swc-loader",
+  "name": "example-collect-typescript-info",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
@@ -8,7 +8,7 @@
     "build": "rspack build"
   },
   "devDependencies": {
-    "@rspack-canary/cli": "1.4.0-canary-30c614aa-20250626094549",
-    "@rspack-canary/core": "1.4.0-canary-30c614aa-20250626094549"
+    "@rspack/cli": "1.4.1",
+    "@rspack/core": "1.4.1"
   }
 }
