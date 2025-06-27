@@ -57,8 +57,8 @@ const config = {
         ],
       },
       {
-        test: (resouce) =>
-          /\.(jsx|tsx)$/.test(resouce) && isReactCompilerRequiredSync(fs.readFileSync(resouce)),
+        test: (resource) =>
+          /\.(jsx|tsx)$/.test(resource) && isReactCompilerRequiredSync(fs.readFileSync(resource)),
         loader: 'babel-loader',
       },
       {
