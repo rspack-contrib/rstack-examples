@@ -22,7 +22,7 @@ const config = {
           {
             loader: 'builtin:swc-loader',
             options: {
-              sourceMap: true,
+              sourceMaps: true,
               jsc: {
                 parser: {
                   syntax: 'typescript',
@@ -34,17 +34,12 @@ const config = {
         ],
       },
       {
-        test: (resouce) =>
-          /\.(jsx|tsx)$/.test(resouce) && isReactCompilerRequiredSync(fs.readFileSync(resouce)),
-        loader: 'babel-loader',
-      },
-      {
         test: /\.(jsx|tsx)$/,
         use: [
           {
             loader: 'builtin:swc-loader',
             options: {
-              sourceMap: true,
+              sourceMaps: true,
               jsc: {
                 parser: {
                   syntax: 'typescript',
@@ -60,6 +55,11 @@ const config = {
             },
           },
         ],
+      },
+      {
+        test: (resouce) =>
+          /\.(jsx|tsx)$/.test(resouce) && isReactCompilerRequiredSync(fs.readFileSync(resouce)),
+        loader: 'babel-loader',
       },
       {
         test: /\.(png|svg|jpg)$/,

@@ -22,7 +22,7 @@ const config = {
           {
             loader: 'builtin:swc-loader',
             options: {
-              sourceMap: true,
+              sourceMaps: true,
               jsc: {
                 parser: {
                   syntax: 'ecmascript',
@@ -34,17 +34,12 @@ const config = {
         ],
       },
       {
-        test: (resouce) =>
-          /\.jsx$/.test(resouce) && isReactCompilerRequiredSync(fs.readFileSync(resouce)),
-        loader: 'babel-loader',
-      },
-      {
         test: /\.jsx$/,
         use: [
           {
             loader: 'builtin:swc-loader',
             options: {
-              sourceMap: true,
+              sourceMaps: true,
               jsc: {
                 parser: {
                   syntax: 'ecmascript',
@@ -59,10 +54,12 @@ const config = {
               },
             },
           },
-          {
-            loader: 'babel-loader',
-          },
         ],
+      },
+      {
+        test: (resouce) =>
+          /\.jsx$/.test(resouce) && isReactCompilerRequiredSync(fs.readFileSync(resouce)),
+        loader: 'babel-loader',
       },
       {
         test: /\.(png|svg|jpg)$/,
