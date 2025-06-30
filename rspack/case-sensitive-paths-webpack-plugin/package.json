@@ -6,8 +6,8 @@
     "build": "rspack build || echo 'make-ci-happy'"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.0-rc.0",
-    "@rspack/core": "1.4.0-rc.0",
+    "@rspack/cli": "1.4.1",
+    "@rspack/core": "1.4.1",
     "case-sensitive-paths-webpack-plugin": "2.4.0"
   }
 }
