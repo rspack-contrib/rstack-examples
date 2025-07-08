@@ -16,8 +16,8 @@
     "@babel/core": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
-    "@rspack/cli": "1.4.4",
-    "@rspack/core": "1.4.4",
+    "@rspack/cli": "1.4.5",
+    "@rspack/core": "1.4.5",
     "@rspack/plugin-react-refresh": "^1.4.3",
     "babel-loader": "^10.0.0",
     "react-refresh": "0.17.0"

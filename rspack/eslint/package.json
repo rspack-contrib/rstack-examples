@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": ["**/*.css", "**/*.less", "**/*.scss"],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.less",
+    "**/*.scss"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "rspack build",
@@ -11,8 +15,8 @@
     "dev:loader": "rspack serve -c rspack.config.loader.js"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.4",
-    "@rspack/core": "1.4.4",
+    "@rspack/cli": "1.4.5",
+    "@rspack/core": "1.4.5",
     "eslint": "^8.57.1",
     "eslint-rspack-plugin": "^4.2.1"
   }

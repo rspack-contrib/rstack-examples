@@ -1,16 +1,15 @@
 {
-  "name": "example-css-parser-generator-options",
+  "name": "example-javascript-api",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "build": "rspack build",
-    "dev": "rspack serve"
+    "build": "tsc"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.5",
     "@rspack/core": "1.4.5",
-    "sass-loader": "^16.0.5"
+    "@types/node": "^22.15.32",
+    "typescript": "^5.8.3"
   }
 }
