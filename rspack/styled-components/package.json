@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": ["**/*.css", "**/*.less", "**/*.scss"],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.less",
+    "**/*.scss"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "rspack build",
@@ -17,8 +21,8 @@
     "styled-components": "6.1.19"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.4",
-    "@rspack/core": "1.4.4",
+    "@rspack/cli": "1.4.5",
+    "@rspack/core": "1.4.5",
     "react-refresh": "^0.17.0"
   }
 }

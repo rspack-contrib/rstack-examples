@@ -9,8 +9,8 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@rspack/cli": "1.4.4",
-    "@rspack/core": "1.4.4",
+    "@rspack/cli": "1.4.5",
+    "@rspack/core": "1.4.5",
     "monaco-editor": "^0.52.2",
     "monaco-editor-webpack-plugin": "^7.1.0"
   }

@@ -11,9 +11,9 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "next-rspack": "15.3.5",
     "@types/node": "^22.16.0",
     "@types/react": "^19.1.8",
+    "next-rspack": "15.3.5",
     "typescript": "^5.8.3"
   }
 }
