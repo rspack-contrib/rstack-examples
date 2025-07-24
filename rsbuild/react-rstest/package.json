@@ -1,0 +1,26 @@
+{
+  "name": "rsbuild-react-rstest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview",
+    "test": "rstest run"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.4.8",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@rstest/core": "0.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
