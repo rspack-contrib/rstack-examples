@@ -28,7 +28,7 @@ Preview the production build locally:
 pnpm preview
 ```
 
-Run unit tests via Jest:
+Run unit tests via Rstest:
 
 ```bash
 pnpm test
