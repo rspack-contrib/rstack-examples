@@ -2516,8 +2516,8 @@ importers:
         specifier: ^3.59.2
         version: 3.59.2
       svelte-check:
-        specifier: ^3.8.6
-        version: 3.8.6(@babel/core@7.28.0)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2)
+        specifier: ^4.3.0
+        version: 4.3.0(picomatch@4.0.2)(svelte@3.59.2)(typescript@5.8.3)
       svelte-loader:
         specifier: ^3.2.4
         version: 3.2.4(svelte@3.59.2)
@@ -13242,11 +13242,13 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  svelte-check@3.8.6:
-    resolution: {integrity: sha512-ij0u4Lw/sOTREP13BdWZjiXD/BlHE6/e2e34XzmVmsp5IN4kVa3PWP65NM32JAgwjZlwBg/+JtiNV1MM8khu0Q==}
+  svelte-check@4.3.0:
+    resolution: {integrity: sha512-Iz8dFXzBNAM7XlEIsUjUGQhbEE+Pvv9odb9+0+ITTgFWZBGeJRRYqHUUglwe2EkLD5LIsQaAc4IUJyvtKuOO5w==}
+    engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
-      svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
+      svelte: ^4.0.0 || ^5.0.0-next.0
+      typescript: '>=5.0.0'
 
   svelte-dev-helper@1.1.9:
     resolution: {integrity: sha512-oU+Xv7Dl4kRU2kdFjsoPLfJfnt5hUhsFUZtuzI3Ku/f2iAFZqBoEuXOqK3N9ngD4dxQOmN4OKWPHVi3NeAeAfQ==}
@@ -14584,7 +14586,7 @@ snapshots:
       '@babel/parser': 7.27.7
       '@babel/types': 7.27.7
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       jsesc: 3.0.2
 
   '@babel/generator@7.26.2':
@@ -14600,7 +14602,7 @@ snapshots:
       '@babel/parser': 7.27.7
       '@babel/types': 7.27.7
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       jsesc: 3.0.2
 
   '@babel/generator@7.26.9':
@@ -14608,7 +14610,7 @@ snapshots:
       '@babel/parser': 7.27.7
       '@babel/types': 7.27.7
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       jsesc: 3.0.2
 
   '@babel/generator@7.27.1':
@@ -14616,7 +14618,7 @@ snapshots:
       '@babel/parser': 7.27.7
       '@babel/types': 7.27.7
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       jsesc: 3.0.2
 
   '@babel/generator@7.27.5':
@@ -14624,7 +14626,7 @@ snapshots:
       '@babel/parser': 7.27.7
       '@babel/types': 7.27.7
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       jsesc: 3.0.2
 
   '@babel/generator@7.28.0':
@@ -17158,7 +17160,7 @@ snapshots:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       '@types/node': 22.16.0
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
@@ -17186,7 +17188,7 @@ snapshots:
 
   '@jest/source-map@29.6.3':
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       callsites: 3.1.0
       graceful-fs: 4.2.11
 
@@ -17208,7 +17210,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.0
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.2
       convert-source-map: 2.0.0
@@ -17242,7 +17244,7 @@ snapshots:
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
@@ -17251,7 +17253,7 @@ snapshots:
   '@jridgewell/source-map@0.3.5':
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
@@ -27730,25 +27732,17 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@3.8.6(@babel/core@7.28.0)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2):
+  svelte-check@4.3.0(picomatch@4.0.2)(svelte@3.59.2)(typescript@5.8.3):
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.25
-      chokidar: 3.6.0
+      '@jridgewell/trace-mapping': 0.3.29
+      chokidar: 4.0.3
+      fdir: 6.4.2(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
       svelte: 3.59.2
-      svelte-preprocess: 5.1.4(@babel/core@7.28.0)(less@4.3.0)(postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.0))(postcss@8.5.6)(pug@3.0.2)(sass@1.89.2)(svelte@3.59.2)(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
-      - '@babel/core'
-      - coffeescript
-      - less
-      - postcss
-      - postcss-load-config
-      - pug
-      - sass
-      - stylus
-      - sugarss
+      - picomatch
 
   svelte-dev-helper@1.1.9: {}
 
@@ -28550,7 +28544,7 @@ snapshots:
 
   v8-to-istanbul@9.2.0:
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
