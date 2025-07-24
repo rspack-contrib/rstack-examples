@@ -1,0 +1,14 @@
+{
+  "name": "example-builtin-swc-loader",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build"
+  },
+  "devDependencies": {
+    "@rspack-canary/cli": "1.4.0-canary-f9e682fa-20250625081434",
+    "@rspack-canary/core": "1.4.0-canary-f9e682fa-20250625081434"
+  }
+}

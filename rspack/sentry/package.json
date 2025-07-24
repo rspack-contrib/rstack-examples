@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": ["**/*.css", "**/*.less", "**/*.scss"],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.less",
+    "**/*.scss"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack serve"
   },
   "devDependencies": {
-    "@rspack/cli": "1.3.0",
-    "@rspack/core": "1.3.0",
-    "@sentry/webpack-plugin": "3.2.4"
+    "@rspack/cli": "1.4.5",
+    "@rspack/core": "1.4.5",
+    "@sentry/webpack-plugin": "3.5.0"
   }
 }

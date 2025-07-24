@@ -11,7 +11,7 @@
     "build:rspack": "pnpm --filter \"example-*\" build",
     "test:rspack": "pnpm --filter \"example-*\" test",
     "build:rspress": "pnpm --filter \"rspress-*\" build",
-    "prepare": "husky 2>/dev/null || true",
+    "prepare": "husky",
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\""
   },
   "lint-staged": {
@@ -20,13 +20,13 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.1.2",
     "cross-env": "7.0.3",
     "husky": "9.1.7",
-    "lint-staged": "15.5.0",
+    "lint-staged": "16.1.2",
     "taze": "^0.18.0"
   },
-  "packageManager": "pnpm@10.7.0",
+  "packageManager": "pnpm@10.12.4",
   "pnpm": {
     "overrides": {
       "react-focus-lock": "2.13.6"

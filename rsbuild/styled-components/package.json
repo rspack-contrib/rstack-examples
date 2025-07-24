@@ -10,14 +10,14 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "styled-components": "^6.1.16"
+    "styled-components": "^6.1.19"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.3.0",
-    "@rsbuild/plugin-react": "^1.1.1",
-    "@rsbuild/plugin-styled-components": "^1.2.1",
-    "@types/react": "^19.0.12",
-    "@types/react-dom": "^19.0.4",
-    "typescript": "^5.8.2"
+    "@rsbuild/core": "1.4.5",
+    "@rsbuild/plugin-react": "^1.3.4",
+    "@rsbuild/plugin-styled-components": "^1.4.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
   }
 }
