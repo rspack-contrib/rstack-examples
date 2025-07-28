@@ -17,8 +17,8 @@
     "express": "5.1.0"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.5",
-    "@rspack/core": "1.4.5",
+    "@rspack/cli": "1.4.10",
+    "@rspack/core": "1.4.10",
     "run-script-webpack-plugin": ""
   }
 }
