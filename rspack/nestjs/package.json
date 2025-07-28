@@ -15,7 +15,7 @@
     "start": "node dist/main.js"
   },
   "dependencies": {
-    "@nestjs/common": "^10.0.0",
+    "@nestjs/common": "^10.4.20",
     "@nestjs/core": "^9.4.3",
     "@nestjs/platform-express": "^9.4.3",
     "reflect-metadata": "^0.2.2",
@@ -23,8 +23,8 @@
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.5",
-    "@rspack/core": "1.4.5",
+    "@rspack/cli": "1.4.10",
+    "@rspack/core": "1.4.10",
     "cross-env": "7.0.3"
   }
 }

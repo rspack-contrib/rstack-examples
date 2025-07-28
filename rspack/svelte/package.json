@@ -9,10 +9,10 @@
     "validate": "svelte-check"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.5",
-    "@rspack/core": "1.4.5",
+    "@rspack/cli": "1.4.10",
+    "@rspack/core": "1.4.10",
     "@tsconfig/svelte": "^5.0.4",
-    "@types/node": "^22.16.0",
+    "@types/node": "^22.16.5",
     "cross-env": "^7.0.3",
     "html-rspack-plugin": "^6.1.2",
     "postcss-load-config": "6.0.1",
