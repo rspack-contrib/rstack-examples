@@ -9,7 +9,7 @@ module.exports = {
     hot: true,
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.tsx', '.ts'],
+    extensions: ['.js', '.jsx', '.tsx', '.ts'],
     tsConfig: path.resolve(__dirname, 'tsconfig.json'),
   },
   output: {
@@ -31,7 +31,6 @@ module.exports = {
         use: {
           loader: 'builtin:swc-loader',
           options: {
-            sourceMap: true,
             jsc: {
               parser: {
                 syntax: 'typescript',
@@ -56,7 +55,6 @@ module.exports = {
         use: {
           loader: 'builtin:swc-loader',
           options: {
-            sourceMap: true,
             jsc: {
               parser: {
                 syntax: 'typescript',
@@ -74,5 +72,5 @@ module.exports = {
     new rspack.HtmlRspackPlugin({
       template: './src/index.html',
     }),
-  ],
+  ]
 };

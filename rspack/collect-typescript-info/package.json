@@ -8,7 +8,7 @@
     "build": "rspack build"
   },
   "devDependencies": {
-    "@rspack-canary/cli": "1.4.0-canary-f9e682fa-20250625081434",
-    "@rspack-canary/core": "1.4.0-canary-f9e682fa-20250625081434"
+    "@rspack/cli": "1.4.0",
+    "@rspack/core": "1.4.0"
   }
 }
