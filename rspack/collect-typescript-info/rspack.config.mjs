@@ -1,14 +1,13 @@
 // @ts-check
 
-/** @type {import("@rspack-canary/core").Configuration} */
+/** @type {import("@rspack/core").Configuration} */
 export default {
   entry: {
     main: "./src/index.ts",
   },
   experiments: {
     css: true,
-    inlineEnum: true,
-    typeReexportsPresence: true,
+    typeReexportsPresence: "no-tolerant",
   },
   mode: "production",
   optimization: {
@@ -29,7 +28,7 @@ export default {
         test: /\.ts$/,
         use: {
           loader: "builtin:swc-loader",
-          /** @type {import("@rspack-canary/core").SwcLoaderOptions} */
+          /** @type {import("@rspack/core").SwcLoaderOptions} */
           options: {
             jsc: {
               parser: {
