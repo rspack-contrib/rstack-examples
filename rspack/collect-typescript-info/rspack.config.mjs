@@ -7,7 +7,8 @@ export default {
   },
   experiments: {
     css: true,
-    typeReexportsPresence: "no-tolerant",
+    inlineEnum: true,
+    typeReexportsPresence: true,
   },
   mode: "production",
   optimization: {
