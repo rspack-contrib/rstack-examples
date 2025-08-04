@@ -1164,8 +1164,8 @@ importers:
         specifier: ^8.0.5
         version: 8.0.5
       swc-plugin-css-modules:
-        specifier: ^4.0.3
-        version: 4.0.3
+        specifier: ^5.0.1
+        version: 5.0.1
       swc-plugin-vue-jsx:
         specifier: ^0.4.0
         version: 0.4.0(@swc/core@1.13.2(@swc/helpers@0.5.17))
@@ -13267,6 +13267,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
@@ -13619,8 +13620,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  swc-plugin-css-modules@4.0.3:
-    resolution: {integrity: sha512-KwJYkuqzMB2g/cKNYyltWTr3tzj2o2QgWwMVOMngjnF20rDFwa4bVcHNKWN4WspJqFVrbE47sltbItP+oOKnfg==}
+  swc-plugin-css-modules@5.0.1:
+    resolution: {integrity: sha512-fZ+DiGoEwnJy0CnCFneLGF1J6pd37MXNY7F/fEQM3eO04tBxCuy2gtZjUxcKT/qAujv8E+5ZuZk4xoYY9H5ZSw==}
 
   swc-plugin-vue-jsx@0.4.0:
     resolution: {integrity: sha512-ICcC328hwDdB6fQfGZSY0sLwGUkdCxvd5bOHHnsWceAbstSQiMaPB5iIWCuS/lJXWNX0ukFiFidH6+dJGE9fcA==}
@@ -28576,7 +28577,7 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
 
-  swc-plugin-css-modules@4.0.3: {}
+  swc-plugin-css-modules@5.0.1: {}
 
   swc-plugin-vue-jsx@0.4.0(@swc/core@1.13.2(@swc/helpers@0.5.17)):
     dependencies:
