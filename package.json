@@ -24,7 +24,7 @@
     "cross-env": "7.0.3",
     "husky": "9.1.7",
     "lint-staged": "16.1.2",
-    "taze": "^0.18.0"
+    "taze": "^19.1.0"
   },
   "packageManager": "pnpm@10.13.1",
   "pnpm": {
