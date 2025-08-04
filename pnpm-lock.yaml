@@ -2442,8 +2442,8 @@ importers:
         specifier: 1.4.10
         version: 1.4.10(@swc/helpers@0.5.17)
       '@sentry/webpack-plugin':
-        specifier: 3.6.1
-        version: 3.6.1(encoding@0.1.13)(webpack@5.100.2)
+        specifier: 4.0.2
+        version: 4.0.2(encoding@0.1.13)(webpack@5.100.2)
 
   rspack/solid:
     dependencies:
@@ -6490,12 +6490,12 @@ packages:
   '@selderee/plugin-htmlparser2@0.11.0':
     resolution: {integrity: sha512-P33hHGdldxGabLFjPPpaTxVolMrzrcegejx+0GxjrIb9Zv48D8yAIA/QTDR2dFl7Uz7urX8aX6+5bCZslr+gWQ==}
 
-  '@sentry/babel-plugin-component-annotate@3.6.1':
-    resolution: {integrity: sha512-zmvUa4RpzDG3LQJFpGCE8lniz8Rk1Wa6ZvvK+yEH+snZeaHHRbSnAQBMR607GOClP+euGHNO2YtaY4UAdNTYbg==}
+  '@sentry/babel-plugin-component-annotate@4.0.2':
+    resolution: {integrity: sha512-Nr/VamvpQs6w642EI5t+qaCUGnVEro0qqk+S8XO1gc8qSdpc8kkZJFnUk7ozAr+ljYWGfVgWXrxI9lLiriLsRA==}
     engines: {node: '>= 14'}
 
-  '@sentry/bundler-plugin-core@3.6.1':
-    resolution: {integrity: sha512-/ubWjPwgLep84sUPzHfKL2Ns9mK9aQrEX4aBFztru7ygiJidKJTxYGtvjh4dL2M1aZ0WRQYp+7PF6+VKwdZXcQ==}
+  '@sentry/bundler-plugin-core@4.0.2':
+    resolution: {integrity: sha512-LeARs8qHhEw19tk+KZd9DDV+Rh/UeapIH0+C09fTmff9p8Y82Cj89pEQ2a1rdUiF/oYIjQX45vnZscB7ra42yw==}
     engines: {node: '>= 14'}
 
   '@sentry/cli-darwin@2.50.2':
@@ -6550,8 +6550,8 @@ packages:
     engines: {node: '>= 10'}
     hasBin: true
 
-  '@sentry/webpack-plugin@3.6.1':
-    resolution: {integrity: sha512-F2yqwbdxfCENMN5u4ih4WfOtGjW56/92DBC0bU6un7Ns/l2qd+wRONIvrF+58rl/VkCFfMlUtZTVoKGRyMRmHA==}
+  '@sentry/webpack-plugin@4.0.2':
+    resolution: {integrity: sha512-UklVtG7Iiw+AvcL0PfiiyW/u3XT+joDAMDvWbx90rFhVSU10ENW5AV5y4pC41qChqEu3P1eBFdaSxg+kdLeqvw==}
     engines: {node: '>= 14'}
     peerDependencies:
       webpack: '>=4.40.0'
@@ -19649,12 +19649,12 @@ snapshots:
       domhandler: 5.0.3
       selderee: 0.11.0
 
-  '@sentry/babel-plugin-component-annotate@3.6.1': {}
+  '@sentry/babel-plugin-component-annotate@4.0.2': {}
 
-  '@sentry/bundler-plugin-core@3.6.1(encoding@0.1.13)':
+  '@sentry/bundler-plugin-core@4.0.2(encoding@0.1.13)':
     dependencies:
       '@babel/core': 7.28.0
-      '@sentry/babel-plugin-component-annotate': 3.6.1
+      '@sentry/babel-plugin-component-annotate': 4.0.2
       '@sentry/cli': 2.50.2(encoding@0.1.13)
       dotenv: 16.4.5
       find-up: 5.0.0
@@ -19709,9 +19709,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@sentry/webpack-plugin@3.6.1(encoding@0.1.13)(webpack@5.100.2)':
+  '@sentry/webpack-plugin@4.0.2(encoding@0.1.13)(webpack@5.100.2)':
     dependencies:
-      '@sentry/bundler-plugin-core': 3.6.1(encoding@0.1.13)
+      '@sentry/bundler-plugin-core': 4.0.2(encoding@0.1.13)
       unplugin: 1.0.1
       uuid: 9.0.1
       webpack: 5.100.2(webpack-cli@5.1.4)
@@ -29328,7 +29328,7 @@ snapshots:
     dependencies:
       acorn: 8.15.0
       chokidar: 3.6.0
-      webpack-sources: 3.2.3
+      webpack-sources: 3.3.3
       webpack-virtual-modules: 0.5.0
 
   unplugin@1.16.0:
