@@ -2337,6 +2337,28 @@ importers:
         specifier: 0.17.0
         version: 0.17.0
 
+  rspack/react-refresh-esm:
+    dependencies:
+      react:
+        specifier: ^19.1.0
+        version: 19.1.0
+      react-dom:
+        specifier: ^19.1.0
+        version: 19.1.0(react@19.1.0)
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.4.10
+        version: 1.4.10(@rspack/core@1.4.10(@swc/helpers@0.5.17))
+      '@rspack/core':
+        specifier: 1.4.10
+        version: 1.4.10(@swc/helpers@0.5.17)
+      '@rspack/plugin-react-refresh':
+        specifier: ^1.4.3
+        version: 1.4.3(react-refresh@0.17.0)(webpack-hot-middleware@2.26.1)
+      react-refresh:
+        specifier: 0.17.0
+        version: 0.17.0
+
   rspack/react-with-extract-css:
     dependencies:
       '@rspack/cli':

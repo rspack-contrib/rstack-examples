@@ -12,6 +12,8 @@ export default defineConfig({
     library: {
       type: "modern-module",
     },
+    chunkLoading: 'import',
+    workerChunkLoading: 'import',
   },
   module: {
     parser: {
@@ -21,6 +23,8 @@ export default defineConfig({
     },
   },
   optimization: {
+    concatenateModules: true,
+    avoidEntryIife: true,
     minimize: false, // no need to minify for library
   },
   experiments: {
