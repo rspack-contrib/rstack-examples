@@ -20,13 +20,13 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.1.2",
+    "@biomejs/biome": "^2.1.4",
     "cross-env": "7.0.3",
     "husky": "9.1.7",
-    "lint-staged": "16.1.2",
+    "lint-staged": "16.1.5",
     "taze": "^19.1.0"
   },
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "pnpm": {
     "overrides": {
       "react-focus-lock": "2.13.6"

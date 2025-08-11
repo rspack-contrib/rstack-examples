@@ -16,12 +16,12 @@
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.10",
-    "@rspack/core": "1.4.10",
+    "@rspack/cli": "1.4.11",
+    "@rspack/core": "1.4.11",
     "@swc/plugin-emotion": "^10.0.4"
   }
 }

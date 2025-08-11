@@ -8,13 +8,13 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "element-plus": "^2.10.4",
+    "element-plus": "^2.10.6",
     "vue": "^3.4.19"
   },
   "devDependencies": {
-    "@rsbuild/core": "1.4.11",
-    "@rsbuild/plugin-vue": "^1.1.0",
-    "typescript": "^5.8.3",
+    "@rsbuild/core": "1.4.15",
+    "@rsbuild/plugin-vue": "^1.1.1",
+    "typescript": "^5.9.2",
     "unplugin-auto-import": "^0.19.0",
     "unplugin-vue-components": "^0.28.0"
   }
