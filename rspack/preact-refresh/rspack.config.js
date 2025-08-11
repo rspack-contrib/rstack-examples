@@ -25,7 +25,6 @@ const config = {
         use: {
           loader: 'builtin:swc-loader',
           options: {
-            sourceMap: true,
             jsc: {
               experimental: {
                 plugins: [

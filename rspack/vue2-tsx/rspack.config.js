@@ -37,7 +37,6 @@ const config = defineConfig({
         test: /\.ts$/,
         loader: 'builtin:swc-loader',
         options: {
-          sourceMap: true,
           jsc: {
             parser: { syntax: 'typescript' },
           },
