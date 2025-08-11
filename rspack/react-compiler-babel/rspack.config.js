@@ -19,7 +19,6 @@ const config = {
           {
             loader: 'builtin:swc-loader',
             options: {
-              sourceMap: true,
               jsc: {
                 parser: {
                   syntax: 'ecmascript',
@@ -36,7 +35,6 @@ const config = {
           {
             loader: 'builtin:swc-loader',
             options: {
-              sourceMap: true,
               jsc: {
                 parser: {
                   syntax: 'ecmascript',

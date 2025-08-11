@@ -18,7 +18,6 @@ const config = {
         exclude: /node_modules/,
         loader: 'builtin:swc-loader',
         options: {
-          sourceMap: true,
           env: {
             targets: ['> 0.01%', 'not dead', 'not op_mini all'],
             mode: 'usage',
