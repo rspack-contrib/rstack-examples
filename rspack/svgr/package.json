@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.17",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.10",
-    "@rspack/core": "1.4.10",
+    "@rspack/cli": "1.4.11",
+    "@rspack/core": "1.4.11",
     "@svgr/webpack": "8.1.0",
     "url-loader": "4.1.1"
   }

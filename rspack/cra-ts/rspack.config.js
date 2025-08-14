@@ -18,7 +18,6 @@ const config = {
         use: {
           loader: 'builtin:swc-loader',
           options: {
-            sourceMap: true,
             jsc: {
               parser: {
                 syntax: 'typescript',
@@ -43,7 +42,6 @@ const config = {
         use: {
           loader: 'builtin:swc-loader',
           options: {
-            sourceMap: true,
             jsc: {
               parser: {
                 syntax: 'typescript',
