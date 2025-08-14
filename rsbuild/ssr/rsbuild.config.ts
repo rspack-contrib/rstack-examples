@@ -1,16 +1,16 @@
-import { type RequestHandler, type ServerAPIs, defineConfig, logger } from '@rsbuild/core';
+import { type RequestHandler, type SetupMiddlewaresContext, defineConfig, logger } from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
 
 export const serverRender =
-  (serverAPI: ServerAPIs): RequestHandler =>
+  (serverContext: SetupMiddlewaresContext): RequestHandler =>
   async (_req, res, _next) => {
-    const indexModule = await serverAPI.environments.ssr.loadBundle<{
+    const indexModule = await serverContext.environments.ssr.loadBundle<{
       render: () => string;
     }>('index');
 
     const markup = indexModule.render();
 
-    const template = await serverAPI.environments.web.getTransformedHtml('index');
+    const template = await serverContext.environments.web.getTransformedHtml('index');
 
     const html = template.replace('<!--app-content-->', markup);
 
@@ -24,8 +24,8 @@ export default defineConfig({
   plugins: [pluginReact()],
   dev: {
     setupMiddlewares: [
-      ({ unshift }, serverAPI) => {
-        const serverRenderMiddleware = serverRender(serverAPI);
+      ({ unshift }, serverContext) => {
+        const serverRenderMiddleware = serverRender(serverContext);
 
         unshift(async (req, res, next) => {
           if (req.method === 'GET' && req.url === '/') {
