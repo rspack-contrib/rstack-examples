@@ -9,11 +9,11 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@babel/core": "7.28.0",
+    "@babel/core": "7.28.3",
     "@rspack/cli": "1.4.11",
     "babel-loader": "10.0.0",
-    "babel-preset-solid": "1.9.8",
-    "solid-js": "1.9.8",
+    "babel-preset-solid": "1.9.9",
+    "solid-js": "1.9.9",
     "solid-refresh": "0.7.5"
   },
   "devDependencies": {
