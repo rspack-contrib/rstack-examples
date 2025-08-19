@@ -6,9 +6,7 @@ export default {
     main: "./src/index.ts",
   },
   experiments: {
-    css: true,
     inlineEnum: true,
-    typeReexportsPresence: true,
   },
   mode: "production",
   optimization: {
@@ -19,11 +17,6 @@ export default {
     extensions: [".ts", "..."],
   },
   module: {
-    parser: {
-      javascript: {
-        typeReexportsPresence: "tolerant"
-      }
-    },
     rules: [
       {
         test: /\.ts$/,
@@ -35,11 +28,13 @@ export default {
               parser: {
                 syntax: "typescript",
               },
+              transform: {
+                tsEnumIsMutable: true,
+              }
             },
             rspackExperiments: {
               collectTypeScriptInfo: {
-                typeExports: true,
-                exportedEnum: true,
+                exportedEnum: 'const-only',
               }
             }
           },

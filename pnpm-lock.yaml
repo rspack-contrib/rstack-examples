@@ -1200,15 +1200,6 @@ importers:
         specifier: 1.4.11
         version: 1.4.11(@swc/helpers@0.5.17)
 
-  rspack/collect-typescript-info:
-    devDependencies:
-      '@rspack/cli':
-        specifier: 1.4.11
-        version: 1.4.11(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@types/express@5.0.3)
-      '@rspack/core':
-        specifier: 1.4.11
-        version: 1.4.11(@swc/helpers@0.5.17)
-
   rspack/common-libs/lib1: {}
 
   rspack/common-libs/lib2: {}
@@ -1442,6 +1433,24 @@ importers:
       '@rspack/core':
         specifier: 1.5.0-beta.0
         version: 1.5.0-beta.0(@swc/helpers@0.5.17)
+
+  rspack/inline-const-enum:
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.4.11
+        version: 1.4.11(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@types/express@5.0.3)
+      '@rspack/core':
+        specifier: 1.4.11
+        version: 1.4.11(@swc/helpers@0.5.17)
+
+  rspack/inline-enum:
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.4.11
+        version: 1.4.11(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@types/express@5.0.3)
+      '@rspack/core':
+        specifier: 1.4.11
+        version: 1.4.11(@swc/helpers@0.5.17)
 
   rspack/javascript-api:
     devDependencies:
@@ -2750,6 +2759,15 @@ importers:
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
+
+  rspack/type-reexports-presence:
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.4.11
+        version: 1.4.11(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@types/express@5.0.3)
+      '@rspack/core':
+        specifier: 1.4.11
+        version: 1.4.11(@swc/helpers@0.5.17)
 
   rspack/unplugin-auto-import:
     dependencies:
