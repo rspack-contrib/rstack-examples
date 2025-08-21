@@ -1,5 +1,3 @@
-export * from './enums';
-
 // Should not report ESModulesLinkingWarning since we configured `typeReexportsPresence: "tolerant"`
 // case 1:
 export { TypeA } from './types';
