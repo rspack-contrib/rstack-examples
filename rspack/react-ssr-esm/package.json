@@ -11,8 +11,8 @@
   "devDependencies": {
     "@types/cross-spawn": "^6.0.6",
     "@types/express": "^5.0.3",
-    "@types/node": "^22.17.1",
-    "@types/react": "^19.1.9",
+    "@types/node": "^22.17.2",
+    "@types/react": "^19.1.11",
     "@types/react-dom": "^19.1.7",
     "cross-spawn": "^7.0.6",
     "typescript": "^5.9.2",

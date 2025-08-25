@@ -13,10 +13,10 @@
   "license": "MIT",
   "dependencies": {
     "@swc/helpers": "^0.5.17",
-    "preact": "10.27.0"
+    "preact": "10.27.1"
   },
   "devDependencies": {
-    "@prefresh/core": "1.5.5",
+    "@prefresh/core": "1.5.7",
     "@prefresh/utils": "1.2.1",
     "@rspack/cli": "1.4.11",
     "@rspack/core": "1.4.11",
