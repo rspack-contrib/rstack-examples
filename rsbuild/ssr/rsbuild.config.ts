@@ -1,10 +1,15 @@
-import { type RequestHandler, type SetupMiddlewaresContext, defineConfig, logger } from '@rsbuild/core';
+import {
+  defineConfig,
+  logger,
+  type RequestHandler,
+  type SetupMiddlewaresContext,
+} from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
 
 export const serverRender =
   (serverContext: SetupMiddlewaresContext): RequestHandler =>
   async (_req, res, _next) => {
-    const indexModule = await serverContext.environments.ssr.loadBundle<{
+    const indexModule = await serverContext.environments.node.loadBundle<{
       render: () => string;
     }>('index');
 
@@ -32,7 +37,8 @@ export default defineConfig({
             try {
               await serverRenderMiddleware(req, res, next);
             } catch (err) {
-              logger.error('SSR render error, downgrade to CSR...\n', err);
+              logger.error('SSR render error, downgrade to CSR...');
+              logger.error(err);
               next();
             }
           } else {
@@ -44,17 +50,15 @@ export default defineConfig({
   },
   environments: {
     web: {
-      output: {
-        target: 'web',
-      },
       source: {
         entry: {
           index: './src/index',
         },
       },
     },
-    ssr: {
+    node: {
       output: {
+        module: true,
         target: 'node',
         distPath: {
           root: 'dist/server',

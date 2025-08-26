@@ -14,5 +14,11 @@
     "**/.DS_Store": true
   },
   "editor.defaultFormatter": "biomejs.biome",
-  "mdx.validate.validateFileLinks": "ignore"
+  "mdx.validate.validateFileLinks": "ignore",
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }
