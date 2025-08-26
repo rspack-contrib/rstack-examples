@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
-      "npx @biomejs/biome check --apply --no-errors-on-unmatched --colors=force --diagnostic-level=error"
+      "npx @biomejs/biome check --write --no-errors-on-unmatched"
     ]
   },
   "devDependencies": {

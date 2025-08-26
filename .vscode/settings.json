@@ -13,5 +13,6 @@
   "files.exclude": {
     "**/.DS_Store": true
   },
+  "editor.defaultFormatter": "biomejs.biome",
   "mdx.validate.validateFileLinks": "ignore"
 }

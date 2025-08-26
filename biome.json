@@ -1,8 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
-  "organizeImports": {
-    "enabled": false
-  },
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "vcs": {
     "enabled": true,
     "defaultBranch": "main",
@@ -10,9 +7,18 @@
     "useIgnoreFile": true
   },
   "files": {
-    "include": ["**/*.js", "**/*.ts", "**/*.json", "**/*.jsonc", "**/*.jsx", "**/*.tsx"],
-    "ignoreUnknown": true,
-    "ignore": ["**/auto-imports.d.ts", "**/components.d.ts"]
+    "includes": [
+      "**/rspack/**",
+      "**/rsbuild/**",
+      "**/rspress/**",
+      "**/rsdoctor/**",
+      "!**/dist",
+      "!**/dist-*",
+      "!**/doc_build",
+      "!**/auto-imports.d.ts",
+      "!**/components.d.ts"
+    ],
+    "ignoreUnknown": true
   },
   "javascript": {
     "formatter": {
@@ -42,16 +48,18 @@
   },
   "overrides": [
     {
-      "include": [
+      "includes": [
         "**/.vscode/*.json",
         "**/tsconfig.json",
         "**/tsconfig.*.json",
         "**/tsconfig-*.json"
       ],
-      "json": { "parser": { "allowComments": true, "allowTrailingCommas": true } }
+      "json": {
+        "parser": { "allowComments": true, "allowTrailingCommas": true }
+      }
     },
     {
-      "include": ["**/worker.js", "**/*-worker.js"],
+      "includes": ["**/worker.js", "**/*-worker.js"],
       "linter": {
         "rules": {
           "suspicious": {
