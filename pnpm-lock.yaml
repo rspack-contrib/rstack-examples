@@ -639,6 +639,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.1.7
         version: 19.1.7(@types/react@19.1.11)
+      cross-env:
+        specifier: ^10.0.0
+        version: 10.0.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -667,6 +670,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.1.7
         version: 19.1.7(@types/react@19.1.11)
+      cross-env:
+        specifier: ^10.0.0
+        version: 10.0.0
       express:
         specifier: ^5.1.0
         version: 5.1.0
@@ -698,6 +704,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.1.7
         version: 19.1.7(@types/react@19.1.11)
+      cross-env:
+        specifier: ^10.0.0
+        version: 10.0.0
       express:
         specifier: ^5.1.0
         version: 5.1.0

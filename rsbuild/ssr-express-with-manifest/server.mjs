@@ -1,31 +1,29 @@
-import express from "express";
 import fs from 'node:fs';
-import { createRsbuild, loadConfig, logger } from "@rsbuild/core";
+import { createRsbuild, loadConfig, logger } from '@rsbuild/core';
+import express from 'express';
 
 const templateHtml = fs.readFileSync('./template.html', 'utf-8');
 
 let manifest;
 
 const serverRender = (serverAPI) => async (_req, res) => {
-  const indexModule = await serverAPI.environments.ssr.loadBundle("index");
+  const indexModule = await serverAPI.environments.node.loadBundle('index');
 
   const markup = indexModule.render();
 
   const { entries } = JSON.parse(manifest);
 
-  const { js = [], css = []} = entries['index'].initial;
+  const { js = [], css = [] } = entries['index'].initial;
 
-  const scriptTags = js
-    .map((url) => `<script src="${url}" defer></script>`)
-    .join('\n');
-  const styleTags = css
-    .map((file) => `<link rel="stylesheet" href="${file}">`)
-    .join('\n');
+  const scriptTags = js.map((url) => `<script src="${url}" defer></script>`).join('\n');
+  const styleTags = css.map((file) => `<link rel="stylesheet" href="${file}">`).join('\n');
 
-  const html = templateHtml.replace("<!--app-content-->", markup).replace('<!--app-head-->', `${scriptTags}\n${styleTags}`);
+  const html = templateHtml
+    .replace('<!--app-content-->', markup)
+    .replace('<!--app-head-->', `${scriptTags}\n${styleTags}`);
 
   res.writeHead(200, {
-    "Content-Type": "text/html",
+    'Content-Type': 'text/html',
   });
   res.end(html);
 };
@@ -41,7 +39,7 @@ export async function startDevServer() {
   rsbuild.onDevCompileDone(async () => {
     // update manifest info when rebuild
     manifest = await fs.promises.readFile('./dist/manifest.json', 'utf-8');
-  })
+  });
 
   const app = express();
 
@@ -50,11 +48,12 @@ export async function startDevServer() {
 
   const serverRenderMiddleware = serverRender(rsbuildServer);
 
-  app.get("/", async (req, res, next) => {
+  app.get('/', async (req, res, next) => {
     try {
       await serverRenderMiddleware(req, res, next);
     } catch (err) {
-      logger.error("SSR render error, downgrade to CSR...\n", err);
+      logger.error('SSR render error, downgrade to CSR...');
+      logger.error(err);
       next();
     }
   });

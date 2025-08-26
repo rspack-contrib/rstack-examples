@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rsbuild build",
-    "dev": "node ./server.mjs",
+    "dev": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" node ./server.mjs",
     "preview": "node ./prod-server.mjs"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "@types/express": "^5.0.3",
     "@types/react": "^19.1.11",
     "@types/react-dom": "^19.1.7",
+    "cross-env": "^10.0.0",
     "express": "^5.1.0",
     "typescript": "^5.9.2"
   }
