@@ -8,8 +8,8 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@rspack/core": "1.4.11",
-    "@types/node": "^22.17.2",
+    "@rspack/core": "1.5.0",
+    "@types/node": "^22.18.0",
     "typescript": "^5.9.2"
   }
 }

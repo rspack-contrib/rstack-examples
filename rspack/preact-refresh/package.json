@@ -18,8 +18,8 @@
   "devDependencies": {
     "@prefresh/core": "1.5.7",
     "@prefresh/utils": "1.2.1",
-    "@rspack/cli": "1.4.11",
-    "@rspack/core": "1.4.11",
+    "@rspack/cli": "1.5.0",
+    "@rspack/core": "1.5.0",
     "@rspack/plugin-preact-refresh": "^1.1.2",
     "@swc/plugin-prefresh": "^8.0.4"
   },
