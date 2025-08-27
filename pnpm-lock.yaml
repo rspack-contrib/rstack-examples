@@ -46,8 +46,8 @@ importers:
         specifier: ^1.3.5
         version: 1.3.5(@rsbuild/core@1.5.0)(webpack-hot-middleware@2.26.1)
       '@swc/plugin-emotion':
-        specifier: ^10.0.4
-        version: 10.0.4
+        specifier: ^11.0.2
+        version: 11.0.2
       '@types/react':
         specifier: ^19.1.11
         version: 19.1.11
@@ -764,8 +764,8 @@ importers:
         specifier: ^1.3.5
         version: 1.3.5(@rsbuild/core@1.5.0)(webpack-hot-middleware@2.26.1)
       '@swc/plugin-styled-jsx':
-        specifier: ^8.0.10
-        version: 8.0.10
+        specifier: ^9.0.2
+        version: 9.0.2
       '@types/react':
         specifier: ^19.1.11
         version: 19.1.11
@@ -1149,29 +1149,29 @@ importers:
         specifier: ^0.5.17
         version: 0.5.17
       '@swc/plugin-emotion':
-        specifier: ^10.0.4
-        version: 10.0.4
+        specifier: ^11.0.2
+        version: 11.0.2
       '@swc/plugin-loadable-components':
-        specifier: ^7.0.2
-        version: 7.0.2
+        specifier: ^8.0.2
+        version: 8.0.2
       '@swc/plugin-prefresh':
-        specifier: ^8.0.4
-        version: 8.0.4
+        specifier: ^9.0.2
+        version: 9.0.2
       '@swc/plugin-relay':
-        specifier: ^8.0.4
-        version: 8.0.4
+        specifier: ^9.0.2
+        version: 9.0.2
       '@swc/plugin-remove-console':
-        specifier: ^8.0.5
-        version: 8.0.5
+        specifier: ^9.0.2
+        version: 9.0.2
       '@swc/plugin-styled-components':
-        specifier: ^8.0.4
-        version: 8.0.4
+        specifier: ^9.0.3
+        version: 9.0.3
       '@swc/plugin-styled-jsx':
-        specifier: ^8.0.10
-        version: 8.0.10
+        specifier: ^9.0.2
+        version: 9.0.2
       '@swc/plugin-transform-imports':
-        specifier: ^8.0.5
-        version: 8.0.5
+        specifier: ^9.0.3
+        version: 9.0.3
       swc-plugin-css-modules:
         specifier: ^5.0.2
         version: 5.0.2
@@ -1345,8 +1345,8 @@ importers:
         specifier: 1.5.0
         version: 1.5.0(@swc/helpers@0.5.17)
       '@swc/plugin-emotion':
-        specifier: ^10.0.4
-        version: 10.0.4
+        specifier: ^11.0.2
+        version: 11.0.2
 
   rspack/eslint:
     devDependencies:
@@ -2200,8 +2200,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@prefresh/core@1.5.7(preact@10.27.1))(@prefresh/utils@1.2.1)
       '@swc/plugin-prefresh':
-        specifier: ^8.0.4
-        version: 8.0.4
+        specifier: ^9.0.2
+        version: 9.0.2
 
   rspack/proxy:
     devDependencies:
@@ -6688,35 +6688,29 @@ packages:
     peerDependencies:
       '@swc/core': '*'
 
-  '@swc/plugin-emotion@10.0.4':
-    resolution: {integrity: sha512-/E16j9dqI0tmIXlGNYM0uCM9Z2L3NvaNhBoa/EohbGVaQCAhjsjirRN0kQLJo8Y3br8KjQHSxiGAPEAqI7qh+Q==}
+  '@swc/plugin-emotion@11.0.2':
+    resolution: {integrity: sha512-Mv7AQrvF6oMurNT5MhOIyyCjnptOLoFI/5lItUt4nNzZ5AXTQ/XWTz7OHRw2IYbqny+3Nv//QAKpGjlMLp3L+w==}
 
-  '@swc/plugin-loadable-components@7.0.2':
-    resolution: {integrity: sha512-djjwM5IWJ4XAdhZHogiwJw2ZlDzy7codHYwsya5FELX60XJqwWMTxAHOe4JCsL8CxTG6Qc+lDPzHsVj7GPGgIA==}
-
-  '@swc/plugin-prefresh@8.0.4':
-    resolution: {integrity: sha512-2ydw3bsoWLJgnjQlLuFXBxdKSVWqMpJTV83gVE6pxDvotE8H27DMNWx0obZCltQm63AAQVDToNK2tqaHwWmhgg==}
+  '@swc/plugin-loadable-components@8.0.2':
+    resolution: {integrity: sha512-fD04gidg7L35F4A9fPyp5D0V1uKN6vXo3HQUAwqxJ7XjXyUSOIzz01KNwVH8BDV9zuHk/lnvicANjj1EGGQSxw==}
 
   '@swc/plugin-prefresh@9.0.2':
     resolution: {integrity: sha512-E3SHiAOMHSJxnxXNVllpXOMzeQXLcdejyzIbJj7Z4u1Aua+ZIDOTBP3e4HgyZNzrUaCX+zU8Gk1aJepA8A76yg==}
 
-  '@swc/plugin-relay@8.0.4':
-    resolution: {integrity: sha512-EgSerWEsIx0G6bDNdS5hzmwzkOfqGpEWlBrxPpB+duE0+b48MphUevoWoAiTtU5SWu/yG2u9lzxzlK+YFwH/zg==}
+  '@swc/plugin-relay@9.0.2':
+    resolution: {integrity: sha512-nBs/+TPIPiedJzK/M/bCr5IK1K7ZgUIXjwiZKQchdSFsPJIj0pnAMQwxCAbhv6vnInTC0+7uH5r9bRFYgOWqSw==}
 
-  '@swc/plugin-remove-console@8.0.5':
-    resolution: {integrity: sha512-ZKXCo7hJKyw+Vh3EN6n6v4Ig8SsUYXtBxzgVE39Grl8yu//RuMl/LZZ4UUbrGrR6++Dwu3pP8VO+beZcZEoS/g==}
-
-  '@swc/plugin-styled-components@8.0.4':
-    resolution: {integrity: sha512-Vz/C4ubzvHXK9aqUHTIOIQaU5O5ApiEA2uFjCKukIqq7/IUZvyaVoa5f+s411qMSLbEuEiVUHGFUAslwa++Exw==}
+  '@swc/plugin-remove-console@9.0.2':
+    resolution: {integrity: sha512-k8j6UYZJFMdaLvp4DTlcy+/aW6YuoiCNYGu4iVrgr8QyS1ZFEyR7Z13Z/VUPSz/bqTW7A9r4MTLYjFvcdVVk7A==}
 
   '@swc/plugin-styled-components@9.0.3':
     resolution: {integrity: sha512-BoJ2v4WtXj2/Cbyqx/pctG7w8FxYrfm8zkroz+B5mpZHBVqa0XKP0YOK6e1NbBXOztXdYq2nRT7TadzrylnuJA==}
 
-  '@swc/plugin-styled-jsx@8.0.10':
-    resolution: {integrity: sha512-6ZTUF7vVC6fd2DZ2Bp6chyKiHsP1aVGb3nMcZd3/Fjwd+pc9ELycAjizShLaTFFshxJFi7u6UI99h0xn0fUk8g==}
+  '@swc/plugin-styled-jsx@9.0.2':
+    resolution: {integrity: sha512-UZDxq2E36WNPSPsSjicxXbv20vqAQgHAwOP7D5NnP7zx3m2XMKZog5fl5NS1wZmBfjsrzbTuYdsJIhKF2oj49A==}
 
-  '@swc/plugin-transform-imports@8.0.5':
-    resolution: {integrity: sha512-s8NFcrR/CU8cM33ZB0Bu1T/RZCxr6hEYZJbZW0ZDATF2H3FCtjusrgCXbfpOYX8V8oDGSLsPIFAXpoZdzmCHmw==}
+  '@swc/plugin-transform-imports@9.0.3':
+    resolution: {integrity: sha512-Eky/vC6+5sljCcsAWLbSus5owflu56Zy8d7KpELDIT0jNdKUMygyg6fvHC/i985x5rBvNpMcJEKCGgszjjimmA==}
 
   '@swc/types@0.1.24':
     resolution: {integrity: sha512-tjTMh3V4vAORHtdTprLlfoMptu1WfTZG9Rsca6yOKyNYsRr+MUXutKmliB17orgSZk5DpnDxs8GUdd/qwYxOng==}
@@ -19450,15 +19444,11 @@ snapshots:
       '@swc/counter': 0.1.3
       jsonc-parser: 3.2.1
 
-  '@swc/plugin-emotion@10.0.4':
+  '@swc/plugin-emotion@11.0.2':
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@swc/plugin-loadable-components@7.0.2':
-    dependencies:
-      '@swc/counter': 0.1.3
-
-  '@swc/plugin-prefresh@8.0.4':
+  '@swc/plugin-loadable-components@8.0.2':
     dependencies:
       '@swc/counter': 0.1.3
 
@@ -19466,15 +19456,11 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@swc/plugin-relay@8.0.4':
+  '@swc/plugin-relay@9.0.2':
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@swc/plugin-remove-console@8.0.5':
-    dependencies:
-      '@swc/counter': 0.1.3
-
-  '@swc/plugin-styled-components@8.0.4':
+  '@swc/plugin-remove-console@9.0.2':
     dependencies:
       '@swc/counter': 0.1.3
 
@@ -19482,11 +19468,11 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@swc/plugin-styled-jsx@8.0.10':
+  '@swc/plugin-styled-jsx@9.0.2':
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@swc/plugin-transform-imports@8.0.5':
+  '@swc/plugin-transform-imports@9.0.3':
     dependencies:
       '@swc/counter': 0.1.3
 
