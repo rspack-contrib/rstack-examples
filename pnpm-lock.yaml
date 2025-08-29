@@ -2528,8 +2528,8 @@ importers:
         specifier: 1.5.0
         version: 1.5.0(@swc/helpers@0.5.17)
       '@sentry/webpack-plugin':
-        specifier: 3.6.1
-        version: 3.6.1(encoding@0.1.13)(webpack@5.101.3)
+        specifier: 4.2.0
+        version: 4.2.0(encoding@0.1.13)(webpack@5.101.3)
 
   rspack/solid:
     dependencies:
@@ -6420,68 +6420,68 @@ packages:
   '@selderee/plugin-htmlparser2@0.11.0':
     resolution: {integrity: sha512-P33hHGdldxGabLFjPPpaTxVolMrzrcegejx+0GxjrIb9Zv48D8yAIA/QTDR2dFl7Uz7urX8aX6+5bCZslr+gWQ==}
 
-  '@sentry/babel-plugin-component-annotate@3.6.1':
-    resolution: {integrity: sha512-zmvUa4RpzDG3LQJFpGCE8lniz8Rk1Wa6ZvvK+yEH+snZeaHHRbSnAQBMR607GOClP+euGHNO2YtaY4UAdNTYbg==}
+  '@sentry/babel-plugin-component-annotate@4.2.0':
+    resolution: {integrity: sha512-GFpS3REqaHuyX4LCNqlneAQZIKyHb5ePiI1802n0fhtYjk68I1DTQ3PnbzYi50od/vAsTQVCknaS5F6tidNqTQ==}
     engines: {node: '>= 14'}
 
-  '@sentry/bundler-plugin-core@3.6.1':
-    resolution: {integrity: sha512-/ubWjPwgLep84sUPzHfKL2Ns9mK9aQrEX4aBFztru7ygiJidKJTxYGtvjh4dL2M1aZ0WRQYp+7PF6+VKwdZXcQ==}
+  '@sentry/bundler-plugin-core@4.2.0':
+    resolution: {integrity: sha512-EDG6ELSEN/Dzm4KUQOynoI2suEAdPdgwaBXVN4Ww705zdrYT79OGh51rkz74KGhovt7GukaPf0Z9LJwORXUbhg==}
     engines: {node: '>= 14'}
 
-  '@sentry/cli-darwin@2.50.2':
-    resolution: {integrity: sha512-0Pjpl0vQqKhwuZm19z6AlEF+ds3fJg1KWabv8WzGaSc/fwxMEwjFwOZj+IxWBJPV578cXXNvB39vYjjpCH8j7A==}
+  '@sentry/cli-darwin@2.52.0':
+    resolution: {integrity: sha512-ieQs/p4yTHT27nBzy0wtAb8BSISfWlpXdgsACcwXimYa36NJRwyCqgOXUaH/BYiTdwWSHpuANbUHGJW6zljzxw==}
     engines: {node: '>=10'}
     os: [darwin]
 
-  '@sentry/cli-linux-arm64@2.50.2':
-    resolution: {integrity: sha512-03Cj215M3IdoHAwevCxm5oOm9WICFpuLR05DQnODFCeIUsGvE1pZsc+Gm0Ky/ZArq2PlShBJTpbHvXbCUka+0w==}
+  '@sentry/cli-linux-arm64@2.52.0':
+    resolution: {integrity: sha512-RxT5uzxjCkcvplmx0bavJIEYerRex2Rg/2RAVBdVvWLKFOcmeerTn/VVxPZVuDIVMVyjlZsteWPYwfUm+Ia3wQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux, freebsd, android]
 
-  '@sentry/cli-linux-arm@2.50.2':
-    resolution: {integrity: sha512-jzFwg9AeeuFAFtoCcyaDEPG05TU02uOy1nAX09c1g7FtsyQlPcbhI94JQGmnPzdRjjDmORtwIUiVZQrVTkDM7w==}
+  '@sentry/cli-linux-arm@2.52.0':
+    resolution: {integrity: sha512-tWMLU+hj+iip5Akx+S76biAOE1eMMWTDq8c0MqMv/ahHgb6/HiVngMcUsp59Oz3EczJGbTkcnS3vRTDodEcMDw==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux, freebsd, android]
 
-  '@sentry/cli-linux-i686@2.50.2':
-    resolution: {integrity: sha512-J+POvB34uVyHbIYF++Bc/OCLw+gqKW0H/y/mY7rRZCiocgpk266M4NtsOBl6bEaurMx1D+BCIEjr4nc01I/rqA==}
+  '@sentry/cli-linux-i686@2.52.0':
+    resolution: {integrity: sha512-sKcJmIg7QWFtlNU5Bs5OZprwdIzzyYMRpFkWioPZ4TE82yvP1+2SAX31VPUlTx+7NLU6YVEWNwvSxh8LWb7iOw==}
     engines: {node: '>=10'}
     cpu: [x86, ia32]
     os: [linux, freebsd, android]
 
-  '@sentry/cli-linux-x64@2.50.2':
-    resolution: {integrity: sha512-81yQVRLj8rnuHoYcrM7QbOw8ubA3weiMdPtTxTim1s6WExmPgnPTKxLCr9xzxGJxFdYo3xIOhtf5JFpUX/3j4A==}
+  '@sentry/cli-linux-x64@2.52.0':
+    resolution: {integrity: sha512-aPZ7bP02zGkuEqTiOAm4np/ggfgtzrq4ti1Xze96Csi/DV3820SCfLrPlsvcvnqq7x69IL9cI3kXjdEpgrfGxw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux, freebsd, android]
 
-  '@sentry/cli-win32-arm64@2.50.2':
-    resolution: {integrity: sha512-QjentLGvpibgiZlmlV9ifZyxV73lnGH6pFZWU5wLeRiaYKxWtNrrHpVs+HiWlRhkwQ0mG1/S40PGNgJ20DJ3gA==}
+  '@sentry/cli-win32-arm64@2.52.0':
+    resolution: {integrity: sha512-90hrB5XdwJVhRpCmVrEcYoKW8nl5/V9OfVvOGeKUPvUkApLzvsInK74FYBZEVyAn1i/NdUv+Xk9q2zqUGK1aLQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@sentry/cli-win32-i686@2.50.2':
-    resolution: {integrity: sha512-UkBIIzkQkQ1UkjQX8kHm/+e7IxnEhK6CdgSjFyNlxkwALjDWHJjMztevqAPz3kv4LdM6q1MxpQ/mOqXICNhEGg==}
+  '@sentry/cli-win32-i686@2.52.0':
+    resolution: {integrity: sha512-HXlSE4CaLylNrELx4KVmOQjV5bURCNuky6sjCWiTH7HyDqHEak2Rk8iLE0JNLj5RETWMvmaZnZZFfmyGlY1opg==}
     engines: {node: '>=10'}
     cpu: [x86, ia32]
     os: [win32]
 
-  '@sentry/cli-win32-x64@2.50.2':
-    resolution: {integrity: sha512-tE27pu1sRRub1Jpmemykv3QHddBcyUk39Fsvv+n4NDpQyMgsyVPcboxBZyby44F0jkpI/q3bUH2tfCB1TYDNLg==}
+  '@sentry/cli-win32-x64@2.52.0':
+    resolution: {integrity: sha512-hJT0C3FwHk1Mt9oFqcci88wbO1D+yAWUL8J29HEGM5ZAqlhdh7sAtPDIC3P2LceUJOjnXihow47Bkj62juatIQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@sentry/cli@2.50.2':
-    resolution: {integrity: sha512-m1L9shxutF3WHSyNld6Y1vMPoXfEyQhoRh1V3SYSdl+4AB40U+zr2sRzFa2OPm7XP4zYNaWuuuHLkY/iHITs8Q==}
+  '@sentry/cli@2.52.0':
+    resolution: {integrity: sha512-PXyo7Yv7+rVMSBGZfI/eFEzzhiKedTs25sDCjz4a3goAZ/F5R5tn3MKq30pnze5wNnoQmLujAa0uUjfNcWP+uQ==}
     engines: {node: '>= 10'}
     hasBin: true
 
-  '@sentry/webpack-plugin@3.6.1':
-    resolution: {integrity: sha512-F2yqwbdxfCENMN5u4ih4WfOtGjW56/92DBC0bU6un7Ns/l2qd+wRONIvrF+58rl/VkCFfMlUtZTVoKGRyMRmHA==}
+  '@sentry/webpack-plugin@4.2.0':
+    resolution: {integrity: sha512-2lPuvJhbiEOd/NAQv5EL8at9QVKchkEmWFDioDsOG6csFqbZ8hdWtTcbsXnhzH9j+CM1LmdeDNVjIF+SMoxCNg==}
     engines: {node: '>= 14'}
     peerDependencies:
       webpack: '>=4.40.0'
@@ -7580,10 +7580,6 @@ packages:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-
-  acorn-walk@8.3.3:
-    resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
-    engines: {node: '>=0.4.0'}
 
   acorn-walk@8.3.4:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
@@ -19161,13 +19157,13 @@ snapshots:
       domhandler: 5.0.3
       selderee: 0.11.0
 
-  '@sentry/babel-plugin-component-annotate@3.6.1': {}
+  '@sentry/babel-plugin-component-annotate@4.2.0': {}
 
-  '@sentry/bundler-plugin-core@3.6.1(encoding@0.1.13)':
+  '@sentry/bundler-plugin-core@4.2.0(encoding@0.1.13)':
     dependencies:
       '@babel/core': 7.28.3
-      '@sentry/babel-plugin-component-annotate': 3.6.1
-      '@sentry/cli': 2.50.2(encoding@0.1.13)
+      '@sentry/babel-plugin-component-annotate': 4.2.0
+      '@sentry/cli': 2.52.0(encoding@0.1.13)
       dotenv: 16.4.5
       find-up: 5.0.0
       glob: 9.3.5
@@ -19177,31 +19173,31 @@ snapshots:
       - encoding
       - supports-color
 
-  '@sentry/cli-darwin@2.50.2':
+  '@sentry/cli-darwin@2.52.0':
     optional: true
 
-  '@sentry/cli-linux-arm64@2.50.2':
+  '@sentry/cli-linux-arm64@2.52.0':
     optional: true
 
-  '@sentry/cli-linux-arm@2.50.2':
+  '@sentry/cli-linux-arm@2.52.0':
     optional: true
 
-  '@sentry/cli-linux-i686@2.50.2':
+  '@sentry/cli-linux-i686@2.52.0':
     optional: true
 
-  '@sentry/cli-linux-x64@2.50.2':
+  '@sentry/cli-linux-x64@2.52.0':
     optional: true
 
-  '@sentry/cli-win32-arm64@2.50.2':
+  '@sentry/cli-win32-arm64@2.52.0':
     optional: true
 
-  '@sentry/cli-win32-i686@2.50.2':
+  '@sentry/cli-win32-i686@2.52.0':
     optional: true
 
-  '@sentry/cli-win32-x64@2.50.2':
+  '@sentry/cli-win32-x64@2.52.0':
     optional: true
 
-  '@sentry/cli@2.50.2(encoding@0.1.13)':
+  '@sentry/cli@2.52.0(encoding@0.1.13)':
     dependencies:
       https-proxy-agent: 5.0.1
       node-fetch: 2.7.0(encoding@0.1.13)
@@ -19209,21 +19205,21 @@ snapshots:
       proxy-from-env: 1.1.0
       which: 2.0.2
     optionalDependencies:
-      '@sentry/cli-darwin': 2.50.2
-      '@sentry/cli-linux-arm': 2.50.2
-      '@sentry/cli-linux-arm64': 2.50.2
-      '@sentry/cli-linux-i686': 2.50.2
-      '@sentry/cli-linux-x64': 2.50.2
-      '@sentry/cli-win32-arm64': 2.50.2
-      '@sentry/cli-win32-i686': 2.50.2
-      '@sentry/cli-win32-x64': 2.50.2
+      '@sentry/cli-darwin': 2.52.0
+      '@sentry/cli-linux-arm': 2.52.0
+      '@sentry/cli-linux-arm64': 2.52.0
+      '@sentry/cli-linux-i686': 2.52.0
+      '@sentry/cli-linux-x64': 2.52.0
+      '@sentry/cli-win32-arm64': 2.52.0
+      '@sentry/cli-win32-i686': 2.52.0
+      '@sentry/cli-win32-x64': 2.52.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  '@sentry/webpack-plugin@3.6.1(encoding@0.1.13)(webpack@5.101.3)':
+  '@sentry/webpack-plugin@4.2.0(encoding@0.1.13)(webpack@5.101.3)':
     dependencies:
-      '@sentry/bundler-plugin-core': 3.6.1(encoding@0.1.13)
+      '@sentry/bundler-plugin-core': 4.2.0(encoding@0.1.13)
       unplugin: 1.0.1
       uuid: 9.0.1
       webpack: 5.101.3(webpack-cli@6.0.1)
@@ -20768,11 +20764,6 @@ snapshots:
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
       acorn: 8.15.0
-
-  acorn-walk@8.3.3:
-    dependencies:
-      acorn: 8.14.0
-    optional: true
 
   acorn-walk@8.3.4:
     dependencies:
@@ -28465,8 +28456,8 @@ snapshots:
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
       '@types/node': 22.18.0
-      acorn: 8.14.0
-      acorn-walk: 8.3.3
+      acorn: 8.15.0
+      acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
@@ -28486,8 +28477,8 @@ snapshots:
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
       '@types/node': 24.2.1
-      acorn: 8.14.0
-      acorn-walk: 8.3.3
+      acorn: 8.15.0
+      acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
