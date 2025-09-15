@@ -11,8 +11,8 @@
     "compile": "tsc -b"
   },
   "dependencies": {
-    "@rspack/cli": "1.5.2",
-    "@rspack/core": "1.5.2",
+    "@rspack/cli": "1.5.3",
+    "@rspack/core": "1.5.3",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
     "typescript": "^5.9.2"
