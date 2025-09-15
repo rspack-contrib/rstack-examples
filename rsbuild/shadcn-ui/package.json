@@ -12,17 +12,17 @@
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.542.0",
+    "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.5.4",
+    "@rsbuild/core": "^1.5.6",
     "@rsbuild/plugin-react": "^1.4.0",
-    "@types/node": "^22.18.1",
-    "@types/react": "^19.1.12",
+    "@types/node": "^22.18.3",
+    "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.9.2"
