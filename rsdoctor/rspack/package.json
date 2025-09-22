@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@rsdoctor/rspack-plugin": "^1.2.3",
-    "@rspack/cli": "1.5.3",
-    "@rspack/core": "1.5.3",
+    "@rspack/cli": "1.5.5",
+    "@rspack/core": "1.5.5",
     "@rspack/plugin-react-refresh": "^1.5.1",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",

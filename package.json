@@ -24,9 +24,9 @@
     "cross-env": "10.0.0",
     "husky": "9.1.7",
     "lint-staged": "16.1.6",
-    "taze": "^19.6.0"
+    "taze": "^19.7.0"
   },
-  "packageManager": "pnpm@10.16.1",
+  "packageManager": "pnpm@10.17.0",
   "pnpm": {
     "overrides": {
       "react-focus-lock": "2.13.6"
