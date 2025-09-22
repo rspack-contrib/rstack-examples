@@ -16,9 +16,9 @@
     "@rsbuild/plugin-react": "^1.4.0",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
-    "@unocss/preset-attributify": "^0.65.4",
-    "@unocss/preset-uno": "^0.65.4",
-    "@unocss/webpack": "^0.65.4",
+    "@unocss/preset-attributify": "^66.5.1",
+    "@unocss/preset-uno": "^66.5.1",
+    "@unocss/webpack": "^66.5.1",
     "typescript": "^5.9.2"
   }
 }
