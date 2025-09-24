@@ -1087,6 +1087,28 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
 
+  rslib/react-basic:
+    dependencies:
+      react-dom:
+        specifier: '>=16.9.0'
+        version: 19.1.1(react@19.1.1)
+    devDependencies:
+      '@rsbuild/plugin-react':
+        specifier: ^1.4.0
+        version: 1.4.0(@rsbuild/core@1.5.12)(webpack-hot-middleware@2.26.1)
+      '@rslib/core':
+        specifier: ^0.14.0
+        version: 0.14.0(typescript@5.9.2)
+      '@types/react':
+        specifier: ^19.1.13
+        version: 19.1.13
+      react:
+        specifier: ^19.1.1
+        version: 19.1.1
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
   rspack/basic:
     devDependencies:
       '@rspack/cli':
@@ -18512,6 +18534,14 @@ snapshots:
   '@rsbuild/plugin-react@1.4.0(@rsbuild/core@1.5.10)(webpack-hot-middleware@2.26.1)':
     dependencies:
       '@rsbuild/core': 1.5.10
+      '@rspack/plugin-react-refresh': 1.5.0(react-refresh@0.17.0)(webpack-hot-middleware@2.26.1)
+      react-refresh: 0.17.0
+    transitivePeerDependencies:
+      - webpack-hot-middleware
+
+  '@rsbuild/plugin-react@1.4.0(@rsbuild/core@1.5.12)(webpack-hot-middleware@2.26.1)':
+    dependencies:
+      '@rsbuild/core': 1.5.12
       '@rspack/plugin-react-refresh': 1.5.0(react-refresh@0.17.0)(webpack-hot-middleware@2.26.1)
       react-refresh: 0.17.0
     transitivePeerDependencies:
