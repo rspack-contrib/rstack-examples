@@ -1,5 +1,5 @@
 {
-  "name": "vue-storybook",
+  "name": "rslib-vue-storybook",
   "version": "0.0.0",
   "type": "module",
   "exports": {

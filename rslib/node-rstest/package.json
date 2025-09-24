@@ -1,5 +1,5 @@
 {
-  "name": "node-rstest",
+  "name": "rslib-node-rstest",
   "version": "0.0.0",
   "type": "module",
   "exports": {
