@@ -11,6 +11,7 @@
     "build:rspack": "pnpm --filter \"example-*\" build",
     "test:rspack": "pnpm --filter \"example-*\" test",
     "build:rspress": "pnpm --filter \"rspress-*\" build",
+    "build:rslib": "pnpm --filter \"rslib-*\" build",
     "prepare": "husky",
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\""
   },
