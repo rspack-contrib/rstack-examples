@@ -1,0 +1,21 @@
+{
+  "name": "rslib-web-worker",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./worker": "./dist/worker.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.14.0",
+    "@types/node": "^22.18.6",
+    "typescript": "^5.9.2"
+  }
+}
