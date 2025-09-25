@@ -1304,6 +1304,31 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
 
+  rslib/react-less:
+    dependencies:
+      react-dom:
+        specifier: '>=16.9.0'
+        version: 19.1.1(react@19.1.1)
+    devDependencies:
+      '@rsbuild/plugin-less':
+        specifier: ^1.5.0
+        version: 1.5.0(@rsbuild/core@1.5.12)
+      '@rsbuild/plugin-react':
+        specifier: ^1.4.1
+        version: 1.4.1(@rsbuild/core@1.5.12)(webpack-hot-middleware@2.26.1)
+      '@rslib/core':
+        specifier: ^0.14.0
+        version: 0.14.0(typescript@5.9.2)
+      '@types/react':
+        specifier: ^19.1.13
+        version: 19.1.13
+      react:
+        specifier: ^19.1.1
+        version: 19.1.1
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
   rslib/react-rstest:
     dependencies:
       react-dom:
@@ -20580,6 +20605,12 @@ snapshots:
   '@rsbuild/plugin-less@1.5.0(@rsbuild/core@1.5.10)':
     dependencies:
       '@rsbuild/core': 1.5.10
+      deepmerge: 4.3.1
+      reduce-configs: 1.1.1
+
+  '@rsbuild/plugin-less@1.5.0(@rsbuild/core@1.5.12)':
+    dependencies:
+      '@rsbuild/core': 1.5.12
       deepmerge: 4.3.1
       reduce-configs: 1.1.1
 
