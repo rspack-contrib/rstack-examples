@@ -1,0 +1,14 @@
+{
+  "name": "rslib-module-federation",
+  "private": true,
+  "scripts": {
+    "build:lib": "pnpm --filter rslib-mf-react-component run build",
+    "dev:all:host": "pnpm dev:host & pnpm dev:mf & pnpm dev:remote",
+    "dev:all:storybook": "pnpm dev:mf & pnpm dev:storybook & pnpm dev:remote",
+    "dev:host": "pnpm --filter rslib-mf-host dev",
+    "dev:mf": "pnpm --filter rslib-mf-react-component dev",
+    "dev:remote": "pnpm --filter rslib-mf-remote dev",
+    "dev:storybook": "pnpm --filter rslib-mf-react-component storybook",
+    "serve:lib": "pnpm --filter rslib-mf-react-component run serve"
+  }
+}

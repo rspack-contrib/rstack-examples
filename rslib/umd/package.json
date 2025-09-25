@@ -1,0 +1,25 @@
+{
+  "name": "rslib-umd",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "unpkg": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch"
+  },
+  "devDependencies": {
+    "@rsbuild/plugin-react": "^1.4.0",
+    "@rsbuild/plugin-sass": "^1.4.0",
+    "@rslib/core": "^0.14.0",
+    "@types/react": "^19.1.13",
+    "react": "^19.1.1",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

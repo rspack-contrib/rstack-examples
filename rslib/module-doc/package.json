@@ -1,0 +1,37 @@
+{
+  "name": "rslib-module-doc",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "doc": "rspress dev",
+    "doc:build": "rspress build",
+    "doc:preview": "rspress preview"
+  },
+  "devDependencies": {
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@rslib/core": "^0.14.0",
+    "@rspress/core": "^2.0.0-beta.33",
+    "@rspress/plugin-api-docgen": "^2.0.0-beta.33",
+    "@rspress/plugin-preview": "^2.0.0-beta.33",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "react": "^19.1.1",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  }
+}

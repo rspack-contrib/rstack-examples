@@ -1,0 +1,18 @@
+.counter-title {
+  width: @logo-size;
+  height: @logo-size;
+  background: no-repeat url('./assets/logo.svg');
+  background-size: cover;
+  
+  &:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+}
+
+.counter-text {
+  font-size: @text-size;
+  color: @primary-color;
+  font-weight: bold;
+}

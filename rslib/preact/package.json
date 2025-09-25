@@ -1,0 +1,28 @@
+{
+  "name": "rslib-preact",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch"
+  },
+  "devDependencies": {
+    "@rsbuild/plugin-preact": "^1.5.2",
+    "@rslib/core": "^0.14.0",
+    "preact": "^10.27.2",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "preact": "^10"
+  }
+}

@@ -5,14 +5,15 @@
   "license": "MIT",
   "scripts": {
     "bump": "taze -l",
-    "build": "npm run build:rspack && npm run build:rsbuild && npm run build:rspress && npm run build:rsdoctor",
+    "build": "npm run build:rspack && npm run build:rsbuild && npm run build:rspress && npm run build:rsdoctor && npm run build:rslib",
     "build:rsbuild": "pnpm --filter \"rsbuild-*\" build",
     "build:rsdoctor": "pnpm --filter \"rsdoctor-*\" build",
     "build:rspack": "pnpm --filter \"example-*\" build",
     "test:rspack": "pnpm --filter \"example-*\" test",
     "build:rspress": "pnpm --filter \"rspress-*\" build",
+    "build:rslib": "pnpm --filter \"rslib-*\" build",
     "prepare": "husky",
-    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\""
+    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\""
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
