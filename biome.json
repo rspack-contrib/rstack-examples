@@ -12,6 +12,7 @@
       "**/rsbuild/**",
       "**/rspress/**",
       "**/rsdoctor/**",
+      "**/rslib/**",
       "!**/dist",
       "!**/dist-*",
       "!**/doc_build",
@@ -55,7 +56,10 @@
         "**/tsconfig-*.json"
       ],
       "json": {
-        "parser": { "allowComments": true, "allowTrailingCommas": true }
+        "parser": {
+          "allowComments": true,
+          "allowTrailingCommas": true
+        }
       }
     },
     {
