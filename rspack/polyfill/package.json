@@ -17,7 +17,7 @@
     "core-js": "3.45.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.5.5",
-    "@rspack/core": "1.5.5"
+    "@rspack/cli": "1.5.7",
+    "@rspack/core": "1.5.7"
   }
 }

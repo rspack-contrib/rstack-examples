@@ -17,10 +17,10 @@
     "dev": "rslib build --watch"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.0",
+    "@rsbuild/plugin-react": "^1.4.1",
     "@rslib/core": "^0.14.0",
     "@tailwindcss/postcss": "^4.1.13",
-    "@types/react": "^19.1.13",
+    "@types/react": "^19.1.15",
     "react": "^19.1.1",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2"

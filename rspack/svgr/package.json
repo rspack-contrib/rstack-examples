@@ -14,8 +14,8 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.5.5",
-    "@rspack/core": "1.5.5",
+    "@rspack/cli": "1.5.7",
+    "@rspack/core": "1.5.7",
     "@svgr/webpack": "8.1.0",
     "url-loader": "4.1.1"
   }
