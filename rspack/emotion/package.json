@@ -20,8 +20,8 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.5.5",
-    "@rspack/core": "1.5.5",
+    "@rspack/cli": "1.5.7",
+    "@rspack/core": "1.5.7",
     "@swc/plugin-emotion": "^11.1.0"
   }
 }
