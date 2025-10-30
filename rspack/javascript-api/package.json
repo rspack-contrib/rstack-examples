@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@rspack/core": "1.5.7",
+    "@rspack/core": "1.6.0",
     "@types/node": "^22.18.6",
     "typescript": "^5.9.2"
   }

@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.4.1",
-    "@rslib/core": "^0.16.0",
+    "@rslib/core": "^0.16.1",
     "@rspress/core": "^2.0.0-beta.34",
     "@rspress/plugin-api-docgen": "^2.0.0-beta.34",
     "@rspress/plugin-preview": "^2.0.0-beta.34",

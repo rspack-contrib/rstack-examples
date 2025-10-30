@@ -13,7 +13,7 @@
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.5.12",
+    "@rsbuild/core": "^1.6.0",
     "@rsbuild/plugin-react": "^1.4.1",
     "@tailwindcss/postcss": "^4.1.10",
     "@types/react": "^19.1.15",
