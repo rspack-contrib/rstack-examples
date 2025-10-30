@@ -727,8 +727,8 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1(@rsbuild/core@1.6.0)(webpack-hot-middleware@2.26.1)
       '@rsbuild/plugin-styled-components':
-        specifier: ^1.4.1
-        version: 1.4.1(@rsbuild/core@1.6.0)
+        specifier: ^1.5.0
+        version: 1.5.0(@rsbuild/core@1.6.0)
       '@types/react':
         specifier: ^19.1.15
         version: 19.1.15
@@ -6746,10 +6746,10 @@ packages:
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rsbuild/plugin-styled-components@1.4.1':
-    resolution: {integrity: sha512-M3RRoQdDDy8l8lv323TrCst2/bdB2nd0GtAApJ6iOIwkGsWKuIlLI2l2TBgIrf3kHch9i4WvYFaVEA/j65tGCA==}
+  '@rsbuild/plugin-styled-components@1.5.0':
+    resolution: {integrity: sha512-OzxeQKz0PxQEiwaQ2tOytK/KZ2UjApqB9Mh+EU84d+17lZ67o2e0NU5Q4NXUx/71JajpOpBwlkUH+3bc1fVxzA==}
     peerDependencies:
-      '@rsbuild/core': ^1.4.0-beta.4 || ^1.4.0
+      '@rsbuild/core': ^1.6.0 || ^1.4.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -7718,9 +7718,6 @@ packages:
 
   '@swc/plugin-styled-components@10.0.0':
     resolution: {integrity: sha512-IbnTXsJMBWiexuykaQy3mDiAo9l7V3b9oC7X1pXwYdu8nIeYJIH6if86o6xxALEVc3/logRhI0mHVnc7bct3KA==}
-
-  '@swc/plugin-styled-components@9.0.3':
-    resolution: {integrity: sha512-BoJ2v4WtXj2/Cbyqx/pctG7w8FxYrfm8zkroz+B5mpZHBVqa0XKP0YOK6e1NbBXOztXdYq2nRT7TadzrylnuJA==}
 
   '@swc/plugin-styled-jsx@11.0.0':
     resolution: {integrity: sha512-fkplOHQsoxwh8xo5FYTEUrVRRZZAsXs0Aq0v3mm0Kk4Frao1JOdd6ZMlGBFDe5K0prYz+jx1KlEntFkwMFyA6g==}
@@ -21028,10 +21025,10 @@ snapshots:
       - solid-js
       - supports-color
 
-  '@rsbuild/plugin-styled-components@1.4.1(@rsbuild/core@1.6.0)':
+  '@rsbuild/plugin-styled-components@1.5.0(@rsbuild/core@1.6.0)':
     dependencies:
-      '@swc/plugin-styled-components': 9.0.3
-      reduce-configs: 1.1.0
+      '@swc/plugin-styled-components': 10.0.0
+      reduce-configs: 1.1.1
     optionalDependencies:
       '@rsbuild/core': 1.6.0
 
@@ -22427,10 +22424,6 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@swc/plugin-styled-components@9.0.3':
-    dependencies:
-      '@swc/counter': 0.1.3
-
   '@swc/plugin-styled-jsx@11.0.0':
     dependencies:
       '@swc/counter': 0.1.3
@@ -22967,8 +22960,8 @@ snapshots:
   '@types/webpack@5.28.5(webpack-cli@6.0.1)':
     dependencies:
       '@types/node': 24.5.2
-      tapable: 2.2.3
-      webpack: 5.101.3(webpack-cli@6.0.1)
+      tapable: 2.3.0
+      webpack: 5.102.1(webpack-cli@6.0.1)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
@@ -23264,7 +23257,7 @@ snapshots:
   '@vitest/snapshot@3.2.4':
     dependencies:
       '@vitest/pretty-format': 3.2.4
-      magic-string: 0.30.19
+      magic-string: 0.30.21
       pathe: 2.0.3
 
   '@vitest/spy@3.2.4':
@@ -29709,7 +29702,7 @@ snapshots:
 
   node-abi@3.75.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
     optional: true
 
   node-addon-api@7.1.1:
@@ -30450,7 +30443,7 @@ snapshots:
       jstransformer: 1.0.0
       pug-error: 2.1.0
       pug-walk: 2.0.0
-      resolve: 1.22.10
+      resolve: 1.22.11
 
   pug-lexer@5.0.1:
     dependencies:
@@ -32570,6 +32563,16 @@ snapshots:
       terser: 5.37.0
       webpack: 5.101.3(webpack-cli@6.0.1)
 
+  terser-webpack-plugin@5.3.14(webpack@5.102.1(webpack-cli@6.0.1)):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.25
+      jest-worker: 27.5.1
+      schema-utils: 4.3.0
+      serialize-javascript: 6.0.2
+      terser: 5.37.0
+      webpack: 5.102.1(webpack-cli@6.0.1)
+    optional: true
+
   terser-webpack-plugin@5.3.14(webpack@5.102.1):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
@@ -33412,7 +33415,7 @@ snapshots:
       chai: 5.3.3
       debug: 4.4.3
       expect-type: 1.2.2
-      magic-string: 0.30.19
+      magic-string: 0.30.21
       pathe: 2.0.3
       picomatch: 4.0.3
       std-env: 3.9.0
@@ -34153,6 +34156,41 @@ snapshots:
       - '@swc/core'
       - esbuild
       - uglify-js
+
+  webpack@5.102.1(webpack-cli@6.0.1):
+    dependencies:
+      '@types/eslint-scope': 3.7.7
+      '@types/estree': 1.0.8
+      '@types/json-schema': 7.0.15
+      '@webassemblyjs/ast': 1.14.1
+      '@webassemblyjs/wasm-edit': 1.14.1
+      '@webassemblyjs/wasm-parser': 1.14.1
+      acorn: 8.15.0
+      acorn-import-phases: 1.0.4(acorn@8.15.0)
+      browserslist: 4.27.0
+      chrome-trace-event: 1.0.4
+      enhanced-resolve: 5.18.3
+      es-module-lexer: 1.7.0
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.0
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 4.3.3
+      tapable: 2.3.0
+      terser-webpack-plugin: 5.3.14(webpack@5.102.1(webpack-cli@6.0.1))
+      watchpack: 2.4.4
+      webpack-sources: 3.3.3
+    optionalDependencies:
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.2)(webpack@5.101.3)
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+    optional: true
 
   websocket-driver@0.7.4:
     dependencies:
