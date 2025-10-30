@@ -16,6 +16,6 @@
   "devDependencies": {
     "@rspack/cli": "1.6.0",
     "@rspack/core": "1.6.0",
-    "@sentry/webpack-plugin": "3.6.1"
+    "@sentry/webpack-plugin": "4.6.0"
   }
 }
