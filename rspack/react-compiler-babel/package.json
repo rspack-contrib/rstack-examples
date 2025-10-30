@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.17",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-refresh": "0.17.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-refresh": "0.18.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.27.1",

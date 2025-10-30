@@ -8,7 +8,7 @@
     "@rspack/cli": "1.6.0",
     "@rspack/core": "1.6.0",
     "license-webpack-plugin": "^4.0.2",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }

@@ -16,7 +16,7 @@
     "preact": "10.27.2"
   },
   "devDependencies": {
-    "@prefresh/core": "1.5.7",
+    "@prefresh/core": "1.5.8",
     "@prefresh/utils": "1.2.1",
     "@rspack/cli": "1.6.0",
     "@rspack/core": "1.6.0",

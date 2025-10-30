@@ -10,6 +10,6 @@
   "devDependencies": {
     "@rsbuild/core": "^1.6.0",
     "@rsbuild/plugin-umd": "^1.0.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }

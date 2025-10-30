@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.17",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@rspack/cli": "1.6.0",

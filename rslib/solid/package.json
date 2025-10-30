@@ -19,10 +19,10 @@
   "devDependencies": {
     "@rsbuild/plugin-babel": "^1.0.6",
     "@rsbuild/plugin-solid": "^1.0.6",
-    "@rslib/core": "^0.16.1",
+    "@rslib/core": "^0.17.0",
     "preact": "^10.27.2",
-    "solid-js": "^1.9.9",
-    "typescript": "^5.9.2"
+    "solid-js": "^1.9.10",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "solid-js": "^1.0.0"

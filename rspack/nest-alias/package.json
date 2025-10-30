@@ -15,11 +15,11 @@
     "@rspack/core": "1.6.0",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "webpack": "^5.101.3",
+    "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
   }
 }

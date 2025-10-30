@@ -9,17 +9,17 @@
     "dev": "rspack serve "
   },
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.4",
-    "@babel/preset-react": "^7.27.1",
-    "@babel/preset-typescript": "^7.27.1",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
     "@rspack/cli": "1.6.0",
     "@rspack/core": "1.6.0",
     "@rspack/plugin-react-refresh": "^1.5.2",
     "babel-loader": "^10.0.0",
-    "react-refresh": "0.17.0"
+    "react-refresh": "0.18.0"
   }
 }

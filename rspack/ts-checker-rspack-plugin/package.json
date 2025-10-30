@@ -9,6 +9,6 @@
     "@rspack/cli": "1.6.0",
     "@rspack/core": "1.6.0",
     "ts-checker-rspack-plugin": "^1.1.6",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }

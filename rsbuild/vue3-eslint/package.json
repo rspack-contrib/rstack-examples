@@ -14,10 +14,10 @@
     "@rsbuild/core": "^1.6.0",
     "@rsbuild/plugin-eslint": "^1.1.2",
     "@rsbuild/plugin-vue": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^8.44.1",
-    "@typescript-eslint/parser": "^8.44.1",
-    "eslint": "^9.36.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
     "eslint-plugin-vue": "^9.33.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
