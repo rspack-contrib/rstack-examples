@@ -13,6 +13,6 @@
   "devDependencies": {
     "@rsbuild/core": "^1.6.0",
     "@rsbuild/plugin-svelte": "^1.0.11",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }

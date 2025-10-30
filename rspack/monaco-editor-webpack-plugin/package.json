@@ -11,7 +11,7 @@
   "dependencies": {
     "@rspack/cli": "1.6.0",
     "@rspack/core": "1.6.0",
-    "monaco-editor": "^0.53.0",
-    "monaco-editor-webpack-plugin": "^7.1.0"
+    "monaco-editor": "^0.54.0",
+    "monaco-editor-webpack-plugin": "^7.1.1"
   }
 }

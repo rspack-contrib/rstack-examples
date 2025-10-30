@@ -17,11 +17,11 @@
     "dev": "rslib build --watch"
   },
   "devDependencies": {
-    "@rslib/core": "^0.16.1",
+    "@rslib/core": "^0.17.0",
     "rsbuild-plugin-unplugin-vue": "^0.1.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vue": "^3.5.21",
-    "vue-tsc": "^3.1.0"
+    "vue-tsc": "^3.1.2"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

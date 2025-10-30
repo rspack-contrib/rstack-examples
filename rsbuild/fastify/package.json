@@ -11,6 +11,6 @@
     "@fastify/middie": "^9.0.3",
     "@rsbuild/core": "^1.6.0",
     "fastify": "^5.6.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
