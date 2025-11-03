@@ -13,10 +13,7 @@ function getAbsolutePath(value: string): any {
 }
 
 const config: StorybookConfig = {
-  stories: [
-    '../stories/**/*.mdx',
-    '../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)',
-  ],
+  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   framework: {
     name: getAbsolutePath('storybook-react-rsbuild'),
     options: {},
@@ -31,11 +28,10 @@ const config: StorybookConfig = {
       },
     },
     {
-      name: '@module-federation/storybook-addon/preset',
+      name: getAbsolutePath('@module-federation/storybook-addon/preset'),
       options: {
         remotes: {
-          'rslib-module':
-            'rslib-module@http://localhost:3001/mf/mf-manifest.json',
+          'rslib-module': 'rslib-module@http://localhost:3001/mf/mf-manifest.json',
         },
       },
     },
