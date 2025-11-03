@@ -25,7 +25,7 @@
     "@rspress/core": "^2.0.0-beta.35",
     "@rspress/plugin-api-docgen": "^2.0.0-beta.35",
     "@rspress/plugin-preview": "^2.0.0-beta.35",
-    "@types/node": "^24.9.2",
+    "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "react": "^19.2.0",
     "typescript": "^5.9.3"
