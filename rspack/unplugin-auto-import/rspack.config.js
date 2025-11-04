@@ -1,9 +1,9 @@
-const { defineConfig } = require('@rspack/cli');
-const { VueLoaderPlugin } = require('vue-loader');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const AutoImport = require('unplugin-auto-import/rspack').default;
+import { defineConfig } from '@rspack/cli';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import AutoImport from 'unplugin-auto-import/rspack';
+import { VueLoaderPlugin } from 'vue-loader';
 
-module.exports = defineConfig({
+export default defineConfig({
   plugins: [
     AutoImport({
       imports: ['vue'],

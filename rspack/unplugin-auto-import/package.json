@@ -1,6 +1,7 @@
 {
-  "name": "example-rspack-unplugin_1.6",
+  "name": "example-rspack-unplugin-auto-import",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "rspack serve",
     "build": "rspack build"
