@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     // for shadcn/ui below
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },

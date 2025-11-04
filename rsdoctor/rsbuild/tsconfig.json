@@ -6,7 +6,6 @@
     "allowJs": true,
     "module": "ES2020",
     "outDir": "dist",
-    "baseUrl": ".",
     "strict": true,
     "isolatedModules": true,
     "esModuleInterop": true,
