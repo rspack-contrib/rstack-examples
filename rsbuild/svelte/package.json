@@ -1,6 +1,7 @@
 {
   "name": "rsbuild-svelte",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "rsbuild build",
