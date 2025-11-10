@@ -13,13 +13,13 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.0",
-    "@rsbuild/plugin-react": "^1.4.1",
+    "@rsbuild/core": "^1.6.3",
+    "@rsbuild/plugin-react": "^1.4.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "@unocss/preset-attributify": "^66.5.4",
-    "@unocss/preset-uno": "^66.5.4",
-    "@unocss/webpack": "^66.5.4",
+    "@unocss/preset-attributify": "^66.5.5",
+    "@unocss/preset-uno": "^66.5.5",
+    "@unocss/webpack": "^66.5.5",
     "typescript": "^5.9.3"
   }
 }

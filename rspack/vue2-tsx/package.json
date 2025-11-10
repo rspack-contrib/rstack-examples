@@ -14,8 +14,8 @@
   "devDependencies": {
     "@babel/core": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
-    "@rspack/cli": "1.6.0",
-    "@rspack/core": "1.6.0",
+    "@rspack/cli": "1.6.1",
+    "@rspack/core": "1.6.1",
     "@vue/babel-preset-jsx": "^1.4.0",
     "babel-loader": "^10.0.0",
     "less": "4.4.2",

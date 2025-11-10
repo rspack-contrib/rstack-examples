@@ -9,19 +9,19 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@radix-ui/react-label": "^2.1.7",
-    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.552.0",
+    "lucide-react": "^0.553.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "tailwind-merge": "^3.3.1",
+    "tailwind-merge": "^3.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.0",
-    "@rsbuild/plugin-react": "^1.4.1",
+    "@rsbuild/core": "^1.6.3",
+    "@rsbuild/plugin-react": "^1.4.2",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
