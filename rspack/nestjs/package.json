@@ -15,16 +15,16 @@
     "start": "node dist/main.js"
   },
   "dependencies": {
-    "@nestjs/common": "^11.1.8",
-    "@nestjs/core": "^11.1.8",
-    "@nestjs/platform-express": "^11.1.8",
+    "@nestjs/common": "^11.1.9",
+    "@nestjs/core": "^11.1.9",
+    "@nestjs/platform-express": "^11.1.9",
     "reflect-metadata": "^0.2.2",
     "run-script-webpack-plugin": "0.2.3",
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "1.6.4",
+    "@rspack/core": "1.6.4",
     "cross-env": "10.1.0"
   }
 }

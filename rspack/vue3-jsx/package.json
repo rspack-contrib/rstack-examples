@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "1.6.4",
+    "@rspack/core": "1.6.4",
     "@vue/babel-plugin-jsx": "2.0.1",
     "babel-loader": "10.0.0"
   }

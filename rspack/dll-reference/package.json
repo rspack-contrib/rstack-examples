@@ -6,8 +6,8 @@
     "build": "rspack build || echo 'make-ci-happy'"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "1.6.4",
+    "@rspack/core": "1.6.4",
     "lodash": "4.17.21",
     "typescript": "^5.9.3"
   }
