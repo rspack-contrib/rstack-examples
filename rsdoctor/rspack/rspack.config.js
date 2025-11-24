@@ -51,7 +51,14 @@ module.exports = {
     }),
     process.env.RSDOCTOR === 'true' &&
       new RsdoctorRspackPlugin({
-        features: ['bundle', 'plugins', 'loader'],
+        disableClientServer: process.env.ENABLE_CLIENT_SERVER === 'false',
+        features: ['bundle'],
+        output: {
+          mode: 'brief',
+          options: {
+            type: ['json'],
+          },
+        },
       }),
   ],
   experiments: {
