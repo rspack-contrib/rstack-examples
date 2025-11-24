@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.17",
-    "@types/styled-components": "5.1.35",
+    "@types/styled-components": "5.1.36",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "styled-components": "6.1.19"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "1.6.4",
+    "@rspack/core": "1.6.4",
     "react-refresh": "^0.18.0"
   }
 }
