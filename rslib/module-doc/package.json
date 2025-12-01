@@ -21,12 +21,12 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.4.2",
-    "@rslib/core": "^0.18.0",
+    "@rslib/core": "^0.18.2",
     "@rspress/core": "^2.0.0-rc.1",
     "@rspress/plugin-api-docgen": "^2.0.0-rc.1",
     "@rspress/plugin-preview": "^2.0.0-rc.1",
     "@types/node": "^24.10.1",
-    "@types/react": "^19.2.6",
+    "@types/react": "^19.2.7",
     "react": "^19.2.0",
     "typescript": "^5.9.3"
   },
