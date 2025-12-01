@@ -13,10 +13,10 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.7",
+    "@rsbuild/core": "^1.6.10",
     "@rsbuild/plugin-react": "1.4.2",
     "@types/express": "^5.0.5",
-    "@types/react": "^19.2.6",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",
     "express": "^5.1.0",
