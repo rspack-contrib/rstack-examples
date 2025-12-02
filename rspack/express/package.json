@@ -14,7 +14,7 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "express": "5.1.0"
+    "express": "5.2.0"
   },
   "devDependencies": {
     "@rspack/cli": "1.6.5",
