@@ -8,15 +8,15 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@rspack/cli": "1.6.5",
-    "@rspack/core": "1.6.5",
+    "@rspack/cli": "1.6.6",
+    "@rspack/core": "1.6.6",
     "@vanilla-extract/css": "1.17.5",
     "@vanilla-extract/sprinkles": "^1.6.5",
     "@vanilla-extract/webpack-plugin": "^2.3.24",
     "html-webpack-plugin": "^5.6.5",
     "polished": "^4.3.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "tailwindcss": "3.4.18"
   },
   "devDependencies": {

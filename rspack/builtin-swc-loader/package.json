@@ -10,15 +10,15 @@
   },
   "dependencies": {
     "lib3": "workspace:*",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "react-refresh": "0.18.0",
     "vue": "3.5.8"
   },
   "devDependencies": {
     "@lingui/swc-plugin": "^5.6.1",
-    "@rspack/cli": "1.6.5",
-    "@rspack/core": "1.6.5",
+    "@rspack/cli": "1.6.6",
+    "@rspack/core": "1.6.6",
     "@swc/helpers": "^0.5.17",
     "@swc/plugin-emotion": "^12.0.0",
     "@swc/plugin-loadable-components": "^9.0.0",
