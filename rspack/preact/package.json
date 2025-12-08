@@ -9,14 +9,14 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@rspack/cli": "1.6.5",
+    "@rspack/cli": "1.6.6",
     "@swc/helpers": "^0.5.17",
-    "preact": "10.27.2"
+    "preact": "10.28.0"
   },
   "devDependencies": {
     "@prefresh/babel-plugin": "0.5.2",
     "@prefresh/webpack": "4.0.6",
-    "@rspack/core": "1.6.5"
+    "@rspack/core": "1.6.6"
   },
   "resolve": {
     "alias": {

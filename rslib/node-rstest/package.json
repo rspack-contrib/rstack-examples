@@ -20,8 +20,8 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rslib/core": "^0.18.2",
-    "@rstest/core": "^0.6.8",
+    "@rslib/core": "^0.18.3",
+    "@rstest/core": "^0.7.0",
     "@types/node": "^24.10.1",
     "typescript": "^5.9.3"
   }
