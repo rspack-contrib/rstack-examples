@@ -9,10 +9,10 @@
     "dev": "rspack serve"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.6",
-    "@rspack/core": "1.6.6",
+    "@rspack/cli": "1.6.7",
+    "@rspack/core": "1.6.7",
     "css-loader": "^7.1.2",
-    "less": "4.4.2",
+    "less": "4.5.1",
     "less-loader": "^12.3.0",
     "vue": "2.7.14",
     "vue-loader": "^15.10.1",
