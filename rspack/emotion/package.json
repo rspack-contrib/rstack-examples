@@ -22,6 +22,6 @@
   "devDependencies": {
     "@rspack/cli": "1.7.0-beta.0",
     "@rspack/core": "1.7.0-beta.0",
-    "@swc/plugin-emotion": "^12.0.0"
+    "@swc/plugin-emotion": "^14.0.1"
   }
 }

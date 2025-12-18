@@ -1888,8 +1888,8 @@ importers:
         specifier: 1.7.0-beta.0
         version: 1.7.0-beta.0(@swc/helpers@0.5.17)
       '@swc/plugin-emotion':
-        specifier: ^12.0.0
-        version: 12.0.0
+        specifier: ^14.0.1
+        version: 14.0.1
 
   rspack/eslint:
     devDependencies:
@@ -2743,8 +2743,8 @@ importers:
         specifier: ^1.1.4
         version: 1.1.4(@prefresh/core@1.5.9(preact@10.28.0))(@prefresh/utils@1.2.1)
       '@swc/plugin-prefresh':
-        specifier: ^10.0.0
-        version: 10.0.0
+        specifier: ^12.0.1
+        version: 12.0.1
 
   rspack/proxy:
     devDependencies:
@@ -7770,17 +7770,11 @@ packages:
     peerDependencies:
       '@swc/core': '*'
 
-  '@swc/plugin-emotion@12.0.0':
-    resolution: {integrity: sha512-I2GmyZBtikDWPz3MsgFf32w4Uy1ek6WWv+rRrKoJjFuseexqvpnu8XhRmekYUYjubnlhoBkDqzfZgMJYqfecPg==}
-
   '@swc/plugin-emotion@14.0.1':
     resolution: {integrity: sha512-hvTw9gwpdHFLw4qVpF77dINLxgJs06mpMIceYtWqTEPmPI5BNGku9JuD3m+C0vGTJRVdb3utPr4I0M+FelbozQ==}
 
   '@swc/plugin-loadable-components@11.0.1':
     resolution: {integrity: sha512-ZVii2gWzN03+zPBLU4MOQmLVBC0sgtEu/vn+NzAZOnpa9AK27P58bsjC2KZ24coYCZxF20BNZWb7J6o7Hc4Y1A==}
-
-  '@swc/plugin-prefresh@10.0.0':
-    resolution: {integrity: sha512-KP8XT2FILHd74lNwJY4CGnda7DBd8TY+EN8qPd1tTjvcUc1CCm1qWtqvC06yQM3G24I0VTDZq3iEcrxHNpQSiw==}
 
   '@swc/plugin-prefresh@12.0.1':
     resolution: {integrity: sha512-SDtHemEY29IolSamLLUz/T+jjyaDp5IwZzNyeXDsWDxiEx9IoosnEpcMuLJgikrCC8byidbd/S+WRPypILvlcw==}
@@ -22169,19 +22163,11 @@ snapshots:
       '@swc/counter': 0.1.3
       jsonc-parser: 3.2.1
 
-  '@swc/plugin-emotion@12.0.0':
-    dependencies:
-      '@swc/counter': 0.1.3
-
   '@swc/plugin-emotion@14.0.1':
     dependencies:
       '@swc/counter': 0.1.3
 
   '@swc/plugin-loadable-components@11.0.1':
-    dependencies:
-      '@swc/counter': 0.1.3
-
-  '@swc/plugin-prefresh@10.0.0':
     dependencies:
       '@swc/counter': 0.1.3
 
