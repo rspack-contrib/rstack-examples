@@ -17,7 +17,7 @@
     "lodash": "4.17.21"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.7",
-    "@rspack/core": "1.6.7"
+    "@rspack/cli": "1.7.0-beta.0",
+    "@rspack/core": "1.7.0-beta.0"
   }
 }

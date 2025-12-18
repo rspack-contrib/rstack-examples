@@ -17,7 +17,7 @@
     "dev": "rslib build --watch"
   },
   "devDependencies": {
-    "@rsbuild/plugin-preact": "^1.6.0",
+    "@rsbuild/plugin-preact": "^1.7.0-beta.0",
     "@rslib/core": "^0.18.4",
     "preact": "^10.28.0",
     "typescript": "^5.9.3"
