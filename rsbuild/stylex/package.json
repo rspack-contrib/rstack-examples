@@ -9,7 +9,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@stylexjs/stylex": "^0.17.3",
+    "@stylexjs/stylex": "^0.17.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },

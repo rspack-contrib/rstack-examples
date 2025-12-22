@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "webpack": "^5.103.0",
+    "webpack": "^5.104.1",
     "webpack-cli": "^6.0.1"
   }
 }
