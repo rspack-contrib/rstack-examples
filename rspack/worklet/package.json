@@ -16,6 +16,6 @@
   "devDependencies": {
     "@rspack/cli": "1.7.0-beta.0",
     "@rspack/core": "1.7.0-beta.0",
-    "esbuild": "0.27.1"
+    "esbuild": "0.27.2"
   }
 }

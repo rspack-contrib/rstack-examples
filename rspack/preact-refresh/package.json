@@ -21,7 +21,7 @@
     "@rspack/cli": "1.7.0-beta.0",
     "@rspack/core": "1.7.0-beta.0",
     "@rspack/plugin-preact-refresh": "^1.1.4",
-    "@swc/plugin-prefresh": "^12.0.1"
+    "@swc/plugin-prefresh": "^12.1.0"
   },
   "resolve": {
     "alias": {
