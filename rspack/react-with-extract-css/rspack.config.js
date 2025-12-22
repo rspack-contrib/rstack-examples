@@ -62,8 +62,5 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
-  experiments: {
-    css: false,
-  },
 };
 module.exports = config;

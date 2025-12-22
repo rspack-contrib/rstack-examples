@@ -62,8 +62,5 @@ const config = {
       },
     ],
   },
-  experiments: {
-    css: false,
-  },
 };
 module.exports = config;
