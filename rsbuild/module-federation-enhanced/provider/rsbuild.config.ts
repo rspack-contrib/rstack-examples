@@ -15,5 +15,9 @@ export default defineConfig({
   ],
   server: {
     port: 3000,
+    cors: { origin: '*' },
+  },
+  output: {
+    assetPrefix: 'http://localhost:3000',
   },
 });
