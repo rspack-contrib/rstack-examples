@@ -8,6 +8,8 @@ export default {
   },
   mode: 'production',
   optimization: {
+    // This is the feature that enables inlining, it's enabled by default in production mode
+    inlineExports: true,
     // disable minimize so you can understand the output
     minimize: false,
   },
