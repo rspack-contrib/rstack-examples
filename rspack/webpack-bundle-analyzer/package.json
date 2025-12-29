@@ -8,6 +8,6 @@
   "devDependencies": {
     "@rspack/cli": "1.7.0-beta.0",
     "@rspack/core": "1.7.0-beta.0",
-    "webpack-bundle-analyzer": "^4.10.2"
+    "webpack-bundle-analyzer": "^5.1.0"
   }
 }

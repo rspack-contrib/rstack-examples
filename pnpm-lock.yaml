@@ -3206,8 +3206,8 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       webpack-bundle-analyzer:
-        specifier: 4.10.2
-        version: 4.10.2
+        specifier: 5.1.0
+        version: 5.1.0
 
   rspack/svgr:
     dependencies:
@@ -3596,8 +3596,8 @@ importers:
         specifier: 1.7.0-beta.0
         version: 1.7.0-beta.0(@swc/helpers@0.5.17)
       webpack-bundle-analyzer:
-        specifier: ^4.10.2
-        version: 4.10.2
+        specifier: ^5.1.0
+        version: 5.1.0
 
   rspack/webpack-stats-plugin:
     devDependencies:
@@ -16212,6 +16212,11 @@ packages:
     engines: {node: '>= 10.13.0'}
     hasBin: true
 
+  webpack-bundle-analyzer@5.1.0:
+    resolution: {integrity: sha512-WAWwIoIUx4yC2AEBqXbDkcmh/LzAaenv0+nISBflP5l+XIXO9/x6poWarGA3RTrfavk9H3oWQ64Wm0z26/UGKA==}
+    engines: {node: '>= 20.9.0'}
+    hasBin: true
+
   webpack-cli@6.0.1:
     resolution: {integrity: sha512-MfwFQ6SfwinsUVi0rNJm7rHZ31GyTcpVE5pgVA3hwFRb7COD4TzjUUwhGWKfO50+xdc2MQPuEBBJoqIMGt3JDw==}
     engines: {node: '>=18.12.0'}
@@ -16306,10 +16311,12 @@ packages:
   whatwg-encoding@2.0.0:
     resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
     engines: {node: '>=12'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -32881,6 +32888,23 @@ snapshots:
       debounce: 1.2.1
       escape-string-regexp: 4.0.0
       gzip-size: 6.0.0
+      html-escaper: 2.0.2
+      opener: 1.5.2
+      picocolors: 1.1.1
+      sirv: 2.0.4
+      ws: 7.5.9
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  webpack-bundle-analyzer@5.1.0:
+    dependencies:
+      '@discoveryjs/json-ext': 0.5.7
+      acorn: 8.15.0
+      acorn-walk: 8.3.4
+      commander: 7.2.0
+      debounce: 1.2.1
+      escape-string-regexp: 4.0.0
       html-escaper: 2.0.2
       opener: 1.5.2
       picocolors: 1.1.1
