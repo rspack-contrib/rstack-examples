@@ -19,18 +19,18 @@
     "storybook": "storybook dev"
   },
   "devDependencies": {
-    "@rsbuild/core": "~1.6.15",
-    "@rslib/core": "^0.18.5",
-    "@storybook/addon-docs": "^10.1.10",
-    "@storybook/addon-onboarding": "^10.1.10",
-    "@storybook/vue3": "^10.1.10",
+    "@rsbuild/core": "~1.7.0",
+    "@rslib/core": "^0.19.0",
+    "@storybook/addon-docs": "^10.1.11",
+    "@storybook/addon-onboarding": "^10.1.11",
+    "@storybook/vue3": "^10.1.11",
     "rsbuild-plugin-unplugin-vue": "^0.1.0",
-    "storybook": "^10.1.10",
+    "storybook": "^10.1.11",
     "storybook-addon-rslib": "^3.2.0",
     "storybook-vue3-rsbuild": "^3.2.0",
     "typescript": "^5.9.3",
     "vue": "^3.5.21",
-    "vue-tsc": "^3.2.0"
+    "vue-tsc": "^3.2.1"
   },
   "peerDependencies": {
     "vue": "^3.2.0"
