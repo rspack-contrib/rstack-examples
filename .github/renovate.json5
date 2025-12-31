@@ -58,5 +58,8 @@
     "patch-console",
     "babel-plugin-react-compiler",
     "@tailwindcss/postcss",
+    "@nestjs/common",
+    "@nestjs/core",
+    "@nestjs/platform-express"
   ],
 }
