@@ -9,15 +9,15 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.17",
+    "@swc/helpers": "^0.5.18",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-refresh": "0.18.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.27.1",
-    "@rspack/cli": "1.7.0-beta.0",
-    "@rspack/core": "1.7.0-beta.0",
+    "@rspack/cli": "1.7.0",
+    "@rspack/core": "1.7.0",
     "babel-loader": "^10.0.0",
     "babel-plugin-react-compiler": "0.0.0-experimental-cd3852a-20241229"
   }
