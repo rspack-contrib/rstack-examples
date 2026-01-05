@@ -21,7 +21,7 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.10",
+    "@biomejs/biome": "^2.3.11",
     "cross-env": "10.1.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
