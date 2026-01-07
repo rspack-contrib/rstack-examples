@@ -11,7 +11,7 @@
   "dependencies": {
     "@rspack/cli": "1.7.0",
     "@swc/helpers": "^0.5.18",
-    "preact": "10.28.1"
+    "preact": "10.28.2"
   },
   "devDependencies": {
     "@prefresh/babel-plugin": "0.5.2",
