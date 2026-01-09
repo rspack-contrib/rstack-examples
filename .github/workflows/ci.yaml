@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
       - name: Build Rspack
         run: |
           pnpm build:rspack
@@ -50,3 +53,6 @@ jobs:
       - name: Build Rsdoctor
         run: |
           pnpm build:rsdoctor
+
+      - name: Test Rstest
+        run: pnpm test:rstest

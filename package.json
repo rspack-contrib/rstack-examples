@@ -10,10 +10,11 @@
     "build:rsdoctor": "pnpm --filter \"rsdoctor-*\" build",
     "build:rspack": "pnpm --filter \"example-*\" build",
     "test:rspack": "pnpm --filter \"example-*\" test",
+    "test:rstest": "pnpm --filter \"rstest-*\" test",
     "build:rspress": "pnpm --filter \"rspress-*\" build",
     "build:rslib": "pnpm --filter \"rslib-*\" build",
     "prepare": "husky",
-    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\""
+    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\""
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [

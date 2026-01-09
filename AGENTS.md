@@ -4,9 +4,33 @@ This file provides guidance for AI coding agents working in this repository.
 
 ## Repository Overview
 
-- This is a monorepo of example projects for the Rstack ecosystem: Rspack, Rsbuild, Rspress, Rsdoctor, and Rslib.
+- This is a monorepo of example projects for the Rstack ecosystem: Rspack, Rsbuild, Rspress, Rsdoctor, Rslib, and Rstest.
 - Package manager: `pnpm` (see `package.json#packageManager`).
-- Workspace layout: `pnpm-workspace.yaml` includes `rspack/**`, `rsbuild/**`, `rslib/**`, `rspress/**`, `rsdoctor/**`.
+- Workspace layout: `pnpm-workspace.yaml` includes `rspack/**`, `rsbuild/**`, `rslib/**`, `rspress/**`, `rsdoctor/**`, `rstest/**`.
+
+## Core Purpose of Examples
+
+**The primary goal of each example is to demonstrate "how a specific API achieves a specific effect through specific configuration".**
+
+When creating or modifying examples:
+- **Keep it minimal**: Only include code necessary to demonstrate the target feature/API
+- **Avoid over-engineering**: Don't add complex business logic that distracts from the core demonstration
+- **Focus on the tool, not the ecosystem**: For example, in a test runner example, focus on the test runner's APIs (mocking, assertions, configuration), not on complex DOM manipulation or third-party library integrations
+- **One concept per example**: Each example should ideally demonstrate one main feature or configuration pattern
+- **Clarity over completeness**: A simple, clear example is better than a comprehensive but confusing one
+
+Example of good vs bad:
+```
+# Good: Demonstrates rstest's mocking API
+- Simple mock function usage
+- Clear before/after assertions
+- Minimal setup code
+
+# Bad: Demonstrates rstest's mocking API
+- Complex React component with many interactions
+- Detailed DOM testing with @testing-library
+- Business logic mixed with test assertions
+```
 
 ## Quick Start (Local)
 

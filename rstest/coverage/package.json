@@ -1,0 +1,16 @@
+{
+  "name": "rstest-coverage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "rstest run",
+    "test:coverage": "rstest run --coverage",
+    "test:coverage:html": "rstest run --coverage --coverage.reporter=html",
+    "test:coverage:lcov": "rstest run --coverage --coverage.reporter=lcov"
+  },
+  "devDependencies": {
+    "@rstest/core": "^0.7.9",
+    "@rstest/coverage-istanbul": "^0.1.6",
+    "typescript": "^5.8.3"
+  }
+}

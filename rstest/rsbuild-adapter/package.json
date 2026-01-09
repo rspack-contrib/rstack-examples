@@ -1,0 +1,17 @@
+{
+  "name": "rstest-rsbuild-adapter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "test": "rstest run"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.7.2",
+    "@rstest/adapter-rsbuild": "^0.1.0",
+    "@rstest/core": "^0.7.9",
+    "happy-dom": "^18.0.1",
+    "typescript": "^5.8.3"
+  }
+}
