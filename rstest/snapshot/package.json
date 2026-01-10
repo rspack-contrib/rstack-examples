@@ -1,0 +1,13 @@
+{
+  "name": "rstest-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "rstest run",
+    "test:update": "rstest run --update"
+  },
+  "devDependencies": {
+    "@rstest/core": "^0.7.9",
+    "typescript": "^5.8.3"
+  }
+}

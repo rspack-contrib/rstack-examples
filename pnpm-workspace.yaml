@@ -4,4 +4,5 @@ packages:
   - "rslib/**"
   - "rspress/**"
   - "rsdoctor/**"
+  - "rstest/**"
   - "!**/dist"
