@@ -428,7 +428,7 @@ importers:
         version: 1.4.2(@rsbuild/core@1.7.1)(webpack-hot-middleware@2.26.1)
       '@rstest/core':
         specifier: 0.7.8
-        version: 0.7.8(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.8(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       '@testing-library/jest-dom':
         specifier: ^6.9.1
         version: 6.9.1
@@ -1237,7 +1237,7 @@ importers:
         version: 0.19.1(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.7.8
-        version: 0.7.8(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.8(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       '@types/node':
         specifier: ^24.10.4
         version: 24.10.4
@@ -1343,7 +1343,7 @@ importers:
         version: 0.19.1(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.7.8
-        version: 0.7.8(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.8(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       '@testing-library/jest-dom':
         specifier: ^6.9.1
         version: 6.9.1
@@ -1550,7 +1550,7 @@ importers:
         version: 0.19.1(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.7.8
-        version: 0.7.8(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.8(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       '@testing-library/jest-dom':
         specifier: ^6.9.1
         version: 6.9.1
@@ -3706,13 +3706,13 @@ importers:
         version: 0.1.0(@rsbuild/core@1.7.2)
       '@rstest/browser':
         specifier: ^0.7.9
-        version: 0.7.9(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))(playwright@1.57.0)
+        version: 0.7.9(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))(playwright@1.57.0)
       '@rstest/browser-react':
         specifier: ^0.7.9
-        version: 0.7.9(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        version: 0.7.9(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       '@testing-library/dom':
         specifier: ^10.4.0
         version: 10.4.0
@@ -3745,10 +3745,10 @@ importers:
         version: 1.7.2
       '@rstest/browser':
         specifier: ^0.7.9
-        version: 0.7.9(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))(playwright@1.57.0)
+        version: 0.7.9(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))(playwright@1.57.0)
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       playwright:
         specifier: ^1.57.0
         version: 1.57.0
@@ -3760,10 +3760,10 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       '@rstest/coverage-istanbul':
         specifier: ^0.1.6
-        version: 0.1.6(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))
+        version: 0.1.6(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -3772,7 +3772,7 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -3781,7 +3781,7 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -3796,10 +3796,10 @@ importers:
         version: 0.1.0(@rsbuild/core@1.7.2)
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       happy-dom:
-        specifier: ^18.0.1
-        version: 18.0.1
+        specifier: ^20.0.0
+        version: 20.1.0
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -3814,7 +3814,7 @@ importers:
         version: 0.1.1(@rslib/core@0.19.1(typescript@5.9.3))(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -3823,7 +3823,7 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.7.9
-        version: 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+        version: 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -8508,6 +8508,9 @@ packages:
   '@types/whatwg-mimetype@3.0.2':
     resolution: {integrity: sha512-c2AKvDT8ToxLIOUlN51gTiHXflsfIFisS4pO7pDPoKouJCESkhZnEy623gwP9laCy5lnLDAw1vAzu2vM2YLOrA==}
 
+  '@types/ws@8.18.1':
+    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
+
   '@types/ws@8.5.10':
     resolution: {integrity: sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A==}
 
@@ -11437,8 +11440,8 @@ packages:
     engines: {node: '>=0.4.7'}
     hasBin: true
 
-  happy-dom@18.0.1:
-    resolution: {integrity: sha512-qn+rKOW7KWpVTtgIUi6RVmTBZJSe2k0Db0vh1f7CWrWclkkc7/Q+FrOfkZIb2eiErLyqu5AXEzE7XthO9JVxRA==}
+  happy-dom@20.1.0:
+    resolution: {integrity: sha512-ebvqjBqzenBk2LjzNEAzoj7yhw7rW/R2/wVevMu6Mrq3MXtcI/RUz4+ozpcOcqVLEWPqLfg2v9EAU7fFXZUUJw==}
     engines: {node: '>=20.0.0'}
 
   has-ansi@2.0.0:
@@ -21988,16 +21991,16 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  '@rstest/browser-react@0.7.9(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@rstest/browser-react@0.7.9(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@rstest/core': 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+      '@rstest/core': 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@rstest/browser@0.7.9(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))(playwright@1.57.0)':
+  '@rstest/browser@0.7.9(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))(playwright@1.57.0)':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      '@rstest/core': 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+      '@rstest/core': 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       convert-source-map: 2.0.0
       open-editor: 4.1.1
       pathe: 2.0.3
@@ -22009,27 +22012,27 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@rstest/core@0.7.8(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))':
+  '@rstest/core@0.7.8(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))':
     dependencies:
       '@rsbuild/core': 1.7.1
       '@types/chai': 5.2.3
       tinypool: 1.1.1
     optionalDependencies:
-      happy-dom: 18.0.1
+      happy-dom: 20.1.0
       jsdom: 27.4.0(postcss@8.5.6)
 
-  '@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))':
+  '@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))':
     dependencies:
       '@rsbuild/core': 1.7.1
       '@types/chai': 5.2.3
       tinypool: 1.1.1
     optionalDependencies:
-      happy-dom: 18.0.1
+      happy-dom: 20.1.0
       jsdom: 27.4.0(postcss@8.5.6)
 
-  '@rstest/coverage-istanbul@0.1.6(@rstest/core@0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6)))':
+  '@rstest/coverage-istanbul@0.1.6(@rstest/core@0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6)))':
     dependencies:
-      '@rstest/core': 0.7.9(happy-dom@18.0.1)(jsdom@27.4.0(postcss@8.5.6))
+      '@rstest/core': 0.7.9(happy-dom@20.1.0)(jsdom@27.4.0(postcss@8.5.6))
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
       istanbul-lib-source-maps: 5.0.6
@@ -23051,6 +23054,10 @@ snapshots:
     optional: true
 
   '@types/whatwg-mimetype@3.0.2': {}
+
+  '@types/ws@8.18.1':
+    dependencies:
+      '@types/node': 24.10.4
 
   '@types/ws@8.5.10':
     dependencies:
@@ -26593,11 +26600,16 @@ snapshots:
       uglify-js: 3.19.3
     optional: true
 
-  happy-dom@18.0.1:
+  happy-dom@20.1.0:
     dependencies:
       '@types/node': 20.19.27
       '@types/whatwg-mimetype': 3.0.2
+      '@types/ws': 8.18.1
       whatwg-mimetype: 3.0.0
+      ws: 8.18.3
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
 
   has-ansi@2.0.0:
     dependencies:
