@@ -11,6 +11,6 @@
   "devDependencies": {
     "@rstest/core": "^0.7.9",
     "@rstest/coverage-istanbul": "^0.1.6",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }

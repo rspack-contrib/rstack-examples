@@ -22,11 +22,11 @@
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.4.2",
     "@rslib/core": "^0.19.1",
-    "@rspress/core": "^2.0.0-rc.4",
-    "@rspress/plugin-api-docgen": "^2.0.0-rc.4",
-    "@rspress/plugin-preview": "^2.0.0-rc.4",
-    "@types/node": "^24.10.4",
-    "@types/react": "^19.2.7",
+    "@rspress/core": "^2.0.0-rc.5",
+    "@rspress/plugin-api-docgen": "^2.0.0-rc.5",
+    "@rspress/plugin-preview": "^2.0.0-rc.5",
+    "@types/node": "^24.10.7",
+    "@types/react": "^19.2.8",
     "react": "^19.2.3",
     "typescript": "^5.9.3"
   },
