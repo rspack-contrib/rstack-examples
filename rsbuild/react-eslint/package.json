@@ -14,13 +14,13 @@
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/core": "^1.7.2",
     "@rsbuild/plugin-eslint": "^1.2.0",
     "@rsbuild/plugin-react": "^1.4.2",
-    "@types/react": "^19.2.7",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.51.0",
-    "@typescript-eslint/parser": "^8.51.0",
+    "@typescript-eslint/eslint-plugin": "^8.52.0",
+    "@typescript-eslint/parser": "^8.52.0",
     "eslint": "^9.39.2",
     "eslint-plugin-react-hooks": "^7.0.1",
     "typescript": "^5.9.3"

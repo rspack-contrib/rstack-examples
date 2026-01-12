@@ -9,10 +9,10 @@
     "test": "rstest run"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/core": "^1.7.2",
     "@rstest/browser": "^0.7.9",
     "@rstest/core": "^0.7.9",
     "playwright": "^1.57.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }

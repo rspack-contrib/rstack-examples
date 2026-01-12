@@ -8,19 +8,19 @@
     "test": "rstest run"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.4.2",
+    "@rsbuild/core": "^1.7.2",
     "@rsbuild/plugin-react": "^1.4.2",
     "@rstest/adapter-rsbuild": "^0.1.0",
     "@rstest/browser": "^0.7.9",
     "@rstest/browser-react": "^0.7.9",
     "@rstest/core": "^0.7.9",
-    "@testing-library/dom": "^10.4.0",
+    "@testing-library/dom": "^10.4.1",
     "@testing-library/user-event": "^14.6.1",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
     "playwright": "^1.57.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }

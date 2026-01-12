@@ -20,7 +20,7 @@
     "@rsbuild/plugin-babel": "^1.0.6",
     "@rsbuild/plugin-solid": "^1.0.6",
     "@rslib/core": "^0.19.1",
-    "preact": "^10.28.1",
+    "preact": "^10.28.2",
     "solid-js": "^1.9.10",
     "typescript": "^5.9.3"
   },
