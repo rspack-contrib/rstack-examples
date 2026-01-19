@@ -21,7 +21,7 @@ For example, to clone the `/rspack/basic` example, run the following command:
 
 ```bash
 # Clone the basic example
-npx gitpick https://github.com/rspack-contrib/rstack-examples/tree/main/rspack/basic
+npx gitpick https://github.com/rstackjs/rstack-examples/tree/main/rspack/basic
 
 # Enter the basic example directory
 cd basic
@@ -37,7 +37,7 @@ To try all examples, you can clone the current repository to your local.
 1. First, clone the current repository to your local:
 
 ```bash
-git clone git@github.com:rspack-contrib/rstack-examples.git
+git clone git@github.com:rstackjs/rstack-examples.git
 ```
 
 2. Then, choose the example you need, such as the Rsbuild react example:
