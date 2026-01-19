@@ -18,11 +18,11 @@
     "@types/styled-components": "5.1.36",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "styled-components": "6.3.5"
+    "styled-components": "6.3.8"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.1",
-    "@rspack/core": "1.7.1",
+    "@rspack/cli": "1.7.2",
+    "@rspack/core": "1.7.2",
     "react-refresh": "^0.18.0"
   }
 }

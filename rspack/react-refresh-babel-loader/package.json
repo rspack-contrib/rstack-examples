@@ -13,11 +13,11 @@
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^7.28.6",
     "@babel/preset-react": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
-    "@rspack/cli": "1.7.1",
-    "@rspack/core": "1.7.1",
+    "@rspack/cli": "1.7.2",
+    "@rspack/core": "1.7.2",
     "@rspack/plugin-react-refresh": "^1.6.0",
     "babel-loader": "^10.0.0",
     "react-refresh": "0.18.0"

@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "@rsbuild/core": "^1.7.2",
-    "@rsbuild/plugin-eslint": "^1.2.0",
-    "@rsbuild/plugin-vue": "^1.2.2",
-    "@typescript-eslint/eslint-plugin": "^8.52.0",
-    "@typescript-eslint/parser": "^8.52.0",
+    "@rsbuild/plugin-eslint": "^1.2.1",
+    "@rsbuild/plugin-vue": "^1.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
     "eslint": "^9.39.2",
     "eslint-plugin-vue": "^9.33.0",
     "typescript": "^5.9.3"
