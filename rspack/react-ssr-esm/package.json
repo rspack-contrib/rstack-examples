@@ -9,15 +9,15 @@
     "start:dev": "node dev.js"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.1",
-    "@rspack/core": "1.7.1",
+    "@rspack/cli": "1.7.2",
+    "@rspack/core": "1.7.2",
     "@types/cross-spawn": "^6.0.6",
     "@types/express": "^5.0.6",
-    "@types/node": "^24.10.7",
+    "@types/node": "^24.10.9",
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "cross-spawn": "^7.0.6",
-    "rspack-manifest-plugin": "^5.2.0",
+    "rspack-manifest-plugin": "^5.2.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {

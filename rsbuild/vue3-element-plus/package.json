@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "^1.7.2",
-    "@rsbuild/plugin-vue": "^1.2.2",
+    "@rsbuild/plugin-vue": "^1.2.3",
     "typescript": "^5.9.3",
     "unplugin-auto-import": "^20.3.0",
     "unplugin-vue-components": "^30.0.0"

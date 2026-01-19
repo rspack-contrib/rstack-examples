@@ -15,9 +15,9 @@
     "react-refresh": "0.18.0"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.27.1",
-    "@rspack/cli": "1.7.1",
-    "@rspack/core": "1.7.1",
+    "@babel/plugin-syntax-jsx": "^7.28.6",
+    "@rspack/cli": "1.7.2",
+    "@rspack/core": "1.7.2",
     "babel-loader": "^10.0.0",
     "babel-plugin-react-compiler": "0.0.0-experimental-cd3852a-20241229"
   }
