@@ -5,15 +5,16 @@
   "scripts": {
     "dev": "rsbuild dev",
     "build": "rsbuild build",
-    "test": "rstest run"
+    "test": "rstest",
+    "test:watch": "rstest --watch"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.7.2",
     "@rsbuild/plugin-react": "^1.4.3",
-    "@rstest/adapter-rsbuild": "^0.1.0",
-    "@rstest/browser": "^0.7.9",
-    "@rstest/browser-react": "^0.7.9",
-    "@rstest/core": "^0.7.9",
+    "@rstest/adapter-rsbuild": "^0.2.0",
+    "@rstest/browser": "^0.8.0",
+    "@rstest/browser-react": "^0.8.0",
+    "@rstest/core": "^0.8.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.2.8",

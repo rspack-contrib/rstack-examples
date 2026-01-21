@@ -5,6 +5,7 @@ export default defineConfig({
   extends: withRsbuildConfig() as ExtendConfigFn,
   browser: {
     enabled: true,
+    provider: 'playwright',
     browser: 'chromium',
     port: 3012,
   },
