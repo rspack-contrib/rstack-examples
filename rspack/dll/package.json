@@ -6,7 +6,7 @@
     "build": "rspack build || echo 'make-ci-happy'"
   },
   "dependencies": {
-    "lodash": "4.17.21"
+    "lodash": "4.17.23"
   },
   "devDependencies": {
     "@rspack/cli": "1.7.2",
