@@ -21,12 +21,12 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.4.3",
-    "@rslib/core": "^0.19.2",
-    "@rspress/core": "^2.0.0-rc.5",
-    "@rspress/plugin-api-docgen": "^2.0.0-rc.5",
-    "@rspress/plugin-preview": "^2.0.0-rc.5",
+    "@rslib/core": "^0.19.3",
+    "@rspress/core": "^2.0.0-rc.7",
+    "@rspress/plugin-api-docgen": "^2.0.0-rc.7",
+    "@rspress/plugin-preview": "^2.0.0-rc.7",
     "@types/node": "^24.10.9",
-    "@types/react": "^19.2.8",
+    "@types/react": "^19.2.9",
     "react": "^19.2.3",
     "typescript": "^5.9.3"
   },

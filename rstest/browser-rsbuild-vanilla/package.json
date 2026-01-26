@@ -13,7 +13,7 @@
     "@rsbuild/core": "^1.7.2",
     "@rstest/browser": "^0.8.0",
     "@rstest/core": "^0.8.0",
-    "playwright": "^1.57.0",
+    "playwright": "^1.58.0",
     "typescript": "^5.9.3"
   }
 }

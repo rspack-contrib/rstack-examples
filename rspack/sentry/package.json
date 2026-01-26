@@ -14,8 +14,8 @@
     "dev": "rspack serve"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.2",
-    "@rspack/core": "1.7.2",
-    "@sentry/webpack-plugin": "4.6.2"
+    "@rspack/cli": "1.7.3",
+    "@rspack/core": "1.7.3",
+    "@sentry/webpack-plugin": "4.7.0"
   }
 }
