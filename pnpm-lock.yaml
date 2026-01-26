@@ -908,8 +908,8 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       unplugin-auto-import:
-        specifier: ^20.3.0
-        version: 20.3.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
+        specifier: ^21.0.0
+        version: 21.0.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
 
   rsbuild/vue3-element-plus:
     dependencies:
@@ -930,8 +930,8 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       unplugin-auto-import:
-        specifier: ^20.3.0
-        version: 20.3.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
+        specifier: ^21.0.0
+        version: 21.0.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
       unplugin-vue-components:
         specifier: ^30.0.0
         version: 30.0.0(@babel/parser@7.28.6)(vue@3.5.21(typescript@5.9.3))
@@ -992,8 +992,8 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       unplugin-auto-import:
-        specifier: ^20.3.0
-        version: 20.3.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
+        specifier: ^21.0.0
+        version: 21.0.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
       unplugin-vue-components:
         specifier: ^30.0.0
         version: 30.0.0(@babel/parser@7.28.6)(vue@3.5.21(typescript@5.9.3))
@@ -3337,8 +3337,8 @@ importers:
         specifier: 5.6.6
         version: 5.6.6(@rspack/core@1.7.3(@swc/helpers@0.5.18))(webpack@5.104.1)
       unplugin-auto-import:
-        specifier: ^20.3.0
-        version: 20.3.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
+        specifier: ^21.0.0
+        version: 21.0.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3)))
       vue-loader:
         specifier: ^17.4.2
         version: 17.4.2(vue@3.5.21(typescript@5.9.3))(webpack@5.104.1)
@@ -15466,8 +15466,8 @@ packages:
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
 
-  unimport@5.5.0:
-    resolution: {integrity: sha512-/JpWMG9s1nBSlXJAQ8EREFTFy3oy6USFd8T6AoBaw1q2GGcF4R9yp3ofg32UODZlYEO5VD0EWE1RpI9XDWyPYg==}
+  unimport@5.6.0:
+    resolution: {integrity: sha512-8rqAmtJV8o60x46kBAJKtHpJDJWkA2xcBqWKPI14MgUb05o1pnpnCnXSxedUXyeq7p8fR5g3pTo2BaswZ9lD9A==}
     engines: {node: '>=18.12.0'}
 
   union@0.5.0:
@@ -15547,9 +15547,9 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  unplugin-auto-import@20.3.0:
-    resolution: {integrity: sha512-RcSEQiVv7g0mLMMXibYVKk8mpteKxvyffGuDKqZZiFr7Oq3PB1HwgHdK5O7H4AzbhzHoVKG0NnMnsk/1HIVYzQ==}
-    engines: {node: '>=14'}
+  unplugin-auto-import@21.0.0:
+    resolution: {integrity: sha512-vWuC8SwqJmxZFYwPojhOhOXDb5xFhNNcEVb9K/RFkyk/3VnfaOjzitWN7v+8DEKpMjSsY2AEGXNgt6I0yQrhRQ==}
+    engines: {node: '>=20.19.0'}
     peerDependencies:
       '@nuxt/kit': ^4.0.0
       '@vueuse/core': '*'
@@ -15815,8 +15815,8 @@ packages:
   vue-component-type-helpers@2.2.12:
     resolution: {integrity: sha512-YbGqHZ5/eW4SnkPNR44mKVc6ZKQoRs/Rux1sxC6rdwXb4qpbOSYfDr9DsTHolOTGmIKgM9j141mZbBeg05R1pw==}
 
-  vue-component-type-helpers@3.2.3:
-    resolution: {integrity: sha512-lpJTa8a+12Cgy/n5OdlQTzQhSWOCu+6zQoNFbl3KYxwAoB95mYIgMLKEYMvQykPJ2ucBDjJJISdIBHc1d9Hd3w==}
+  vue-component-type-helpers@3.2.4:
+    resolution: {integrity: sha512-05lR16HeZDcDpB23ku5b5f1fBOoHqFnMiKRr2CiEvbG5Ux4Yi0McmQBOET0dR0nxDXosxyVqv67q6CzS3AK8rw==}
 
   vue-demi@0.14.10:
     resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
@@ -20647,7 +20647,7 @@ snapshots:
       storybook: 10.2.0(@testing-library/dom@10.4.1)(prettier@2.8.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       type-fest: 2.19.0
       vue: 3.5.21(typescript@5.9.3)
-      vue-component-type-helpers: 3.2.3
+      vue-component-type-helpers: 3.2.4
 
   '@stylexjs/babel-plugin@0.17.3':
     dependencies:
@@ -30791,7 +30791,7 @@ snapshots:
       trough: 2.2.0
       vfile: 6.0.1
 
-  unimport@5.5.0:
+  unimport@5.6.0:
     dependencies:
       acorn: 8.15.0
       escape-string-regexp: 5.0.0
@@ -30906,12 +30906,12 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-auto-import@20.3.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3))):
+  unplugin-auto-import@21.0.0(@vueuse/core@10.11.1(vue@3.5.21(typescript@5.9.3))):
     dependencies:
       local-pkg: 1.1.2
       magic-string: 0.30.21
       picomatch: 4.0.3
-      unimport: 5.5.0
+      unimport: 5.6.0
       unplugin: 2.3.11
       unplugin-utils: 0.3.1
     optionalDependencies:
@@ -31210,7 +31210,7 @@ snapshots:
 
   vue-component-type-helpers@2.2.12: {}
 
-  vue-component-type-helpers@3.2.3: {}
+  vue-component-type-helpers@3.2.4: {}
 
   vue-demi@0.14.10(vue@3.5.21(typescript@5.9.3)):
     dependencies:
