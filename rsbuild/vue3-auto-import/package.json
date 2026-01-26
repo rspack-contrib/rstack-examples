@@ -15,6 +15,6 @@
     "@rsbuild/core": "^1.7.2",
     "@rsbuild/plugin-vue": "^1.2.3",
     "typescript": "^5.9.3",
-    "unplugin-auto-import": "^20.3.0"
+    "unplugin-auto-import": "^21.0.0"
   }
 }
