@@ -11,13 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.2",
-    "@rspack/core": "1.7.2",
+    "@rspack/cli": "1.7.3",
+    "@rspack/core": "1.7.3",
     "@rspack/plugin-react-refresh": "^1.6.0",
     "react-refresh": "^0.18.0",
     "serve": "14.2.5"

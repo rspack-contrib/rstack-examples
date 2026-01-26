@@ -9,14 +9,14 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@rspack/cli": "1.7.2",
+    "@rspack/cli": "1.7.3",
     "@swc/helpers": "^0.5.18",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "sass-loader": "^16.0.6"
   },
   "devDependencies": {
-    "@rspack/core": "1.7.2",
+    "@rspack/core": "1.7.3",
     "react-refresh": "^0.18.0"
   }
 }
