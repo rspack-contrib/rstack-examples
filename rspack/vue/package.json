@@ -12,8 +12,8 @@
     "vue": "3.2.47"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.3",
-    "@rspack/core": "1.7.3",
+    "@rspack/cli": "1.7.4",
+    "@rspack/core": "1.7.4",
     "less": "4.5.1",
     "less-loader": "^12.3.0",
     "vue-loader": "^17.2.2"

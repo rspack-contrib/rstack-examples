@@ -9,10 +9,10 @@
     "dev": "rspack serve"
   },
   "dependencies": {
-    "@rspack/cli": "1.7.3"
+    "@rspack/cli": "1.7.4"
   },
   "devDependencies": {
-    "@rspack/core": "1.7.3",
+    "@rspack/core": "1.7.4",
     "remote-web-worker": "0.0.9"
   }
 }

@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.0.0-beta.0",
-    "@rsbuild/plugin-react": "^1.4.3",
-    "@swc/core": "^1.15.10",
+    "@rsbuild/plugin-react": "^1.4.4",
+    "@swc/core": "^1.15.11",
     "@swc/jest": "^0.2.39",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
