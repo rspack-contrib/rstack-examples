@@ -31,10 +31,8 @@ export default {
                 tsEnumIsMutable: true,
               },
             },
-            rspackExperiments: {
-              collectTypeScriptInfo: {
-                exportedEnum: 'const-only',
-              },
+            collectTypeScriptInfo: {
+              exportedEnum: 'const-only',
             },
           },
         },
