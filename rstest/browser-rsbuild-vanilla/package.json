@@ -10,7 +10,7 @@
     "test:watch": "rstest --watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.7.2",
+    "@rsbuild/core": "2.0.0-beta.0",
     "@rstest/browser": "^0.8.0",
     "@rstest/core": "^0.8.0",
     "playwright": "^1.58.0",
