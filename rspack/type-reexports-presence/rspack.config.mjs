@@ -31,10 +31,8 @@ export default {
                 syntax: 'typescript',
               },
             },
-            rspackExperiments: {
-              collectTypeScriptInfo: {
-                typeExports: true,
-              },
+            collectTypeScriptInfo: {
+              typeExports: true,
             },
           },
         },

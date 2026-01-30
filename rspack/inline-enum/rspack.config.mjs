@@ -28,10 +28,8 @@ export default {
                 syntax: 'typescript',
               },
             },
-            rspackExperiments: {
-              collectTypeScriptInfo: {
-                exportedEnum: true,
-              },
+            collectTypeScriptInfo: {
+              exportedEnum: true,
             },
           },
         },
