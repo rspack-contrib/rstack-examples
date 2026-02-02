@@ -8,16 +8,16 @@
     "build:analysis": "RSDOCTOR=true rsbuild build"
   },
   "dependencies": {
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "semver6": "npm:semver@6.3.1",
     "semver7": "npm:semver@7.7.3"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.7.2",
-    "@rsbuild/plugin-react": "^1.4.3",
-    "@rsdoctor/rspack-plugin": "^1.5.0",
-    "@types/react": "^19.2.9",
+    "@rsbuild/plugin-react": "^1.4.4",
+    "@rsdoctor/rspack-plugin": "^1.5.1",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "@types/semver6": "npm:@types/semver@7.7.1",
     "typescript": "^5.9.3"

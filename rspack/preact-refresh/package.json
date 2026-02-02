@@ -13,15 +13,15 @@
   "license": "MIT",
   "dependencies": {
     "@swc/helpers": "^0.5.18",
-    "preact": "10.28.2"
+    "preact": "10.28.3"
   },
   "devDependencies": {
     "@prefresh/core": "1.5.9",
     "@prefresh/utils": "1.2.1",
-    "@rspack/cli": "1.7.3",
-    "@rspack/core": "1.7.3",
+    "@rspack/cli": "1.7.4",
+    "@rspack/core": "1.7.4",
     "@rspack/plugin-preact-refresh": "^1.1.5",
-    "@swc/plugin-prefresh": "^12.4.0"
+    "@swc/plugin-prefresh": "^12.5.0"
   },
   "resolve": {
     "alias": {
