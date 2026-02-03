@@ -16,8 +16,8 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.4",
-    "@rspack/core": "1.7.4",
+    "@rspack/cli": "1.7.5",
+    "@rspack/core": "1.7.5",
     "@rspack/plugin-react-refresh": "^1.6.0",
     "react-refresh": "^0.18.0",
     "serve": "14.2.5"
