@@ -9,8 +9,8 @@
     "validate": "svelte-check"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.4",
-    "@rspack/core": "1.7.4",
+    "@rspack/cli": "1.7.5",
+    "@rspack/core": "1.7.5",
     "@tsconfig/svelte": "^5.0.6",
     "@types/node": "^24.10.9",
     "cross-env": "^10.1.0",

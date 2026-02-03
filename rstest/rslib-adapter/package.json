@@ -10,7 +10,7 @@
   "devDependencies": {
     "@rslib/core": "^0.19.4",
     "@rstest/adapter-rslib": "^0.2.0",
-    "@rstest/core": "^0.8.1",
+    "@rstest/core": "^0.8.2",
     "typescript": "^5.9.3"
   }
 }

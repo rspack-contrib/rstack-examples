@@ -14,8 +14,8 @@
     "dev": "rspack serve"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.4",
-    "@rspack/core": "1.7.4",
+    "@rspack/cli": "1.7.5",
+    "@rspack/core": "1.7.5",
     "node-polyfill-webpack-plugin": "^4.1.0"
   }
 }
