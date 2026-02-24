@@ -1,9 +1,8 @@
-const { rspack } = require('@rspack/core');
-/**
- * @type {import('@rspack/cli').Configuration}
- */
-module.exports = {
-  context: __dirname,
+// @ts-check
+import { defineConfig } from '@rspack/cli';
+import { rspack } from '@rspack/core';
+
+export default defineConfig({
   entry: {
     main: './src/index.js',
   },
@@ -20,7 +19,7 @@ module.exports = {
             options: {
               postcssOptions: {
                 plugins: {
-                  tailwindcss: {},
+                  '@tailwindcss/postcss': {},
                   autoprefixer: {},
                 },
               },
@@ -36,4 +35,4 @@ module.exports = {
       template: './index.html',
     }),
   ],
-};
+});

@@ -22,7 +22,7 @@
     "@tailwindcss/postcss": "^4.1.13",
     "@types/react": "^19.2.10",
     "react": "^19.2.4",
-    "tailwindcss": "^4.1.18",
+    "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
