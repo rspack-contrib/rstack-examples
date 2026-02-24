@@ -4,14 +4,15 @@ const config = {
   entry: {
     main: './src/index.tsx',
   },
-  experiments: {
-    css: true,
-  },
   resolve: {
     extensions: ['...', '.jsx', '.tsx', '.ts'],
   },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.(js|ts)$/,
         exclude: [/[\\/]node_modules[\\/]/],

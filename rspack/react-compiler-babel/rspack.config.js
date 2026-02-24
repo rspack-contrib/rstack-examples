@@ -4,14 +4,15 @@ const config = {
   entry: {
     main: './src/index.jsx',
   },
-  experiments: {
-    css: true,
-  },
   resolve: {
     extensions: ['...', '.jsx'],
   },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.js$/,
         exclude: [/[\\/]node_modules[\\/]/],

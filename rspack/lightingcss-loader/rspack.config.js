@@ -24,8 +24,5 @@ const config = {
       template: './index.html',
     }),
   ],
-  experiments: {
-    css: true,
-  },
 };
 module.exports = config;

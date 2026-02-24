@@ -17,11 +17,12 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.ttf$/,
         type: 'asset/resource',
@@ -72,5 +73,5 @@ module.exports = {
     new rspack.HtmlRspackPlugin({
       template: './src/index.html',
     }),
-  ]
+  ],
 };

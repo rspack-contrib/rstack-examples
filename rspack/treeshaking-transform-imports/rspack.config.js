@@ -5,8 +5,13 @@ const config = {
   entry: {
     main: './src/index.js',
   },
-  experiments: {
-    css: true,
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
+    ],
   },
   plugins: [new rspack.HtmlRspackPlugin()],
   optimization: {

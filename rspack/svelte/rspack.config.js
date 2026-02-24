@@ -41,11 +41,12 @@ export default defineConfig({
     extensions: ['.mjs', '.js', '.ts', '.svelte'],
     mainFields: ['svelte', 'browser', 'module', 'main'],
   },
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.(?:js|ts)$/,
         use: [swcLoaderConfig],

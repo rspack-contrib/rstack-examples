@@ -9,9 +9,6 @@ module.exports = {
     extensions: ['.js', '.json', '.ts', '.tsx'],
   },
   devtool: 'source-map',
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
       {

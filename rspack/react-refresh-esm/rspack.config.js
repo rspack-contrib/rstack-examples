@@ -17,11 +17,14 @@ const config = {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
   experiments: {
-    css: true,
     outputModule: true,
   },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.tsx$/,
         use: {
@@ -46,7 +49,7 @@ const config = {
     ],
   },
   plugins: [
-    new rspack.HtmlRspackPlugin({ template: './index.html', scriptLoading: "module" }),
+    new rspack.HtmlRspackPlugin({ template: './index.html', scriptLoading: 'module' }),
     !isProduction && new ReactRefreshPlugin(),
   ].filter(Boolean),
 };
