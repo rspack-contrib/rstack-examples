@@ -48,8 +48,6 @@
     },
   ],
   ignoreDeps: [
-    "vue",
-    "vue-loader",
     "globby",
     "open",
     "strip-ansi",

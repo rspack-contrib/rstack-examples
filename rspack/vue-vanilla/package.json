@@ -18,6 +18,6 @@
     "less": "4.5.1",
     "less-loader": "^12.3.0",
     "style-loader": "^4.0.0",
-    "vue-loader": "^17.2.2"
+    "rspack-vue-loader": "^17.5.0"
   }
 }

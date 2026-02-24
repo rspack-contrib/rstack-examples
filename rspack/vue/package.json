@@ -16,6 +16,6 @@
     "@rspack/core": "1.7.5",
     "less": "4.5.1",
     "less-loader": "^12.3.0",
-    "vue-loader": "^17.2.2"
+    "rspack-vue-loader": "^17.5.0"
   }
 }

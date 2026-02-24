@@ -1,5 +1,5 @@
 const { rspack } = require('@rspack/core');
-const { VueLoaderPlugin } = require('vue-loader');
+const { VueLoaderPlugin } = require('rspack-vue-loader');
 
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
@@ -27,7 +27,7 @@ const config = {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        loader: 'rspack-vue-loader',
       },
       {
         test: /\.less$/,
