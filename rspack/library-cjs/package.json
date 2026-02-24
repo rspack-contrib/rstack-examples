@@ -8,7 +8,6 @@
     "**/*.less",
     "**/*.scss"
   ],
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack build --watch"

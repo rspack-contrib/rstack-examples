@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": [
-    "**/*.css",
-    "**/*.less",
-    "**/*.scss"
-  ],
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev"
