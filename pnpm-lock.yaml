@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  react-focus-lock: 2.13.7
-
 importers:
 
   .:
@@ -3165,33 +3162,27 @@ importers:
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
-      html-rspack-plugin:
-        specifier: ^6.1.6
-        version: 6.1.6(@rspack/core@1.7.5(@swc/helpers@0.5.18))
       postcss-load-config:
         specifier: 6.0.1
         version: 6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1)
       svelte:
-        specifier: ^3.59.2
-        version: 3.59.2
+        specifier: ^5.53.3
+        version: 5.53.3
       svelte-check:
         specifier: ^4.3.6
-        version: 4.3.6(picomatch@4.0.3)(svelte@3.59.2)(typescript@5.9.3)
+        version: 4.3.6(picomatch@4.0.3)(svelte@5.53.3)(typescript@5.9.3)
       svelte-loader:
         specifier: ^3.2.4
-        version: 3.2.4(svelte@3.59.2)
+        version: 3.2.4(svelte@5.53.3)
       svelte-preprocess:
         specifier: ^6.0.3
-        version: 6.0.3(@babel/core@7.29.0)(less@4.5.1)(postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1))(postcss@8.5.6)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@3.59.2)(typescript@5.9.3)
+        version: 6.0.3(@babel/core@7.29.0)(less@4.5.1)(postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1))(postcss@8.5.6)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
-      webpack-bundle-analyzer:
-        specifier: 5.2.0
-        version: 5.2.0
 
   rspack/svgr:
     dependencies:
@@ -8914,6 +8905,10 @@ packages:
   aria-query@5.3.0:
     resolution: {integrity: sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==}
 
+  aria-query@5.3.1:
+    resolution: {integrity: sha512-Z/ZeOgVl7bcSYZ/u/rh0fOpvEpq//LZmdbkXyc7syVzjPAhfOa9ebsdTSjEBDU4vs5nC98Kfduj1uFo0qyET3g==}
+    engines: {node: '>= 0.4'}
+
   aria-query@5.3.2:
     resolution: {integrity: sha512-COROpnaoap1E2F000S62r6A60uHZnmlvomhfyT2DlTcrY1OrBKn2UhH7qn5wTC9zMvD0AY7csdPSNwKP+7WiQw==}
     engines: {node: '>= 0.4'}
@@ -9946,6 +9941,9 @@ packages:
   devalue@5.5.0:
     resolution: {integrity: sha512-69sM5yrHfFLJt0AZ9QqZXGCPfJ7fQjvpln3Rq5+PS03LD32Ost1Q9N+eEnaQwGRIriKkMImXD56ocjQmfjbV3w==}
 
+  devalue@5.6.3:
+    resolution: {integrity: sha512-nc7XjUU/2Lb+SvEFVGcWLiKkzfw8+qHI7zn8WYXKkLMgfGSHbgCEaR6bJpev8Cm6Rmrb19Gfd/tZvGqx9is3wg==}
+
   devlop@1.1.0:
     resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
 
@@ -10333,6 +10331,9 @@ packages:
 
   esrap@2.2.1:
     resolution: {integrity: sha512-GiYWG34AN/4CUyaWAgunGt0Rxvr1PTMlGC0vvEov/uOQYWne2bpN03Um+k8jT+q3op33mKouP2zeJ6OlM+qeUg==}
+
+  esrap@2.2.3:
+    resolution: {integrity: sha512-8fOS+GIGCQZl/ZIlhl59htOlms6U8NvX6ZYgYHpRU/b6tVSh3uHkOHZikl3D4cMbYM0JlpBe+p/BkZEi8J9XIQ==}
 
   esrecurse@4.3.0:
     resolution: {integrity: sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==}
@@ -11058,15 +11059,6 @@ packages:
     resolution: {integrity: sha512-tXgn3QfqPIpGl9o+K5tpcj3/MN4SfLtsx2GWwBC3SSd0tXQGyF3gsSqad8loJgKZGM3ZxbYDd5yhiBIdWpmvLA==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
-
-  html-rspack-plugin@6.1.6:
-    resolution: {integrity: sha512-7lz7xj2uqignH/kVcb2IN26FqRzeSf/Wlkn+T5b1xOMBq2fpnLeYiNhmIm51Izoh4bbuNqbUTvahRVdB0feVmg==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@rspack/core': ^1.0.0 || ^2.0.0-0
-    peerDependenciesMeta:
-      '@rspack/core':
-        optional: true
 
   html-to-text@9.0.5:
     resolution: {integrity: sha512-qY60FjREgVZL03vJU6IfMV4GDjGBIoOyvuFdpBDIX9yTlDw0TjxVBQp+P8NvpdIXNJvfWBTNul7fsAQJq2FNpg==}
@@ -14988,12 +14980,12 @@ packages:
       typescript:
         optional: true
 
-  svelte@3.59.2:
-    resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}
-    engines: {node: '>= 8'}
-
   svelte@5.46.1:
     resolution: {integrity: sha512-ynjfCHD3nP2el70kN5Pmg37sSi0EjOm9FgHYQdC4giWG/hzO3AatzXXJJgP305uIhGQxSufJLuYWtkY8uK/8RA==}
+    engines: {node: '>=18'}
+
+  svelte@5.53.3:
+    resolution: {integrity: sha512-pRUBr6j6uQDgBi208gHnGRMykw0Rf2Yr1HmLyRucsvcaYgIUxswJkT93WZJflsmezu5s8Lq+q78EoyLv2yaFCg==}
     engines: {node: '>=18'}
 
   svg-parser@2.0.4:
@@ -22169,6 +22161,8 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
+  aria-query@5.3.1: {}
+
   aria-query@5.3.2: {}
 
   array-buffer-byte-length@1.0.2:
@@ -23243,6 +23237,8 @@ snapshots:
 
   devalue@5.5.0: {}
 
+  devalue@5.6.3: {}
+
   devlop@1.1.0:
     dependencies:
       dequal: 2.0.3
@@ -23864,6 +23860,10 @@ snapshots:
       estraverse: 5.3.0
 
   esrap@2.2.1:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
+  esrap@2.2.3:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
@@ -24900,12 +24900,6 @@ snapshots:
       param-case: 3.0.4
       relateurl: 0.2.7
       terser: 5.37.0
-
-  html-rspack-plugin@6.1.6(@rspack/core@1.7.5(@swc/helpers@0.5.18)):
-    dependencies:
-      '@rspack/lite-tapable': 1.1.0
-    optionalDependencies:
-      '@rspack/core': 1.7.5(@swc/helpers@0.5.18)
 
   html-to-text@9.0.5:
     dependencies:
@@ -29983,34 +29977,27 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.3.6(picomatch@4.0.3)(svelte@3.59.2)(typescript@5.9.3):
+  svelte-check@4.3.6(picomatch@4.0.3)(svelte@5.53.3)(typescript@5.9.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.3)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 3.59.2
+      svelte: 5.53.3
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
 
   svelte-dev-helper@1.1.9: {}
 
-  svelte-hmr@0.14.12(svelte@3.59.2):
-    dependencies:
-      svelte: 3.59.2
-
   svelte-hmr@0.14.12(svelte@5.46.1):
     dependencies:
       svelte: 5.46.1
 
-  svelte-loader@3.2.4(svelte@3.59.2):
+  svelte-hmr@0.14.12(svelte@5.53.3):
     dependencies:
-      loader-utils: 2.0.4
-      svelte: 3.59.2
-      svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@3.59.2)
+      svelte: 5.53.3
 
   svelte-loader@3.2.4(svelte@5.46.1):
     dependencies:
@@ -30019,18 +30006,12 @@ snapshots:
       svelte-dev-helper: 1.1.9
       svelte-hmr: 0.14.12(svelte@5.46.1)
 
-  svelte-preprocess@6.0.3(@babel/core@7.29.0)(less@4.5.1)(postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1))(postcss@8.5.6)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@3.59.2)(typescript@5.9.3):
+  svelte-loader@3.2.4(svelte@5.53.3):
     dependencies:
-      svelte: 3.59.2
-    optionalDependencies:
-      '@babel/core': 7.29.0
-      less: 4.5.1
-      postcss: 8.5.6
-      postcss-load-config: 6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1)
-      pug: 3.0.2
-      sass: 1.97.3
-      stylus: 0.64.0
-      typescript: 5.9.3
+      loader-utils: 2.0.4
+      svelte: 5.53.3
+      svelte-dev-helper: 1.1.9
+      svelte-hmr: 0.14.12(svelte@5.53.3)
 
   svelte-preprocess@6.0.3(@babel/core@7.29.0)(less@4.5.1)(postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1))(postcss@8.5.6)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.46.1)(typescript@5.9.3):
     dependencies:
@@ -30045,7 +30026,18 @@ snapshots:
       stylus: 0.64.0
       typescript: 5.9.3
 
-  svelte@3.59.2: {}
+  svelte-preprocess@6.0.3(@babel/core@7.29.0)(less@4.5.1)(postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1))(postcss@8.5.6)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3):
+    dependencies:
+      svelte: 5.53.3
+    optionalDependencies:
+      '@babel/core': 7.29.0
+      less: 4.5.1
+      postcss: 8.5.6
+      postcss-load-config: 6.0.1(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(yaml@2.8.1)
+      pug: 3.0.2
+      sass: 1.97.3
+      stylus: 0.64.0
+      typescript: 5.9.3
 
   svelte@5.46.1:
     dependencies:
@@ -30060,6 +30052,25 @@ snapshots:
       devalue: 5.5.0
       esm-env: 1.2.2
       esrap: 2.2.1
+      is-reference: 3.0.3
+      locate-character: 3.0.0
+      magic-string: 0.30.21
+      zimmerframe: 1.1.4
+
+  svelte@5.53.3:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      '@jridgewell/sourcemap-codec': 1.5.5
+      '@sveltejs/acorn-typescript': 1.0.6(acorn@8.15.0)
+      '@types/estree': 1.0.8
+      '@types/trusted-types': 2.0.7
+      acorn: 8.15.0
+      aria-query: 5.3.1
+      axobject-query: 4.1.0
+      clsx: 2.1.1
+      devalue: 5.6.3
+      esm-env: 1.2.2
+      esrap: 2.2.3
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.21

@@ -22,7 +22,7 @@ export default defineConfig({
   module: {
     rules: [
       {
-        test: /\.ts$/,
+        test: /\.(?:js|ts)$/,
         use: [
           {
             loader: 'builtin:swc-loader',
