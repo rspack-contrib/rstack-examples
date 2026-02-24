@@ -4,13 +4,13 @@ import c from './c.scss';
 import d from './d.yaml';
 import './e.styl';
 import Icon from 'svg-react-loader?name=Icon!./arco.svg';
-import crc32 from '@node-rs/crc32';
 import g from './g.md';
 import h from './h.png';
 import j from './j.txt';
 import k from './k.ts';
 import l from './l.png';
 import { ReactComponent as Logo } from './logo.svg';
+import addon from './test.darwin.node';
 
 console.log({
   a,
@@ -24,5 +24,5 @@ console.log({
   k,
   l,
   Icon,
-  crc32,
+  addon,
 });
