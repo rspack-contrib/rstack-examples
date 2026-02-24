@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "build": "rspack build"
   },
   "keywords": [],

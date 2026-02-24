@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env BUILD=true rspack build",
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "start": "node dist/main.js"
   },
   "dependencies": {

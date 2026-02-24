@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
     "@swc/helpers": "^0.5.18",

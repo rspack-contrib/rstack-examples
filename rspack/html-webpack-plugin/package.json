@@ -2,7 +2,7 @@
   "name": "example-html-webpack-plugin_5",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "build": "rspack build"
   },
   "devDependencies": {

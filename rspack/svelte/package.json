@@ -5,7 +5,7 @@
   "scripts": {
     "analyze": "cross-env NODE_ENV=production rspack build --analyze",
     "build": "rspack build",
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "validate": "svelte-check"
   },
   "devDependencies": {

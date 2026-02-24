@@ -2,7 +2,7 @@
   "name": "example-dll-plugin",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "build": "rspack build || echo 'make-ci-happy'"
   },
   "dependencies": {

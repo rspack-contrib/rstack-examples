@@ -4,7 +4,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "build": "cross-env NODE_ENV=production rspack build",
     "start": "serve ./dist -p 8080"
   },

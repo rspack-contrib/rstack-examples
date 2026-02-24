@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "devDependencies": {
     "@rspack/cli": "1.7.4",

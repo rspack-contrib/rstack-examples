@@ -12,7 +12,7 @@
   "scripts": {
     "analyze": "PERFSEE_AUDIT=true rspack build",
     "build": "cross-env PERFSEE_NO_UPLOAD=true rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "devDependencies": {
     "@perfsee/webpack": "1.14.2",

@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env BUILD=true rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
     "express": "5.2.1"
