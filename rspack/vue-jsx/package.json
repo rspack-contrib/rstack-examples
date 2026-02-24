@@ -1,0 +1,20 @@
+{
+  "name": "example-vue-jsx",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "dependencies": {
+    "vue": "3.2.45"
+  },
+  "devDependencies": {
+    "@babel/core": "7.29.0",
+    "@rspack/cli": "1.7.5",
+    "@rspack/core": "1.7.5",
+    "@vue/babel-plugin-jsx": "2.0.1",
+    "babel-loader": "10.0.0"
+  }
+}
