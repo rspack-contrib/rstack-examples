@@ -8,16 +8,16 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.18",
+    "@swc/helpers": "^0.5.19",
     "preact": "10.28.3"
   },
   "devDependencies": {
     "@prefresh/core": "1.5.9",
     "@prefresh/utils": "1.2.1",
-    "@rspack/cli": "1.7.5",
-    "@rspack/core": "1.7.5",
+    "@rspack/cli": "1.7.6",
+    "@rspack/core": "1.7.6",
     "@rspack/plugin-preact-refresh": "^1.1.5",
-    "@swc/plugin-prefresh": "^12.5.0"
+    "@swc/plugin-prefresh": "^12.6.0"
   },
   "resolve": {
     "alias": {

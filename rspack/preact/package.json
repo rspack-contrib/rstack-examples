@@ -8,14 +8,14 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@rspack/cli": "1.7.5",
-    "@swc/helpers": "^0.5.18",
+    "@rspack/cli": "1.7.6",
+    "@swc/helpers": "^0.5.19",
     "preact": "10.28.3"
   },
   "devDependencies": {
     "@prefresh/babel-plugin": "0.5.2",
     "@prefresh/webpack": "4.0.6",
-    "@rspack/core": "1.7.5"
+    "@rspack/core": "1.7.6"
   },
   "resolve": {
     "alias": {

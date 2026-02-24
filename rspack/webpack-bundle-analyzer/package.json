@@ -6,8 +6,8 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.5",
-    "@rspack/core": "1.7.5",
+    "@rspack/cli": "1.7.6",
+    "@rspack/core": "1.7.6",
     "webpack-bundle-analyzer": "^5.2.0"
   }
 }

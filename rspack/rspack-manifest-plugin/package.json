@@ -6,8 +6,8 @@
     "test": "node ./test.js"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.5",
-    "@rspack/core": "1.7.5",
+    "@rspack/cli": "1.7.6",
+    "@rspack/core": "1.7.6",
     "rspack-manifest-plugin": "5.2.1"
   }
 }

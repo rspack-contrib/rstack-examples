@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "@babel/core": "7.29.0",
-    "@rspack/cli": "1.7.5",
+    "@rspack/cli": "1.7.6",
     "babel-loader": "10.0.0",
     "babel-preset-solid": "1.9.10",
     "solid-js": "1.9.11",
     "solid-refresh": "0.7.5"
   },
   "devDependencies": {
-    "@rspack/core": "1.7.5"
+    "@rspack/core": "1.7.6"
   }
 }

@@ -13,7 +13,7 @@
     "dev": "rspack build --watch"
   },
   "devDependencies": {
-    "@rspack/cli": "1.7.5",
-    "@rspack/core": "1.7.5"
+    "@rspack/cli": "1.7.6",
+    "@rspack/core": "1.7.6"
   }
 }
