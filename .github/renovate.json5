@@ -54,7 +54,6 @@
     "ansi-escapes",
     "cli-truncate",
     "patch-console",
-    "babel-plugin-react-compiler",
     "@tailwindcss/postcss",
     "@nestjs/common",
     "@nestjs/core",
