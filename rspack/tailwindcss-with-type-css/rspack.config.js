@@ -6,13 +6,14 @@ export default defineConfig({
   entry: {
     main: './src/index.js',
   },
+  experiments: {
+    css: true,
+  },
   module: {
     rules: [
       {
         test: /\.css$/,
         use: [
-          rspack.CssExtractRspackPlugin.loader,
-          'css-loader',
           {
             loader: '@tailwindcss/webpack',
             options: {
@@ -20,11 +21,11 @@ export default defineConfig({
             },
           },
         ],
+        type: 'css',
       },
     ],
   },
   plugins: [
-    new rspack.CssExtractRspackPlugin(),
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),

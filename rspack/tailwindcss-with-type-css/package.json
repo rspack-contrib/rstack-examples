@@ -1,5 +1,5 @@
 {
-  "name": "@rspack-example/tailwindcss",
+  "name": "@rspack-example/tailwindcss-with-type-css",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
@@ -12,7 +12,6 @@
     "@rspack/cli": "1.7.4",
     "@rspack/core": "1.7.4",
     "@tailwindcss/webpack": "^4.2.1",
-    "css-loader": "^7.1.4",
     "tailwindcss": "^4.2.1"
   }
 }

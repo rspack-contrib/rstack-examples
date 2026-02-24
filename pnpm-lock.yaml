@@ -1916,7 +1916,7 @@ importers:
         specifier: 1.7.5
         version: 1.7.5(@swc/helpers@0.5.18)
 
-  rspack/generate-package-json-webpack-plugin@2:
+  rspack/generate-package-json-webpack-plugin:
     devDependencies:
       '@rspack/cli':
         specifier: 1.7.5
@@ -3220,6 +3220,9 @@ importers:
       '@tailwindcss/webpack':
         specifier: ^4.2.1
         version: 4.2.1(webpack@5.104.1)
+      css-loader:
+        specifier: ^7.1.4
+        version: 7.1.4(@rspack/core@1.7.4(@swc/helpers@0.5.18))(webpack@5.104.1)
       tailwindcss:
         specifier: ^4.2.1
         version: 4.2.1
@@ -3244,6 +3247,21 @@ importers:
       postcss-loader:
         specifier: 8.2.0
         version: 8.2.0(@rspack/core@1.7.4(@swc/helpers@0.5.18))(postcss@8.5.6)(typescript@5.9.3)(webpack@5.104.1)
+      tailwindcss:
+        specifier: ^4.2.1
+        version: 4.2.1
+
+  rspack/tailwindcss-with-type-css:
+    devDependencies:
+      '@rspack/cli':
+        specifier: 1.7.4
+        version: 1.7.4(@rspack/core@1.7.4(@swc/helpers@0.5.18))(@types/express@4.17.25)(webpack@5.104.1)
+      '@rspack/core':
+        specifier: 1.7.4
+        version: 1.7.4(@swc/helpers@0.5.18)
+      '@tailwindcss/webpack':
+        specifier: ^4.2.1
+        version: 4.2.1(webpack@5.104.1)
       tailwindcss:
         specifier: ^4.2.1
         version: 4.2.1
@@ -9677,6 +9695,18 @@ packages:
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
+      webpack: ^5.27.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
+
+  css-loader@7.1.4:
+    resolution: {integrity: sha512-vv3J9tlOl04WjiMvHQI/9tmIrCxVrj6PFbHemBB1iihpeRbi/I4h033eoFIhwxBBqLhI0KYFS7yvynBFhIZfTw==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      '@rspack/core': 0.x || ^1.0.0 || ^2.0.0-0
       webpack: ^5.27.0
     peerDependenciesMeta:
       '@rspack/core':
@@ -22996,6 +23026,20 @@ snapshots:
       semver: 7.7.3
     optionalDependencies:
       '@rspack/core': 1.7.5(@swc/helpers@0.5.18)
+      webpack: 5.104.1(webpack-cli@6.0.1)
+
+  css-loader@7.1.4(@rspack/core@1.7.4(@swc/helpers@0.5.18))(webpack@5.104.1):
+    dependencies:
+      icss-utils: 5.1.0(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-modules-extract-imports: 3.1.0(postcss@8.5.6)
+      postcss-modules-local-by-default: 4.0.5(postcss@8.5.6)
+      postcss-modules-scope: 3.2.0(postcss@8.5.6)
+      postcss-modules-values: 4.0.0(postcss@8.5.6)
+      postcss-value-parser: 4.2.0
+      semver: 7.7.3
+    optionalDependencies:
+      '@rspack/core': 1.7.4(@swc/helpers@0.5.18)
       webpack: 5.104.1(webpack-cli@6.0.1)
 
   css-mediaquery@0.1.2: {}
