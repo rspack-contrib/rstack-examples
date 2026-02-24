@@ -36,6 +36,10 @@ const config = {
         type: 'javascript/auto',
       },
       {
+        test: /.css$/,
+        type: 'css',
+      },
+      {
         test: /.less$/,
         loader: 'less-loader',
         type: 'css',

@@ -34,6 +34,10 @@ const config = {
         type: 'javascript/auto',
       },
       {
+        test: /.css$/,
+        type: 'css',
+      },
+      {
         test: /\.s[ac]ss$/,
         loader: 'sass-loader',
         type: 'css',
