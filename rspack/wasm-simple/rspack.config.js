@@ -7,9 +7,6 @@ const config = {
   output: {
     webassemblyModuleFilename: '[hash].wasm',
   },
-  experiments: {
-    asyncWebAssembly: true,
-  },
   plugins: [new rspack.HtmlRspackPlugin()],
 };
 module.exports = config;

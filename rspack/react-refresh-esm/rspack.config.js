@@ -16,9 +16,6 @@ const config = {
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
-  experiments: {
-    outputModule: true,
-  },
   module: {
     rules: [
       {
