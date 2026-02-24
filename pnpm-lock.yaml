@@ -1897,7 +1897,7 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
 
-  rspack/hooks/after-resolve:
+  rspack/hooks-after-resolve:
     devDependencies:
       '@rspack/cli':
         specifier: 1.7.5
