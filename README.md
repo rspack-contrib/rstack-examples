@@ -2,6 +2,8 @@
 
 This repository contains comprehensive examples that demonstrate the Rstack ecosystem tools, including Rspack, Rsbuild, Rspress, and Rsdoctor. These examples showcase common implementation patterns and best practices to help developers leverage the full potential of the Rstack toolchain.
 
+> The `main` branch contains examples for Rspack/Rsbuild v2. For Rspack/Rsbuild 1.x examples, please check the [v1.x](https://github.com/rstackjs/rstack-examples/tree/v1.x) branch.
+
 ## List of Examples
 
 |   [Rspack](https://github.com/web-infra-dev/rspack)   |    <a href="https://github.com/web-infra-dev/rspack" target="blank"><img src="https://assets.rspack.dev/rspack/rspack-banner.png" width="400" /></a>    |  [Examples](./rspack)   |   [Document](https://rspack.dev/)    |
