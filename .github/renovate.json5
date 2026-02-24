@@ -48,13 +48,6 @@
     },
   ],
   ignoreDeps: [
-    "globby",
-    "open",
-    "strip-ansi",
-    "ansi-escapes",
-    "cli-truncate",
-    "patch-console",
-    "@tailwindcss/postcss",
     "@nestjs/common",
     "@nestjs/core",
     "@nestjs/platform-express"
