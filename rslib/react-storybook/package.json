@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-storybook",
+  "name": "@rslib-example/react-storybook",
   "version": "0.0.0",
   "type": "module",
   "exports": {

@@ -1,5 +1,5 @@
 {
-  "name": "example-svelte",
+  "name": "@rspack-example/svelte",
   "version": "1.0.0",
   "private": true,
   "scripts": {

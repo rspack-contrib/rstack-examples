@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-ssr",
+  "name": "@rsbuild-example/ssr",
   "version": "1.0.0",
   "private": true,
   "type": "module",

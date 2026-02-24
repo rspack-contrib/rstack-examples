@@ -1,9 +1,8 @@
 {
-  "name": "example-javascript-api",
+  "name": "@rspack-example/javascript-api",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "tsc"
   },

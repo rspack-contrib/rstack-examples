@@ -1,5 +1,5 @@
 {
-  "name": "example-rspack-manifest-plugin_4",
+  "name": "@rspack-example/rspack-manifest-plugin_4",
   "private": true,
   "scripts": {
     "build": "rspack build",

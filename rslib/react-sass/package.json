@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-sass",
+  "name": "@rslib-example/react-sass",
   "version": "0.0.0",
   "type": "module",
   "exports": {

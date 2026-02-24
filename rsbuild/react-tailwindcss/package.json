@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-react-tailwindcss",
+  "name": "@rsbuild-example/react-tailwindcss",
   "version": "1.0.0",
   "private": true,
   "type": "module",

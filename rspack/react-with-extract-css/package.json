@@ -1,9 +1,8 @@
 {
-  "name": "example-react-example-css-extract",
+  "name": "@rspack-example/react-example-css-extract",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev"

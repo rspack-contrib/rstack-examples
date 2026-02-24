@@ -1,5 +1,5 @@
 {
-  "name": "rstest-rslib-adapter",
+  "name": "@rstest-example/rslib-adapter",
   "version": "1.0.0",
   "private": true,
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "example-basic-tsconfig",
+  "name": "@rspack-example/basic-tsconfig",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

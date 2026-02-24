@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-module-federation-enhanced-consumer",
+  "name": "@rsbuild-example/module-federation-enhanced-consumer",
   "private": true,
   "type": "module",
   "scripts": {

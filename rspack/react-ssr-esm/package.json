@@ -1,12 +1,18 @@
 {
-  "name": "example-react-ssr-esm",
+  "name": "@rspack-example/react-ssr-esm",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build:server": "rspack --config rspack.config.server.js",
     "build:client": "rspack --config rspack.config.client.js",
+    "build:server": "rspack --config rspack.config.server.js",
     "start": "node ./dist/server.js",
     "start:dev": "node dev.js"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@rspack/cli": "1.7.5",
@@ -19,11 +25,5 @@
     "cross-spawn": "^7.0.6",
     "rspack-manifest-plugin": "^5.2.1",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "ejs": "^4.0.1",
-    "express": "^5.2.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
   }
 }

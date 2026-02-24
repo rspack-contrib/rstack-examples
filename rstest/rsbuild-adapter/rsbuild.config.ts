@@ -10,6 +10,8 @@ export default defineConfig({
       __PLATFORM__: JSON.stringify('web'),
       'process.env.APP_NAME': JSON.stringify('my-app'),
     },
+  },
+  resolve: {
     alias: {
       '@': './src',
       '@utils': './src/utils',

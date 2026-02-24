@@ -1,9 +1,9 @@
 {
-  "name": "example-webpack-bundle-analyzer_4",
+  "name": "@rspack-example/webpack-bundle-analyzer_4",
   "private": true,
   "scripts": {
-    "dev": "rspack dev",
-    "build": "rspack build"
+    "build": "rspack build",
+    "dev": "rspack dev"
   },
   "devDependencies": {
     "@rspack/cli": "1.7.5",

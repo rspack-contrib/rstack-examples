@@ -1,5 +1,5 @@
 {
-  "name": "rspress-custom-theme",
+  "name": "@rspress-example/custom-theme",
   "version": "1.0.0",
   "private": true,
   "scripts": {

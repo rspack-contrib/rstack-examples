@@ -1,5 +1,5 @@
 {
-  "name": "rslib-solid",
+  "name": "@rslib-example/solid",
   "version": "0.0.0",
   "type": "module",
   "exports": {

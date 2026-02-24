@@ -1,9 +1,8 @@
 {
-  "name": "example-react-compiler-babel",
+  "name": "@rspack-example/react-compiler-babel",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev"

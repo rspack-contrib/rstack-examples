@@ -1,5 +1,5 @@
 {
-  "name": "example-library-cjs",
+  "name": "@rspack-example/library-cjs",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

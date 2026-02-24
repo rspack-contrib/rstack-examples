@@ -1,10 +1,10 @@
 {
-  "name": "example-rspack-unplugin-auto-import",
+  "name": "@rspack-example/rspack-unplugin-auto-import",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "rspack dev",
-    "build": "rspack build"
+    "build": "rspack build",
+    "dev": "rspack dev"
   },
   "dependencies": {
     "vue": "^3.4.19"
@@ -13,7 +13,7 @@
     "@rspack/cli": "1.7.5",
     "@rspack/core": "1.7.5",
     "html-webpack-plugin": "5.6.6",
-    "unplugin-auto-import": "^21.0.0",
-    "rspack-vue-loader": "^17.5.0"
+    "rspack-vue-loader": "^17.5.0",
+    "unplugin-auto-import": "^21.0.0"
   }
 }

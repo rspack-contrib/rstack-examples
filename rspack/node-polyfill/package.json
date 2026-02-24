@@ -1,5 +1,5 @@
 {
-  "name": "example-node-polyfill",
+  "name": "@rspack-example/node-polyfill",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "name": "rstest-snapshot",
+  "name": "@rstest-example/snapshot",
   "version": "1.0.0",
   "private": true,
   "scripts": {

@@ -1,12 +1,11 @@
 {
-  "name": "example-module-federation-interop",
+  "name": "@rspack-example/module-federation-interop",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter \"example-module-federation-interop-*\" build",
-    "dev": "pnpm --filter \"example-module-federation-interop-*\" dev",
-    "start": "pnpm --filter \"example-module-federation-interop-*\" start"
+    "build": "pnpm --filter \"@rspack-example/module-federation-interop-*\" build",
+    "dev": "pnpm --filter \"@rspack-example/module-federation-interop-*\" dev",
+    "start": "pnpm --filter \"@rspack-example/module-federation-interop-*\" start"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "name": "rsdoctor-rspack",
+  "name": "@rsdoctor-example/rspack",
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development rspack serve",
     "build": "NODE_ENV=production rspack build",
-    "build:analysis": "RSDOCTOR=true NODE_ENV=production rspack build"
+    "build:analysis": "RSDOCTOR=true NODE_ENV=production rspack build",
+    "dev": "NODE_ENV=development rspack serve"
   },
   "dependencies": {
     "@swc/helpers": "^0.5.18",

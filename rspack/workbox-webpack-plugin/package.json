@@ -1,5 +1,5 @@
 {
-  "name": "example-workbox-webpack-plugin",
+  "name": "@rspack-example/workbox-webpack-plugin",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

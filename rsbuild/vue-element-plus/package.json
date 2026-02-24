@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-vue-element-plus",
+  "name": "@rsbuild-example/vue-element-plus",
   "version": "1.0.0",
   "private": true,
   "type": "module",

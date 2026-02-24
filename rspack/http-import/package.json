@@ -1,5 +1,5 @@
 {
-  "name": "example-http-import",
+  "name": "@rspack-example/http-import",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

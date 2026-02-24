@@ -25,6 +25,8 @@ export default defineConfig({
       __DEV__: JSON.stringify(true),
       'process.env.LIB_NAME': JSON.stringify('rstest-rslib-adapter'),
     },
+  },
+  resolve: {
     // Alias configuration
     alias: {
       '@': './src',

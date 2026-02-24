@@ -1,8 +1,7 @@
 {
-  "name": "example-vue-tsx",
+  "name": "@rspack-example/vue-tsx",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev"
@@ -17,7 +16,7 @@
     "@rspack/core": "1.7.5",
     "@vue/babel-plugin-jsx": "2.0.1",
     "babel-loader": "10.0.0",
-    "typescript": "^5.9.3",
-    "rspack-vue-loader": "^17.5.0"
+    "rspack-vue-loader": "^17.5.0",
+    "typescript": "^5.9.3"
   }
 }

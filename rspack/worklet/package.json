@@ -1,5 +1,5 @@
 {
-  "name": "example-worklet",
+  "name": "@rspack-example/worklet",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

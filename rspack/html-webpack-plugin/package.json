@@ -1,9 +1,9 @@
 {
-  "name": "example-html-webpack-plugin_5",
+  "name": "@rspack-example/html-webpack-plugin_5",
   "private": true,
   "scripts": {
-    "dev": "rspack dev",
-    "build": "rspack build"
+    "build": "rspack build",
+    "dev": "rspack dev"
   },
   "devDependencies": {
     "@rspack/cli": "1.7.5",

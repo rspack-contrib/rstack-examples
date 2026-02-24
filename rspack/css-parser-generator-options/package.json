@@ -1,9 +1,8 @@
 {
-  "name": "example-css-parser-generator-options",
+  "name": "@rspack-example/css-parser-generator-options",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev"

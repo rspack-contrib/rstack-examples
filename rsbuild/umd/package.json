@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-umd",
+  "name": "@rsbuild-example/umd",
   "version": "1.0.0",
   "private": true,
   "type": "module",

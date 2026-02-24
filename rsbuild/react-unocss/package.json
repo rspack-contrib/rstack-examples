@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-react-unocss",
+  "name": "@rsbuild-example/react-unocss",
   "version": "1.0.0",
   "private": true,
   "type": "module",

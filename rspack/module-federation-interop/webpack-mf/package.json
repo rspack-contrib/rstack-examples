@@ -1,7 +1,6 @@
 {
-  "name": "example-module-federation-interop-webpack-mf",
+  "name": "@rspack-example/module-federation-interop-webpack-mf",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "scripts": {
     "dev": "webpack serve",

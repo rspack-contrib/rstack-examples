@@ -1,5 +1,5 @@
 {
-  "name": "rstest-fake-timers",
+  "name": "@rstest-example/fake-timers",
   "version": "1.0.0",
   "private": true,
   "scripts": {

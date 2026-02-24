@@ -1,5 +1,5 @@
 {
-  "name": "example-lightningcss-loader",
+  "name": "@rspack-example/lightningcss-loader",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

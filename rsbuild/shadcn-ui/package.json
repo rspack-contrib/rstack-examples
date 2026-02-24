@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-shadcn-ui",
+  "name": "@rsbuild-example/shadcn-ui",
   "version": "1.0.0",
   "private": true,
   "type": "module",

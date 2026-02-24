@@ -1,5 +1,5 @@
 {
-  "name": "rslib-vue-rstest",
+  "name": "@rslib-example/vue-rstest",
   "version": "0.0.0",
   "type": "module",
   "exports": {

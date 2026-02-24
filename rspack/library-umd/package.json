@@ -1,5 +1,5 @@
 {
-  "name": "example-library-umd",
+  "name": "@rspack-example/library-umd",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

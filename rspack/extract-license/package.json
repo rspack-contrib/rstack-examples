@@ -1,5 +1,5 @@
 {
-  "name": "example-extract-license",
+  "name": "@rspack-example/extract-license",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

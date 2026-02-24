@@ -1,5 +1,5 @@
 {
-  "name": "example-hooks-after-resolve",
+  "name": "@rspack-example/hooks-after-resolve",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

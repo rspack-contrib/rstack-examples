@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-styled-components",
+  "name": "@rsbuild-example/styled-components",
   "version": "1.0.0",
   "private": true,
   "type": "module",

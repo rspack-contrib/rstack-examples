@@ -1,5 +1,5 @@
 {
-  "name": "example-nestjs",
+  "name": "@rspack-example/nestjs",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

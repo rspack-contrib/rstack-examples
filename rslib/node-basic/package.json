@@ -1,5 +1,5 @@
 {
-  "name": "rslib-node-basic",
+  "name": "@rslib-example/node-basic",
   "version": "0.0.0",
   "type": "module",
   "exports": {

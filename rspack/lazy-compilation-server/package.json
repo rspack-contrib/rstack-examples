@@ -1,5 +1,5 @@
 {
-  "name": "example-use-custom-server-for-lazy-compilation",
+  "name": "@rspack-example/use-custom-server-for-lazy-compilation",
   "private": true,
   "scripts": {
     "dev": "node ./dev.js"

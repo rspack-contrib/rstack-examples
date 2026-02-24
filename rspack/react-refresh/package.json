@@ -1,9 +1,8 @@
 {
-  "name": "example-rspack-react-refresh",
+  "name": "@rspack-example/rspack-react-refresh",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rspack build",
     "dev": "rspack serve "

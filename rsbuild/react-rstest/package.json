@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-react-rstest",
+  "name": "@rsbuild-example/react-rstest",
   "version": "1.0.0",
   "private": true,
   "type": "module",

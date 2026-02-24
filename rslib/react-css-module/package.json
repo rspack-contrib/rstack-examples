@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-css-module",
+  "name": "@rslib-example/react-css-module",
   "version": "0.0.0",
   "type": "module",
   "exports": {

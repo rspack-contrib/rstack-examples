@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-basic",
+  "name": "@rslib-example/react-basic",
   "version": "0.0.0",
   "type": "module",
   "exports": {

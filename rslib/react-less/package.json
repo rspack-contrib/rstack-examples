@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-less",
+  "name": "@rslib-example/react-less",
   "version": "0.0.0",
   "type": "module",
   "exports": {

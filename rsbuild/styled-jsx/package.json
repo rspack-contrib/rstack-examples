@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-styled-jsx",
+  "name": "@rsbuild-example/styled-jsx",
   "version": "1.0.0",
   "private": true,
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-tailwindcss",
+  "name": "@rslib-example/react-tailwindcss",
   "version": "0.0.0",
   "type": "module",
   "exports": {

@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-vanilla-extract",
+  "name": "@rsbuild-example/vanilla-extract",
   "version": "1.0.0",
   "private": true,
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-ssr-express-with-manifest",
+  "name": "@rsbuild-example/ssr-express-with-manifest",
   "version": "1.0.0",
   "private": true,
   "type": "module",

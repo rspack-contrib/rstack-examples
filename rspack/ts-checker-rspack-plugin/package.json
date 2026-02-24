@@ -1,9 +1,9 @@
 {
-  "name": "example-ts-checker-rspack-plugin",
+  "name": "@rspack-example/ts-checker-rspack-plugin",
   "private": true,
   "scripts": {
-    "dev": "rspack dev",
-    "build": "rspack build || echo 'make-ci-happy'"
+    "build": "rspack build || echo 'make-ci-happy'",
+    "dev": "rspack dev"
   },
   "devDependencies": {
     "@rspack/cli": "1.7.5",

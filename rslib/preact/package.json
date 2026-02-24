@@ -1,5 +1,5 @@
 {
-  "name": "rslib-preact",
+  "name": "@rslib-example/preact",
   "version": "0.0.0",
   "type": "module",
   "exports": {

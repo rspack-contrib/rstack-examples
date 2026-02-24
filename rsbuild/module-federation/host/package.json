@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-module-federation-host",
+  "name": "@rsbuild-example/module-federation-host",
   "private": true,
   "type": "module",
   "scripts": {

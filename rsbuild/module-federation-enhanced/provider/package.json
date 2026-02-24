@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-module-federation-enhanced-provider",
+  "name": "@rsbuild-example/module-federation-enhanced-provider",
   "private": true,
   "type": "module",
   "scripts": {

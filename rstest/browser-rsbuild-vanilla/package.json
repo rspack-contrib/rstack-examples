@@ -1,11 +1,11 @@
 {
-  "name": "rstest-browser-rsbuild-vanilla",
+  "name": "@rstest-example/browser-rsbuild-vanilla",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "rsbuild dev",
     "build": "rsbuild build",
+    "dev": "rsbuild dev",
     "test": "rstest",
     "test:watch": "rstest --watch"
   },

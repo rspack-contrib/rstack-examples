@@ -1,5 +1,5 @@
 {
-  "name": "rslib-vue-basic",
+  "name": "@rslib-example/vue-basic",
   "version": "0.0.0",
   "type": "module",
   "exports": {

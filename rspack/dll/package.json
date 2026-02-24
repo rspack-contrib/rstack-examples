@@ -1,9 +1,9 @@
 {
-  "name": "example-dll-plugin",
+  "name": "@rspack-example/dll-plugin",
   "private": true,
   "scripts": {
-    "dev": "rspack dev",
-    "build": "rspack build || echo 'make-ci-happy'"
+    "build": "rspack build || echo 'make-ci-happy'",
+    "dev": "rspack dev"
   },
   "dependencies": {
     "lodash": "4.17.23"

@@ -1,5 +1,5 @@
 {
-  "name": "example-perfsee",
+  "name": "@rspack-example/perfsee",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

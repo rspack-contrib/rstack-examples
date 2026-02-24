@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-vue-eslint",
+  "name": "@rsbuild-example/vue-eslint",
   "version": "1.0.0",
   "private": true,
   "type": "module",

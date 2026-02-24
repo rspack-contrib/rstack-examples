@@ -1,5 +1,5 @@
 {
-  "name": "rslib-mf-react-component",
+  "name": "@rslib-example/mf-react-component",
   "private": true,
   "type": "module",
   "exports": {

@@ -1,5 +1,5 @@
 {
-  "name": "example-generate-package-json-webpack-plugin_2",
+  "name": "@rspack-example/generate-package-json-webpack-plugin_2",
   "private": true,
   "scripts": {
     "build": "rspack build"

@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-vue",
+  "name": "@rsbuild-example/vue",
   "version": "1.0.0",
   "private": true,
   "type": "module",

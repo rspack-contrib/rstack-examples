@@ -1,7 +1,6 @@
 {
-  "name": "example-module-federation-v1.5-lib2",
+  "name": "@rspack-example/module-federation-v1.5-lib2",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "scripts": {
     "dev": "rspack dev",

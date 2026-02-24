@@ -1,5 +1,5 @@
 {
-  "name": "example-license-webpack-plugin_4",
+  "name": "@rspack-example/license-webpack-plugin_4",
   "private": true,
   "scripts": {
     "build": "rspack build"

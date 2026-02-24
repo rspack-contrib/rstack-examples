@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-module-federation-remote",
+  "name": "@rsbuild-example/module-federation-remote",
   "private": true,
   "type": "module",
   "scripts": {

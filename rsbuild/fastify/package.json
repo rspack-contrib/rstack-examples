@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-fastify",
+  "name": "@rsbuild-example/fastify",
   "version": "1.0.0",
   "private": true,
   "type": "module",

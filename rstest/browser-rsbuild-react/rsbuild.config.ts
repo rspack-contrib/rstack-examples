@@ -8,12 +8,14 @@ export default defineConfig({
     entry: {
       index: './src/index.tsx',
     },
+    define: {
+      __APP_VERSION__: JSON.stringify('1.0.0'),
+    },
+  },
+  resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@components': path.resolve(__dirname, 'src/components'),
-    },
-    define: {
-      __APP_VERSION__: JSON.stringify('1.0.0'),
     },
   },
 });
