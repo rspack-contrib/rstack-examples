@@ -15,11 +15,12 @@ export default defineConfig({
       template: './index.html',
     }),
   ],
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.vue$/,
         loader: 'rspack-vue-loader',

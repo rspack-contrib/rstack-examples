@@ -1,10 +1,9 @@
-import path from 'path'
-import rspack from '@rspack/core'
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
+import rspack from '@rspack/core';
+import path, { dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export default {
   name: 'server',
@@ -12,9 +11,6 @@ export default {
     server: path.resolve(__dirname, 'server', 'server.ts'),
   },
   mode: 'production',
-  experiments: {
-    outputModule: true,
-  },
   output: {
     module: true,
     path: path.resolve(__dirname, 'dist'),
@@ -29,7 +25,7 @@ export default {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: "builtin:swc-loader",
+        loader: 'builtin:swc-loader',
       },
     ],
   },
@@ -38,7 +34,6 @@ export default {
     __dirname: false,
     __filename: false,
   },
-
   plugins: [
     new rspack.BannerPlugin({
       banner: `
@@ -53,4 +48,4 @@ const __dirname = __rspack_dirname(__filename);
       patterns: [{ context: 'server', from: 'views', to: 'views' }],
     }),
   ],
-}
+};

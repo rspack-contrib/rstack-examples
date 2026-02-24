@@ -4,9 +4,6 @@ const config = {
   entry: {
     main: ['./src/index.jsx'],
   },
-  experiments: {
-    css: true,
-  },
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
@@ -35,6 +32,10 @@ const config = {
           },
         },
         type: 'javascript/auto',
+      },
+      {
+        test: /.css$/,
+        type: 'css',
       },
       {
         test: /\.s[ac]ss$/,

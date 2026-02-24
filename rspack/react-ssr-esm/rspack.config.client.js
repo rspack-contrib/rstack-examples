@@ -31,7 +31,4 @@ export default {
   },
   target: 'web',
   plugins: [new RspackManifestPlugin()],
-  experiments: {
-    outputModule: true,
-  },
 };

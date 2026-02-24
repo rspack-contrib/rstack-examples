@@ -7,14 +7,15 @@ const config = {
   entry: {
     main: './src/main.tsx',
   },
-  experiments: {
-    css: true,
-  },
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.vue$/,
         loader: 'rspack-vue-loader',

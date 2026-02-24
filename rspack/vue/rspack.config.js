@@ -7,9 +7,6 @@ const config = {
   entry: {
     main: './src/main.js',
   },
-  experiments: {
-    css: true,
-  },
   devServer: {
     historyApiFallback: true,
   },
@@ -43,6 +40,10 @@ const config = {
           },
         },
         type: 'javascript/auto',
+      },
+      {
+        test: /\.css$/,
+        type: 'css',
       },
       {
         test: /\.less$/,

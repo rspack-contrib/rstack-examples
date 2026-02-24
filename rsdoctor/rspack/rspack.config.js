@@ -33,11 +33,8 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: 'builtin:lightningcss-loader',
-          },
-        ],
+        use: ['builtin:lightningcss-loader'],
+        type: 'css',
       },
     ],
   },

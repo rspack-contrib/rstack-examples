@@ -6,9 +6,6 @@ export default defineConfig({
   entry: {
     main: './src/index.js',
   },
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
       {

@@ -10,11 +10,12 @@ const config = {
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.tsx$/,
         use: {

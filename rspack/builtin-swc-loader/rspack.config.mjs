@@ -14,9 +14,6 @@ export default defineConfig({
   entry: {
     main: './src/index.jsx',
   },
-  experiments: {
-    css: true,
-  },
   resolve: {
     extensions: ['...', '.jsx'],
     alias: {
@@ -25,6 +22,10 @@ export default defineConfig({
   },
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        type: 'css',
+      },
       {
         test: /\.(jsx|js)$/,
         use: {

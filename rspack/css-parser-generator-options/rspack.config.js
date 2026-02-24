@@ -18,6 +18,11 @@ const config = {
     },
     rules: [
       {
+        test: /\.css$/,
+        exclude: path.resolve(__dirname, 'src/legacy'),
+        type: 'css/auto',
+      },
+      {
         // files in src/legacy and ends with .css will be CSS Modules
         include: path.resolve(__dirname, 'src/legacy'),
         test: /\.css$/,
@@ -42,9 +47,6 @@ const config = {
       template: './index.html',
     }),
   ],
-  experiments: {
-    css: true,
-  },
 };
 
 module.exports = config;

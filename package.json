@@ -4,17 +4,17 @@
   "description": "Repository for examples of rstack",
   "license": "MIT",
   "scripts": {
-    "bump": "taze -l",
     "build": "npm run build:rspack && npm run build:rsbuild && npm run build:rspress && npm run build:rsdoctor && npm run build:rslib",
-    "build:rsbuild": "pnpm --filter \"@rsbuild-example*\" build",
-    "build:rsdoctor": "pnpm --filter \"@rsdoctor-example*\" build",
-    "build:rspack": "pnpm --filter \"@rspack-example*\" build",
-    "test:rspack": "pnpm --filter \"@rspack-example-*\" test",
-    "test:rstest": "pnpm --filter \"@rstest-*\" test",
-    "build:rspress": "pnpm --filter \"@rspress-*\" build",
-    "build:rslib": "pnpm --filter \"rslib-*\" build",
+    "build:rsbuild": "pnpm --filter \"@rsbuild-example/*\" --stream build",
+    "build:rsdoctor": "pnpm --filter \"@rsdoctor-example.*\" --stream build",
+    "build:rslib": "pnpm --filter \"@rslib-example/-*\" --stream build",
+    "build:rspack": "pnpm --filter \"@rspack-example/*\" --stream build",
+    "build:rspress": "pnpm --filter \"@rspress-example/*\" --stream build",
+    "bump": "taze -l",
     "prepare": "husky",
-    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\""
+    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
+    "test:rspack": "pnpm --filter \"@rspack-example/*\" --stream test",
+    "test:rstest": "pnpm --filter \"@rstest-example/*\" --stream test"
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
