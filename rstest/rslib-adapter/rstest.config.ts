@@ -2,7 +2,6 @@ import { withRslibConfig } from '@rstest/adapter-rslib';
 import { defineConfig, type ExtendConfigFn } from '@rstest/core';
 
 export default defineConfig({
-  // Type assertion needed due to adapter package version mismatch
   extends: withRslibConfig({
     libId: 'esm',
     modifyLibConfig: (config) => {

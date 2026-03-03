@@ -1,7 +1,8 @@
 {
-  "name": "@rstest-example/browser-rsbuild-react",
+  "name": "@rstest-example/browser-locator",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev",
@@ -15,8 +16,6 @@
     "@rstest/browser": "^0.9.0",
     "@rstest/browser-react": "^0.9.0",
     "@rstest/core": "^0.9.0",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "playwright": "^1.58.1",
