@@ -1,26 +1,26 @@
 {
-  "name": "@rsbuild-example/react-rstest",
+  "name": "@rstest-example/browser-locator",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview",
-    "test": "rstest run"
-  },
-  "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "dev": "rsbuild dev",
+    "test": "rstest",
+    "test:watch": "rstest --watch"
   },
   "devDependencies": {
     "@rsbuild/core": "2.0.0-beta.5",
     "@rsbuild/plugin-react": "^1.4.5",
+    "@rstest/adapter-rsbuild": "^0.2.2",
+    "@rstest/browser": "^0.9.1",
+    "@rstest/browser-react": "^0.9.1",
     "@rstest/core": "^0.9.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
+    "playwright": "^1.58.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "typescript": "^5.9.3"
   }
 }

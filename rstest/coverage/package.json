@@ -1,5 +1,5 @@
 {
-  "name": "rstest-coverage",
+  "name": "@rstest-example/coverage",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "test:coverage:lcov": "rstest run --coverage --coverage.reporter=lcov"
   },
   "devDependencies": {
-    "@rstest/core": "^0.8.1",
-    "@rstest/coverage-istanbul": "^0.2.0",
+    "@rstest/core": "^0.9.0",
+    "@rstest/coverage-istanbul": "^0.3.0",
     "typescript": "^5.9.3"
   }
 }
