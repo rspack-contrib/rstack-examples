@@ -2032,8 +2032,8 @@ importers:
   rspack/javascript-api:
     devDependencies:
       '@rspack/core':
-        specifier: 1.7.6
-        version: 1.7.6(@swc/helpers@0.5.19)
+        specifier: 2.0.0-beta.5
+        version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@types/node':
         specifier: ^24.10.9
         version: 24.10.9
@@ -2044,11 +2044,11 @@ importers:
   rspack/lazy-compilation-server:
     devDependencies:
       '@rspack/core':
-        specifier: 1.7.6
-        version: 1.7.6(@swc/helpers@0.5.19)
+        specifier: 2.0.0-beta.5
+        version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
         specifier: 2.0.0-beta.4
-        version: 2.0.0-beta.4(@rspack/core@1.7.6(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/library-cjs:
     devDependencies:
@@ -20544,29 +20544,6 @@ snapshots:
     optionalDependencies:
       '@module-federation/runtime-tools': 2.0.1
       '@swc/helpers': 0.5.19
-
-  '@rspack/dev-server@2.0.0-beta.4(@rspack/core@1.7.6(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)':
-    dependencies:
-      '@rspack/core': 1.7.6(@swc/helpers@0.5.19)
-      '@types/connect-history-api-fallback': 1.5.4
-      '@types/serve-index': 1.9.4
-      '@types/serve-static': 2.2.0
-      '@types/ws': 8.18.1
-      chokidar: 3.6.0
-      connect-history-api-fallback: 2.0.0
-      connect-next: 4.0.0
-      http-proxy-middleware: 3.0.5
-      ipaddr.js: 2.3.0
-      serve-index: 1.9.2
-      serve-static: 2.2.1
-      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.104.1)
-      ws: 8.19.0
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - tslib
-      - utf-8-validate
-      - webpack
 
   '@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))':
     dependencies:
