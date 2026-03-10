@@ -8,7 +8,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.0-beta.5",
     "@rspack/core": "2.0.0-beta.5",
-    "@rspack/dev-server": "2.0.0-beta.3",
+    "@rspack/dev-server": "2.0.0-beta.4",
     "rspack-manifest-plugin": "5.2.1"
   }
 }

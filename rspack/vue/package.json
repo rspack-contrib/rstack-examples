@@ -13,7 +13,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.0-beta.5",
     "@rspack/core": "2.0.0-beta.5",
-    "@rspack/dev-server": "2.0.0-beta.3",
+    "@rspack/dev-server": "2.0.0-beta.4",
     "less": "4.5.1",
     "less-loader": "^12.3.0",
     "rspack-vue-loader": "^17.5.0"

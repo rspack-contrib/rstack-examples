@@ -1008,13 +1008,13 @@ importers:
         version: 1.5.2(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(webpack@5.104.1)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -1584,13 +1584,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/basic-ts:
     dependencies:
@@ -1600,25 +1600,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/basic-ts-config:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1646,13 +1646,13 @@ importers:
         version: 5.11.0(@lingui/core@4.11.4)(@swc/core@1.15.13(@swc/helpers@0.5.19))
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19))))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19))))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))
       '@swc/helpers':
         specifier: ^0.5.19
         version: 0.5.19
@@ -1691,25 +1691,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/case-sensitive-paths-webpack-plugin:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       case-sensitive-paths-webpack-plugin:
         specifier: 2.4.0
         version: 2.4.0
@@ -1718,13 +1718,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/common-libs/lib1: {}
 
@@ -1746,13 +1746,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -1777,13 +1777,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -1798,25 +1798,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/css-parser-generator-options:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       sass-loader:
         specifier: ^16.0.6
         version: 16.0.6(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(sass-embedded@1.97.3)(sass@1.97.3)(webpack@5.104.1)
@@ -1829,13 +1829,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1844,13 +1844,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       lodash:
         specifier: 4.17.23
         version: 4.17.23
@@ -1875,13 +1875,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@swc/plugin-emotion':
         specifier: ^14.6.0
         version: 14.6.0
@@ -1890,13 +1890,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       eslint:
         specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
@@ -1912,13 +1912,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       run-script-webpack-plugin:
         specifier: ''
         version: 0.2.3
@@ -1931,25 +1931,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/generate-package-json-webpack-plugin:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       generate-package-json-webpack-plugin:
         specifier: ^2.6.0
         version: 2.6.0
@@ -1958,25 +1958,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/html-webpack-plugin:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       html-webpack-plugin:
         specifier: ^5.6.6
         version: 5.6.6(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(webpack@5.104.1)
@@ -1985,49 +1985,49 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/inline-const:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/inline-const-enum:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/inline-enum:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/javascript-api:
     devDependencies:
@@ -2047,56 +2047,56 @@ importers:
         specifier: 1.7.6
         version: 1.7.6(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@1.7.6(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@1.7.6(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/library-cjs:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/library-esm:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/library-umd:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/license-webpack-plugin:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       license-webpack-plugin:
         specifier: ^4.0.2
         version: 4.0.2(webpack@5.104.1)
@@ -2111,13 +2111,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       css-loader:
         specifier: 7.1.3
         version: 7.1.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(webpack@5.104.1)
@@ -2136,13 +2136,13 @@ importers:
         version: 3.1.1(webpack@5.104.1)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@svgr/webpack':
         specifier: 8.1.0
         version: 8.1.0(typescript@5.9.3)
@@ -2223,13 +2223,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2254,13 +2254,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2329,13 +2329,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2363,13 +2363,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2400,13 +2400,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2431,13 +2431,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2465,13 +2465,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2502,13 +2502,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -2527,13 +2527,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/monaco-editor-ts-react:
     dependencies:
@@ -2552,13 +2552,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@types/react':
         specifier: ^19.2.10
         version: 19.2.10
@@ -2573,13 +2573,13 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       monaco-editor:
         specifier: ^0.55.1
         version: 0.55.1
@@ -2591,25 +2591,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/nest-alias:
     dependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       lib1:
         specifier: workspace:*
         version: link:../common-libs/lib1
@@ -2653,13 +2653,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       cross-env:
         specifier: 10.1.0
         version: 10.1.0
@@ -2718,25 +2718,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/node-polyfill:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       node-polyfill-webpack-plugin:
         specifier: ^4.1.0
         version: 4.1.0(webpack@5.104.1)
@@ -2748,13 +2748,13 @@ importers:
         version: 1.14.2(encoding@0.1.13)(isolated-vm@4.7.2)(webpack@5.104.1)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/polyfill:
     dependencies:
@@ -2764,25 +2764,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/postcss-loader:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       autoprefixer:
         specifier: 10.4.24
         version: 10.4.24(postcss@8.5.6)
@@ -2810,13 +2810,13 @@ importers:
         version: 4.0.6(@prefresh/babel-plugin@0.5.2)(preact@10.28.3)(webpack@5.104.1)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/preact-refresh:
     dependencies:
@@ -2835,13 +2835,13 @@ importers:
         version: 1.2.1
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-preact-refresh':
         specifier: ^1.1.5
         version: 1.1.5(@prefresh/core@1.5.9(preact@10.28.3))(@prefresh/utils@1.2.1)
@@ -2853,13 +2853,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/react:
     dependencies:
@@ -2878,13 +2878,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/react-compiler-babel:
     dependencies:
@@ -2906,13 +2906,13 @@ importers:
         version: 7.28.6(@babel/core@7.29.0)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       babel-loader:
         specifier: ^10.0.0
         version: 10.0.0(@babel/core@7.29.0)(webpack@5.104.1)
@@ -2943,13 +2943,13 @@ importers:
         version: 7.28.6(@babel/core@7.29.0)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@types/react':
         specifier: ^19.2.10
         version: 19.2.10
@@ -2977,13 +2977,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -3011,13 +3011,13 @@ importers:
         version: 7.28.5(@babel/core@7.29.0)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -3039,13 +3039,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@rspack/plugin-react-refresh':
         specifier: ^1.6.1
         version: 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
@@ -3070,13 +3070,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@types/cross-spawn':
         specifier: ^6.0.6
         version: 6.0.6
@@ -3125,13 +3125,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       react-refresh:
         specifier: ^0.18.0
         version: 0.18.0
@@ -3156,13 +3156,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       react-refresh:
         specifier: ^0.18.0
         version: 0.18.0
@@ -3184,13 +3184,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       react-refresh:
         specifier: ^0.18.0
         version: 0.18.0
@@ -3199,13 +3199,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       rspack-manifest-plugin:
         specifier: 5.2.1
         version: 5.2.1(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))
@@ -3214,13 +3214,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@sentry/webpack-plugin':
         specifier: 4.8.0
         version: 4.8.0(encoding@0.1.13)(webpack@5.104.1)
@@ -3245,13 +3245,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/source-map-with-vscode-debugging:
     dependencies:
@@ -3267,25 +3267,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/stats:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/styled-components:
     dependencies:
@@ -3307,13 +3307,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       react-refresh:
         specifier: ^0.18.0
         version: 0.18.0
@@ -3322,13 +3322,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@tsconfig/svelte':
         specifier: ^5.0.6
         version: 5.0.6
@@ -3374,13 +3374,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@svgr/webpack':
         specifier: 8.1.0
         version: 8.1.0(typescript@5.9.3)
@@ -3392,13 +3392,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@tailwindcss/webpack':
         specifier: ^4.2.1
         version: 4.2.1(webpack@5.104.1)
@@ -3413,13 +3413,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@tailwindcss/postcss':
         specifier: ^4.2.1
         version: 4.2.1
@@ -3440,13 +3440,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@tailwindcss/webpack':
         specifier: ^4.2.1
         version: 4.2.1(webpack@5.104.1)
@@ -3458,13 +3458,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       terser-webpack-plugin:
         specifier: 5.3.16
         version: 5.3.16(webpack@5.104.1)
@@ -3473,25 +3473,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/ts-checker-rspack-plugin:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       ts-checker-rspack-plugin:
         specifier: ^1.3.0
         version: 1.3.0(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(typescript@5.9.3)
@@ -3503,13 +3503,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/unplugin-auto-import:
     dependencies:
@@ -3519,13 +3519,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       html-webpack-plugin:
         specifier: 5.6.6
         version: 5.6.6(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(webpack@5.104.1)
@@ -3540,13 +3540,13 @@ importers:
     dependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@vanilla-extract/css':
         specifier: 1.18.0
         version: 1.18.0(babel-plugin-macros@3.1.0)
@@ -3590,13 +3590,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       less:
         specifier: 4.5.1
         version: 4.5.1
@@ -3618,13 +3618,13 @@ importers:
         version: 7.29.0
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@vue/babel-plugin-jsx':
         specifier: 2.0.1
         version: 2.0.1(@babel/core@7.29.0)
@@ -3646,13 +3646,13 @@ importers:
         version: 7.28.5(@babel/core@7.29.0)
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       '@vue/babel-plugin-jsx':
         specifier: 2.0.1
         version: 2.0.1(@babel/core@7.29.0)
@@ -3674,13 +3674,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       css-loader:
         specifier: ^7.1.3
         version: 7.1.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(webpack@5.104.1)
@@ -3701,25 +3701,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/webpack-bundle-analyzer:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       webpack-bundle-analyzer:
         specifier: ^5.2.0
         version: 5.2.0
@@ -3728,13 +3728,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       webpack-stats-plugin:
         specifier: ^1.1.3
         version: 1.1.3
@@ -3743,13 +3743,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       workbox-webpack-plugin:
         specifier: 7.4.0
         version: 7.4.0(@types/babel__core@7.20.5)(webpack@5.104.1)
@@ -3758,13 +3758,13 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
       remote-web-worker:
         specifier: 0.0.9
         version: 0.0.9
@@ -3777,25 +3777,25 @@ importers:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   rspack/worklet:
     devDependencies:
       '@rspack/cli':
         specifier: 2.0.0-beta.5
-        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2)))
+        version: 2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2)))
       '@rspack/core':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@rspack/dev-server':
-        specifier: 2.0.0-beta.3
-        version: 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2))
+        specifier: 2.0.0-beta.4
+        version: 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2))
       esbuild:
         specifier: 0.27.2
         version: 0.27.2
@@ -7450,8 +7450,8 @@ packages:
       '@swc/helpers':
         optional: true
 
-  '@rspack/dev-server@2.0.0-beta.3':
-    resolution: {integrity: sha512-u9+gRGqJI0rwvzwvbUunQrTrsVvp3uZN+C7oKeGOST/yzzMhpGEgmtAIM4UaUdZm+JMsja3B5tCZkJ0NyLzloQ==}
+  '@rspack/dev-server@2.0.0-beta.4':
+    resolution: {integrity: sha512-Gb3hcGumYA/zZbR10yzkuXsioxKo+7N1drJI9dJNorhMUinPAU1FiYWnlQIMnIAV3We6n2aXdlZplbXCjVljBQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@rspack/core': ^2.0.0-0
@@ -8413,9 +8413,6 @@ packages:
 
   '@types/http-errors@2.0.4':
     resolution: {integrity: sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==}
-
-  '@types/http-proxy@1.17.14':
-    resolution: {integrity: sha512-SSrD0c1OQzlFX7pGu1eXxSEjemej64aaNPRhhVYUGqXh0BtldAAx37MG8btcumvpgKyZp1F5Gn3JkktdxiFv6w==}
 
   '@types/http-proxy@1.17.17':
     resolution: {integrity: sha512-ED6LB+Z1AVylNTu7hdzuBqOgMnvG/ld6wGCG8wFnAzKX5uyW2K3WD52v0gnLCTK/VLpXtKckgWuyScYK6cSPaw==}
@@ -11470,10 +11467,6 @@ packages:
   http-deceiver@1.2.7:
     resolution: {integrity: sha512-LmpOGxTfbpgtGVxJrj5k7asXHCgNZp5nLfp+hWc8QQRqtb7fUy6kRY3BO1h9ddF6yIPYUARgxGOwB42DnxIaNw==}
 
-  http-errors@1.6.3:
-    resolution: {integrity: sha512-lks+lVC8dgGyh97jxvxeYTWQFvh4uw4yC12gVl63Cg30sjPX4wuGcdkICVXDAESr6OJGjqGA8Iz5mkeN6zlD7A==}
-    engines: {node: '>= 0.6'}
-
   http-errors@1.8.1:
     resolution: {integrity: sha512-Kpk9Sm7NmI+RHhnj6OIWDI1d6fIoFAtFt9RLaTMRlg/8w49juAStsrBgp0Dp4OdxdVbRIeKhtCUvoi/RuAhO4g==}
     engines: {node: '>= 0.6'}
@@ -11599,9 +11592,6 @@ packages:
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
-
-  inherits@2.0.3:
-    resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -14733,10 +14723,6 @@ packages:
   serve-handler@6.1.6:
     resolution: {integrity: sha512-x5RL9Y2p5+Sh3D38Fh9i/iQ5ZK+e4xuXRd/pGbM4D13tgo/MGwbttUk8emytcr1YYzBYs+apnUngBDFYfpjPuQ==}
 
-  serve-index@1.9.1:
-    resolution: {integrity: sha512-pXHfKNP4qujrtteMrSBb0rc8HJ9Ms/GrXwcUtUtD5s4ewDJI8bT3Cz2zTVRMKtri49pLx2e0Ya8ziP5Ya2pZZw==}
-    engines: {node: '>= 0.8.0'}
-
   serve-index@1.9.2:
     resolution: {integrity: sha512-KDj11HScOaLmrPxl70KYNW1PksP4Nb/CLL2yvC+Qd2kHMPEEpfc4Re2e4FOay+bC/+XQl/7zAcWON3JVo5v3KQ==}
     engines: {node: '>= 0.8.0'}
@@ -14771,9 +14757,6 @@ packages:
 
   setimmediate@1.0.5:
     resolution: {integrity: sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==}
-
-  setprototypeof@1.1.0:
-    resolution: {integrity: sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==}
 
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
@@ -16272,15 +16255,6 @@ packages:
       webpack-bundle-analyzer:
         optional: true
       webpack-dev-server:
-        optional: true
-
-  webpack-dev-middleware@7.4.2:
-    resolution: {integrity: sha512-xOO8n6eggxnwYpy1NlzUKpvrjfJTvae5/D6WOK0S2LSo7vjmo5gCM1DbLUmFqrMTJP+W/0YZNctm7jasWvLuBA==}
-    engines: {node: '>= 18.12.0'}
-    peerDependencies:
-      webpack: ^5.0.0
-    peerDependenciesMeta:
-      webpack:
         optional: true
 
   webpack-dev-middleware@7.4.5:
@@ -20486,29 +20460,29 @@ snapshots:
       '@rspack/binding-win32-ia32-msvc': 2.0.0-beta.5
       '@rspack/binding-win32-x64-msvc': 2.0.0-beta.5
 
-  '@rspack/cli@2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19))))':
+  '@rspack/cli@2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19))))':
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/core': 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       exit-hook: 4.0.0
     optionalDependencies:
-      '@rspack/dev-server': 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))
+      '@rspack/dev-server': 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))
 
-  '@rspack/cli@2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2)))':
+  '@rspack/cli@2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2)))':
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/core': 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       exit-hook: 4.0.0
     optionalDependencies:
-      '@rspack/dev-server': 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2))
+      '@rspack/dev-server': 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2))
 
-  '@rspack/cli@2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))':
+  '@rspack/cli@2.0.0-beta.5(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1))':
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/core': 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       exit-hook: 4.0.0
     optionalDependencies:
-      '@rspack/dev-server': 2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
+      '@rspack/dev-server': 2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)
 
   '@rspack/core@1.3.12(@swc/helpers@0.5.19)':
     dependencies:
@@ -20571,7 +20545,7 @@ snapshots:
       '@module-federation/runtime-tools': 2.0.1
       '@swc/helpers': 0.5.19
 
-  '@rspack/dev-server@2.0.0-beta.3(@rspack/core@1.7.6(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)':
+  '@rspack/dev-server@2.0.0-beta.4(@rspack/core@1.7.6(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)':
     dependencies:
       '@rspack/core': 1.7.6(@swc/helpers@0.5.19)
       '@types/connect-history-api-fallback': 1.5.4
@@ -20594,7 +20568,7 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))':
+  '@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19)))':
     dependencies:
       '@rspack/core': 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@types/connect-history-api-fallback': 1.5.4
@@ -20617,7 +20591,7 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2))':
+  '@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1(esbuild@0.27.2))':
     dependencies:
       '@rspack/core': 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@types/connect-history-api-fallback': 1.5.4
@@ -20640,7 +20614,7 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rspack/dev-server@2.0.0-beta.3(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)':
+  '@rspack/dev-server@2.0.0-beta.4(@rspack/core@2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19))(tslib@2.8.1)(webpack@5.104.1)':
     dependencies:
       '@rspack/core': 2.0.0-beta.5(@module-federation/runtime-tools@2.0.1)(@swc/helpers@0.5.19)
       '@types/connect-history-api-fallback': 1.5.4
@@ -21801,11 +21775,6 @@ snapshots:
   '@types/html-minifier-terser@7.0.2': {}
 
   '@types/http-errors@2.0.4': {}
-
-  '@types/http-proxy@1.17.14':
-    dependencies:
-      '@types/node': 24.10.9
-    optional: true
 
   '@types/http-proxy@1.17.17':
     dependencies:
@@ -25704,14 +25673,6 @@ snapshots:
   http-deceiver@1.2.7:
     optional: true
 
-  http-errors@1.6.3:
-    dependencies:
-      depd: 1.1.2
-      inherits: 2.0.3
-      setprototypeof: 1.1.0
-      statuses: 1.5.0
-    optional: true
-
   http-errors@1.8.1:
     dependencies:
       depd: 1.1.2
@@ -25749,7 +25710,7 @@ snapshots:
 
   http-proxy-middleware@2.0.9(@types/express@4.17.25):
     dependencies:
-      '@types/http-proxy': 1.17.14
+      '@types/http-proxy': 1.17.17
       http-proxy: 1.18.1(debug@4.4.3)
       is-glob: 4.0.3
       is-plain-obj: 3.0.0
@@ -25868,9 +25829,6 @@ snapshots:
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
-
-  inherits@2.0.3:
-    optional: true
 
   inherits@2.0.4: {}
 
@@ -29948,19 +29906,6 @@ snapshots:
       path-to-regexp: 3.3.0
       range-parser: 1.2.0
 
-  serve-index@1.9.1:
-    dependencies:
-      accepts: 1.3.8
-      batch: 0.6.1
-      debug: 2.6.9
-      escape-html: 1.0.3
-      http-errors: 1.6.3
-      mime-types: 2.1.35
-      parseurl: 1.3.3
-    transitivePeerDependencies:
-      - supports-color
-    optional: true
-
   serve-index@1.9.2:
     dependencies:
       accepts: 1.3.8
@@ -30036,9 +29981,6 @@ snapshots:
       has-property-descriptors: 1.0.2
 
   setimmediate@1.0.5: {}
-
-  setprototypeof@1.1.0:
-    optional: true
 
   setprototypeof@1.2.0: {}
 
@@ -31999,20 +31941,6 @@ snapshots:
       webpack: 5.104.1(webpack-cli@6.0.1)
       webpack-merge: 6.0.1
 
-  webpack-dev-middleware@7.4.2(tslib@2.8.1)(webpack@5.104.1):
-    dependencies:
-      colorette: 2.0.20
-      memfs: 4.56.10(tslib@2.8.1)
-      mime-types: 2.1.35
-      on-finished: 2.4.1
-      range-parser: 1.2.1
-      schema-utils: 4.3.3
-    optionalDependencies:
-      webpack: 5.104.1(webpack-cli@6.0.1)
-    transitivePeerDependencies:
-      - tslib
-    optional: true
-
   webpack-dev-middleware@7.4.5(tslib@2.8.1)(webpack@5.104.1(@swc/core@1.15.13(@swc/helpers@0.5.19))):
     dependencies:
       colorette: 2.0.20
@@ -32071,16 +31999,16 @@ snapshots:
       express: 4.22.1
       graceful-fs: 4.2.11
       http-proxy-middleware: 2.0.9(@types/express@4.17.25)
-      ipaddr.js: 2.1.0
+      ipaddr.js: 2.3.0
       launch-editor: 2.6.1
       open: 10.2.0
       p-retry: 6.2.0
       schema-utils: 4.3.3
       selfsigned: 2.4.1
-      serve-index: 1.9.1
+      serve-index: 1.9.2
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack-dev-middleware: 7.4.2(tslib@2.8.1)(webpack@5.104.1)
+      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.104.1)
       ws: 8.19.0
     optionalDependencies:
       webpack: 5.104.1(webpack-cli@6.0.1)

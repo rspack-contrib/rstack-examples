@@ -14,7 +14,7 @@
     "@babel/preset-typescript": "^7.28.5",
     "@rspack/cli": "2.0.0-beta.5",
     "@rspack/core": "2.0.0-beta.5",
-    "@rspack/dev-server": "2.0.0-beta.3",
+    "@rspack/dev-server": "2.0.0-beta.4",
     "@vue/babel-plugin-jsx": "2.0.1",
     "babel-loader": "10.0.0",
     "rspack-vue-loader": "^17.5.0",
